@@ -11,11 +11,11 @@ a:hover { color: #28f; }
 }
 .navbar.is-primary .navbar-brand > .navbar-item { color: #147; }
 .navbar.is-dark .navbar-brand > .navbar-item:before { 
-	content: "Facepunch";
+	content: "Facepunch Studios";
 	visibility: visible;
 }
 .navbar.is-dark .navbar-brand > .navbar-item:after {
-	content: "Facepunch";
+	content: "Facepunch Studios";
 }
 .navbar.is-dark .navbar-brand > .navbar-item { 
 	visibility:hidden;
@@ -23,7 +23,7 @@ a:hover { color: #28f; }
 	color: #000; 
 	font-size: 1.4rem;
 }
-.navbar.is-dark .navbar-brand > .navbar-item a:hover { 
+.navbar.is-dark .navbar-brand > .navbar-item:hover { 
 	color: #000
 }
 .navbar.is-primary .navbar-under { color: #fff; }
