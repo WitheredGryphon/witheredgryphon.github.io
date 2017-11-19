@@ -1,8 +1,8 @@
 * { background-image: none; } 
 a { color: #147; }
 a:hover { color: #28f; }
-.navbar a { color: #147 }
-.navbar-item.is-strong { 
+.navbar > a { color: #147 }
+.navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { 
 	font-size: 0.8rem;
 	font-weight: bolder;
 }
