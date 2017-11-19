@@ -37,6 +37,12 @@ a:hover {
 .navbar.is-dark .navbar-brand > .navbar-item:hover { 
 	color: #000;
 }
+.navbar.is-dark .navbar-brand > .navbar-item:active { 
+	color: #000;
+}
+.navbar.is-dark .navbar-brand > .navbar-item:focus { 
+	color: #000;
+}
 .navbar.is-primary .navbar-under { 
 	color: #fff; 
 }
