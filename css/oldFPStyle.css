@@ -1,3 +1,4 @@
 * { background-image: none; } 
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
 #content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
+navbar { background-color: #28f }
