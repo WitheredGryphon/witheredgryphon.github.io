@@ -24,7 +24,7 @@ a:hover { color: #28f; }
 	font-size: 1.4rem;
 }
 .navbar.is-dark .navbar-brand > .navbar-item:hover { 
-	color: #000
+	color: #000;
 }
 .navbar.is-primary .navbar-under { color: #fff; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
