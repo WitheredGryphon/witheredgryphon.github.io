@@ -136,6 +136,15 @@ body.page-forum .threadlistsection .threadblock.is-sticky .threadlastpostavatar 
 body.page-forum .threadlistsection .threadblock.is-sticky A {
 	color: #147;
 }
+body.page-forum .threadlistsection .threadblock.is-sticky A:hover {
+	color: #28f;
+}
+body.page-forum .threadlistsection .threadblock.is-sticky A:active {
+	color: #28f;
+}
+body.page-forum .threadlistsection .threadblock.is-sticky A:focus {
+	color: #28f;
+}
 body.page-forum .threadlistsection .threadblock .threadmain .threadmeta {
 	color: #666;
 }
@@ -152,5 +161,9 @@ body.page-forum .forumhead ul .content .subtitle {
 }
 .pagnation.threadpagnation, .pagnation.postpagnation {
 	background-color: #28f;
+}
+body.page-forum .threadlistsection .threadblock .threadmain .threadmeta .pagnationcomponent .page {
+	background-color: #28f;
+	color: #fff;
 }
 /****************************************************/
