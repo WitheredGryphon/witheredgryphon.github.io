@@ -10,10 +10,19 @@ a:hover { color: #28f; }
 	font-weight: bolder;
 }
 .navbar.is-primary .navbar-brand > .navbar-item { color: #147; }
+.navbar.is-dark .navbar-brand > .navbar-item:before { 
+	content: "";
+}
+.navbar.is-dark .navbar-brand > .navbar-item:after {
+	content: "Facepunch";
+}
 .navbar.is-dark .navbar-brand > .navbar-item { 
 	text-shadow: 1px 1px 2px #aaa; 
 	color: #000; 
 	font-size: 1.4rem;
+}
+.navbar.is-dark .navbar-brand > .navbar-item a:hover { 
+	color: #000
 }
 .navbar.is-primary .navbar-under { color: #fff; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
