@@ -172,3 +172,20 @@ body.page-forum .threadlistsection .threadblock.is-sticky .threadmain .threadmet
 	color: #fff; 
 }
 /****************************************************/
+
+/**********************/
+/* Inner Thread Stuff */
+/**********************/
+
+.page-forum .postblock {
+	background-color: rgb(255, 255, 255);
+	background-image: url("https://i.imgur.com/ZyU1asq.png");
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size: auto auto;
+}
+/***************************************************************
