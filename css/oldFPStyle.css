@@ -5,6 +5,9 @@ a:hover { color: #28f; }
 	font-weight: bolder;
 	font-size: 0.8rem;	
 }
+a.navbar-item { 
+	font-weight: bolder;
+}
 .navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { color: #147; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
 #content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
@@ -34,6 +37,6 @@ footer {
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto auto;
-	color: #147;
+	color: #147 !important;
 }
 .navbar.is-primary.navbar-under > .container { background: none; }
