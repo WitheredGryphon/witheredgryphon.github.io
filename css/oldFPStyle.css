@@ -34,15 +34,6 @@ a:hover {
 	color: #000; 
 	font-size: 1.4rem;
 }
-.navbar.is-dark .navbar-brand .navbar-item a:hover { 
-	color: #000;
-}
-.navbar.is-dark .navbar-brand .navbar-item a:active { 
-	color: #000;
-}
-.navbar.is-dark .navbar-brand .navbar-item a:focus { 
-	color: #000;
-}
 .navbar.is-primary .navbar-under { 
 	color: #fff; 
 }
@@ -170,6 +161,9 @@ body.page-forum .forumhead ul .content .subtitle {
 }
 body.page-forum .threadlistsection .threadblock .threadmain .threadmeta .pagnationcomponent .page {
 	background-color: #28f;
+	color: #fff;
+}
+body.page-forum .navbar-item .is-breadcrumb {
 	color: #fff;
 }
 /****************************************************/
