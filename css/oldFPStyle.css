@@ -10,6 +10,7 @@ a:hover { color: #28f; }
 	font-weight: bolder;
 }
 .navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { color: #147; }
+.navbar.is-dark .navbar-brand > .navbar-item { content: "Facepunch"; color: #000; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
 #content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
 .navbar.is-primary { background-color: #28f; }
