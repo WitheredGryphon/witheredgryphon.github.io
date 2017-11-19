@@ -124,4 +124,7 @@ body.page-forum .threadlistsection .threadblock .threadlastpostavatar {
 body.page-forum .threadlistsection .threadblock.is-sticky {
 	background-color: #ffa;
 }
+body.page-forum .threadlistsection .threadblock.is-sticky .threadicon {
+	background-color: #ffa;
+}
 /****************************************************/
