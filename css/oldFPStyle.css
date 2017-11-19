@@ -140,10 +140,18 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadmeta {
 	color: #666;
 }
 body.page-forum .forumhead ul .content .title a {
+	font-weight: normal;
 	text-shadow: 1px 1px 2px #aaa; 
 	color: #000;
 }
 body.page-forum .forumhead ul .content .subtitle {
 	color: #666;
+}
+.button.is-primary {
+	border: 2px solid #c00;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(204, 0, 0);
+	box-shadow: 0 5px 32px rgba(255,255,255,.4);
 }
 /****************************************************/
