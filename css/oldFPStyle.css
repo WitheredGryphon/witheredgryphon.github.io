@@ -1,9 +1,15 @@
 /*****************************/
 /* Header / Front Page Stuff */
 /*****************************/
-* { background-image: none; } 
-a { color: #147; }
-a:hover { color: #28f; }
+* { 
+	background-image: none; 
+} 
+a { 
+	color: #147; 
+}
+a:hover { 
+	color: #28f; 
+}
 .navbar-item.is-strong { 
 	font-weight: bolder;
 	font-size: 0.8rem;	
@@ -12,7 +18,9 @@ a:hover { color: #28f; }
 	color: #147;
 	font-weight: bolder;
 }
-.navbar.is-primary .navbar-brand > .navbar-item { color: #147; }
+.navbar.is-primary .navbar-brand > .navbar-item { 
+	color: #147; 
+}
 .navbar.is-dark .navbar-brand > .navbar-item:before { 
 	content: "Facepunch Studios";
 	visibility: visible;
@@ -29,24 +37,50 @@ a:hover { color: #28f; }
 .navbar.is-dark .navbar-brand > .navbar-item:hover { 
 	color: #000;
 }
-.navbar.is-primary .navbar-under { color: #fff; }
-html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
-#content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
-.navbar.is-primary { background-color: #28f; }
-body.page-forum .forumcategoryblock .forumcategoryheader { background-color: #28f; }
-.forumname { background-color: #fff; }
-.forumlastpost { background-color: #f5f5f5; }
-.forumicon { background-color: #fff; }
-.forumlastpostavatar { background-color: #f5f5f5; }
-body.page-forum .forumblock { background-color: #fff; }
-.footer .facepunch_logo { fill: #fff; }
+.navbar.is-primary .navbar-under { 
+	color: #fff; 
+}
+html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { 
+	background-image: none; 
+}
+#content { 
+	background-image: url('https://i.imgur.com/OByo3tB.png'); 
+}
+.navbar.is-primary { 
+	background-color: #28f; 
+}
+body.page-forum .forumcategoryblock .forumcategoryheader { 
+	background-color: #28f; 
+}
+.forumname { 
+	background-color: #fff; 
+}
+.forumlastpost { 
+	background-color: #f5f5f5; 
+}
+.forumicon { 
+	background-color: #fff; 
+}
+.forumlastpostavatar { 
+	background-color: #f5f5f5; 
+}
+body.page-forum .forumblock { 
+	background-color: #fff; 
+}
+.footer .facepunch_logo { 
+	fill: #fff; 
+}
 footer { 
 	background-color: #28f; 
 	max-height: 10.5rem; 
 	height: 100%;
 }
-.footer a { color: #fff; }
-.footer { background-color: #28f; }
+.footer a { 
+	color: #fff; 
+}
+.footer { 
+	background-color: #28f; 
+}
 .navbar > .container {
 	background: url('https://i.imgur.com/DnwVuBK.png') #FFF;
     background-color: rgb(255, 255, 255);
@@ -59,7 +93,9 @@ footer {
     background-position-y: 0%;
     background-size: auto auto;
 }
-.navbar.is-primary.navbar-under > .container { background: none; }
+.navbar.is-primary.navbar-under > .container { 
+	background: none; 
+}
 /*************************************************************************/
 
 /***************/
@@ -72,5 +108,8 @@ body.page-forum .forumhead {
     border-bottom-style: solid;
     border-bottom-color: rgb(204, 0, 0);
 	box-shadow: 0 5px 32px rgba(255,255,255,.4);
+}
+body.page-forum .threadlistsection .threadblock {
+	background-color: #fff;
 }
 /****************************************************/
