@@ -9,8 +9,12 @@ a:hover { color: #28f; }
 	color: #147;
 	font-weight: bolder;
 }
-.navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { color: #147; }
-.navbar.is-dark .navbar-brand > .navbar-item { content: "Facepunch"; color: #000; }
+.navbar.is-primary .navbar-brand > .navbar-item { color: #147; }
+.navbar.is-dark .navbar-brand > .navbar-item { 
+	text-shadow: 1px 1px 2px #aaa; 
+	color: #000; display: 
+	none; font-size: 1.4rem;}
+.navbar.is-dark .navbar-brand > .navbar-item:after { content: 'Facepunch'; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
 #content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
 .navbar.is-primary { background-color: #28f; }
