@@ -125,6 +125,12 @@ body.page-forum .threadlistsection .threadblock.is-sticky {
 	background-color: #ffa;
 }
 body.page-forum .threadlistsection .threadblock.is-sticky .threadicon {
-	background-color: #ffa;
+	background-color: #fbfba5;
+}
+body.page-forum .threadlistsection .threadblock.is-sticky .threadlastpost {
+	background-color: #fbfba5;
+}
+body.page-forum .threadlistsection .threadblock.is-sticky .threadlastpostavatar {
+	background-color: #fbfba5;
 }
 /****************************************************/
