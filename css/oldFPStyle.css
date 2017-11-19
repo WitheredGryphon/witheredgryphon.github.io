@@ -12,5 +12,17 @@ body.page-forum .forumblock { background-color: #fff; }
 .footer .facepunch_logo { fill: #fff; }
 footer { background-color: #28f; max-height: 10.5rem; height: 100%;}
 .footer a { color: #fff; }
-.container { background-image: url('https://i.imgur.com/DnwVuBK.png'}; }
+
+.navbar > .continaer {
+	background: url('https://i.imgur.com/DnwVuBK.png') #FFF;
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://i.imgur.com/DnwVuBK.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+}
 .navbar.is-primary.navbar-under { background-image: none; }
