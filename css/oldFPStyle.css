@@ -145,6 +145,7 @@ body.page-forum .threadlistsection .threadblock.is-sticky A:focus {
 body.page-forum .threadlistsection .threadblock .threadmain .threadmeta {
 	color: #666;
 }
+
 body.page-forum .forumhead ul .content .title a {
 	font-weight: normal;
 	text-shadow: 1px 1px 2px #aaa; 
@@ -160,6 +161,10 @@ body.page-forum .forumhead ul .content .subtitle {
 	background-color: #28f;
 }
 body.page-forum .threadlistsection .threadblock .threadmain .threadmeta .pagnationcomponent .page {
+	background-color: #28f;
+	color: #fff;
+}
+body.page-forum .threadlistsection .threadblock .is-sticky .threadmain .threadmeta .pagnationcomponent .page {
 	background-color: #28f;
 	color: #fff;
 }
