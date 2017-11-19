@@ -164,7 +164,7 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadmeta .pagnati
 	background-color: #28f;
 	color: #fff;
 }
-body.page-forum .threadlistsection .threadblock .is-sticky .threadmain .threadmeta .pagnationcomponent .page {
+body.page-forum .threadlistsection .threadblock.is-sticky .threadmain .threadmeta .pagnationcomponent .page {
 	background-color: #28f;
 	color: #fff;
 }
