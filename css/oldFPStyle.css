@@ -5,7 +5,7 @@ a:hover { color: #28f; }
 	font-weight: bolder;
 	font-size: 0.8rem;	
 }
-a.navbar-item { 
+.navbar-end { 
 	font-weight: bolder;
 }
 .navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { color: #147; }
@@ -37,6 +37,5 @@ footer {
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto auto;
-	color: #147 !important;
 }
 .navbar.is-primary.navbar-under > .container { background: none; }
