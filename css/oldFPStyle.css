@@ -34,13 +34,13 @@ a:hover {
 	color: #000; 
 	font-size: 1.4rem;
 }
-.navbar.is-dark .navbar-brand > .navbar-item:hover { 
+.navbar.is-dark .navbar-brand .navbar-item a:hover { 
 	color: #000;
 }
-.navbar.is-dark .navbar-brand > .navbar-item:active { 
+.navbar.is-dark .navbar-brand .navbar-item a:active { 
 	color: #000;
 }
-.navbar.is-dark .navbar-brand > .navbar-item:focus { 
+.navbar.is-dark .navbar-brand .navbar-item a:focus { 
 	color: #000;
 }
 .navbar.is-primary .navbar-under { 
