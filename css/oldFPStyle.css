@@ -12,7 +12,6 @@ body.page-forum .forumblock { background-color: #fff; }
 .footer .facepunch_logo { fill: #fff; }
 footer { background-color: #28f; max-height: 10.5rem; height: 100%;}
 .footer a { color: #fff; }
-
 .navbar > .container {
 	background: url('https://i.imgur.com/DnwVuBK.png') #FFF;
     background-color: rgb(255, 255, 255);
@@ -25,5 +24,4 @@ footer { background-color: #28f; max-height: 10.5rem; height: 100%;}
     background-position-y: 0%;
     background-size: auto auto;
 }
-
-.navbar.is-primary.navbar-under { background-image: none; }
+.navbar.is-primary.navbar-under > .container { background-image: none; }
