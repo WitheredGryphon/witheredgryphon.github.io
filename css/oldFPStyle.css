@@ -1,11 +1,12 @@
 * { background-image: none; } 
 a { color: #147; }
 a:hover { color: #28f; }
-.navbar-item.is-strong { font-weight: bolder; }
-.navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { 
+.navbar-item.is-strong { 
+	font-weight: bolder;
 	font-size: 0.8rem;	
-	color: #147;
 }
+a.navbar-item { color: #147; }
+.navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { color: #147; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
 #content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
 .navbar.is-primary { background-color: #28f; }
