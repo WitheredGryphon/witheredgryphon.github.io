@@ -10,5 +10,5 @@ body.page-forum .forumcategoryblock .forumcategoryheader { background-color: #28
 .forumlastpostavatar { background-color: #f5f5f5; }
 body.page-forum .forumblock { background-color: #fff; }
 .footer .facepunch_logo { fill: #fff; }
-.footer { background-color: #28f; }
+.footer { background-color: #28f; max-height: 10.5rem; height: 100%;}
 .footer a { color: #fff; }
