@@ -133,4 +133,7 @@ body.page-forum .threadlistsection .threadblock.is-sticky .threadlastpost {
 body.page-forum .threadlistsection .threadblock.is-sticky .threadlastpostavatar {
 	background-color: #fbfba5;
 }
+body.page-forum .threadlistsection .threadblock.is-sticky A {
+	color: #147;
+}
 /****************************************************/
