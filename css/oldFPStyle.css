@@ -112,4 +112,16 @@ body.page-forum .forumhead {
 body.page-forum .threadlistsection .threadblock {
 	background-color: #fff;
 }
+body.page-forum .threadlistsection .threadblock .threadicon {
+	background-color: #f5f5f5;
+}
+body.page-forum .threadlistsection .threadblock .threadlastpost {
+	background-color: #f5f5f5;
+}
+body.page-forum .threadlistsection .threadblock .threadlastpostavatar {
+	background-color: #f5f5f5;
+}
+body.page-forum .threadlistsection .threadblock.is-sticky {
+	background-color: #ffa;
+}
 /****************************************************/
