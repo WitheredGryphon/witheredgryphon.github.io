@@ -5,7 +5,8 @@ a:hover { color: #28f; }
 	font-weight: bolder;
 	font-size: 0.8rem;	
 }
-.navbar-end { 
+.navbar.is-dark .navbar-end a.navbar-item { 
+	color: #147;
 	font-weight: bolder;
 }
 .navbar.is-primary .navbar-brand > .navbar-item, .navbar.is-primary .navbar-brand .navbar-link { color: #147; }
