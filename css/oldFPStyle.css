@@ -9,5 +9,6 @@ body.page-forum .forumcategoryblock .forumcategoryheader { background-color: #28
 .forumicon { background-color: #fff; }
 .forumlastpostavatar { background-color: #f5f5f5; }
 .forumblock { background-color: #fff; }
-.footer .facepunch_logo { fill: #147; }
+.footer .facepunch_logo { fill: #fff; }
 .footer { background-color: #28f; }
+.footer a { color: #fff; }
