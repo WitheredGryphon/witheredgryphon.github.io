@@ -196,5 +196,11 @@ body.page-forum .threadlistsection .threadblock.is-sticky .threadmain .threadmet
 
 .button {
 	background-color: #28f;
+	border-color: #28f;
+}
+
+.button .dropdown.is-bottom-left {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 /***************************************************************
