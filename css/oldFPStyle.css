@@ -1,4 +1,8 @@
 * { background-image: none; } 
+a { color: #147; }
 html, .navbar, .pagnation.postpagnation, .forumcategoryheader, .forumpanel { background-image: none; }
 #content { background-image: url('https://i.imgur.com/OByo3tB.png'); }
-navbar { background-color: #28f }
+.navbar.is-primary { background-color: #28f; }
+body.page-forum .forumcategoryblock .forumcategoryheader { background-color: #28f; }
+.forumname { background-color: #fff; }
+.forumlastpost { background-color: #f5f5f5; }
