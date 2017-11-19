@@ -66,6 +66,7 @@ footer {
 /* Thread List */
 /***************/
 body.page-forum .forumhead {
+	background-color: #fff;
 	border-bottom: 2px solid #c00;
     border-bottom-width: 2px;
     border-bottom-style: solid;
