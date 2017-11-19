@@ -136,4 +136,14 @@ body.page-forum .threadlistsection .threadblock.is-sticky .threadlastpostavatar 
 body.page-forum .threadlistsection .threadblock.is-sticky A {
 	color: #147;
 }
+body.page-forum .threadlistsection .threadblock .threadmain .threadmeta {
+	color: #666;
+}
+body.page-forum .forumhead ul .content .title a {
+	text-shadow: 1px 1px 2px #aaa; 
+	color: #000;
+}
+body.page-forum .forumhead ul .content .subtitle {
+	color: #666;
+}
 /****************************************************/
