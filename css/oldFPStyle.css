@@ -163,7 +163,7 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadmeta .pagnati
 	background-color: #28f;
 	color: #fff;
 }
-body.page-forum .navbar-item .is-breadcrumb {
+.container > .navbar-item {
 	color: #fff;
 }
 /****************************************************/
