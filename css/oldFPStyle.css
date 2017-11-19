@@ -193,4 +193,8 @@ body.page-forum .threadlistsection .threadblock.is-sticky .threadmain .threadmet
 	text-shadow: 1px 1px 2px #aaa; 
 	color: #000;
 }
+
+.button {
+	background-color: #28f;
+}
 /***************************************************************
