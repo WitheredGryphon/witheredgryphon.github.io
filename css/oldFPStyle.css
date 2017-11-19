@@ -1,3 +1,6 @@
+/*****************************/
+/* Header / Front Page Stuff */
+/*****************************/
 * { background-image: none; } 
 a { color: #147; }
 a:hover { color: #28f; }
@@ -57,3 +60,16 @@ footer {
     background-size: auto auto;
 }
 .navbar.is-primary.navbar-under > .container { background: none; }
+/*************************************************************************/
+
+/***************/
+/* Thread List */
+/***************/
+body.page-forum .forumhead {
+	border-bottom: 2px solid #c00;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 0, 0);
+	box-shadow: 0 5px 32px rgba(255,255,255,.4);
+}
+/****************************************************/
