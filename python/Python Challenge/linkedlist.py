@@ -18,3 +18,4 @@ for i in range(0, 450):
 	linked_html = linked_resp.read()
 	linked_text = linked_html.decode()
 	linked_word_list = linked_text.split()
+	
