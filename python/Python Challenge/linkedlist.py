@@ -22,3 +22,4 @@ for i in range(0, 450):
 	if (linked_word_list[0] == "Yes."):
 		prev_number /= 2
 		linked_word_list = str(prev_number)
+		
