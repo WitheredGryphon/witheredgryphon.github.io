@@ -45,7 +45,8 @@ class Node:
 def to_coordinates(num):
 	x = (num) % 8
 	y = (num) / 8
-	return (x,y)
+	node = (x, y)
+	return node
 	
 def to_location(num):
 	return
@@ -58,7 +59,9 @@ def isValid(x, y):
 def BreadthFirstSearch(src, dest):
 	visited = {}
 	queue = []
-	initNode = (src, 0)
+	initNodeCoords = to_coordinates(src)
+	nodeDest = to_coordinates(dest)
+	initNode = [initNodeCoords, 0]
 	queue.append(initNode)
 	
 	while queue:
@@ -68,11 +71,11 @@ def BreadthFirstSearch(src, dest):
 		y = node[0][1]
 		dist = node[1]
 		
-		if (x == dest[0] and y == dest[1]):
+		if (x == nodeDest[0] and y == nodeDest[1]):
 			return dist
 				
 		if (not any(node == 1 for node in visited)):
-			visited[node] = True;
+			visited[node[0]] = True;
 			
 			for i in range(0, 8):
 				x1 = x + row[i]
