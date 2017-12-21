@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Solar_Doomsday
-# Code by: Christian Medina
+# Code by: -Redacted for Privacy
 
 # Credit for Algorithms: DaniWeb, Wikipedia
 
