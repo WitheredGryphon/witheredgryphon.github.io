@@ -23,7 +23,7 @@ In this example, the spreadsheet's checksum would be 8 + 4 + 6 = 18.
 What is the checksum for the spreadsheet in your puzzle input?
 '''
 
-'''numMatrix = [5048,177,5280,5058,4504,3805,5735,220,4362,1809,1521,230,772,1088,178,1794], \
+numMatrix = [5048,177,5280,5058,4504,3805,5735,220,4362,1809,1521,230,772,1088,178,1794], \
 [6629,3839,258,4473,5961,6539,6870,4140,4638,387,7464,229,4173,5706,185,271], \
 [5149,2892,5854,2000,256,3995,5250,249,3916,184,2497,210,4601,3955,1110,5340], \
 [153,468,550,126,495,142,385,144,165,188,609,182,439,545,608,319], \
@@ -38,7 +38,7 @@ What is the checksum for the spreadsheet in your puzzle input?
 [1965,6989,230,2025,6290,2901,192,215,4782,6041,6672,7070,7104,207,7451,5071], \
 [1261,77,1417,1053,2072,641,74,86,91,1878,1944,2292,1446,689,2315,1379], \
 [296,306,1953,3538,248,1579,4326,2178,5021,2529,794,5391,4712,3734,261,4362], \
-[2426,192,1764,288,4431,2396,2336,854,2157,216,4392,3972,229,244,4289,1902]'''
+[2426,192,1764,288,4431,2396,2336,854,2157,216,4392,3972,229,244,4289,1902]
 
 def checkSum(num):
 	countTotal = 0
@@ -49,7 +49,7 @@ def checkSum(num):
 		
 	return countTotal
 
-#print("\nAnswer: " + str(checkSum(numMatrix)))
+print("\nAnswer: " + str(checkSum(numMatrix)))
 
 '''
 Day 2 - Evening (pt. 2)
@@ -86,4 +86,4 @@ def evenSum(num):
 			#print ("i: " + str(i) + ", " + str(countTotal))
 	return countTotal
 
-#print("\nAnswer: " + str(evenSum(numMatrix)))
+print("\nAnswer: " + str(evenSum(numMatrix)))
