@@ -39,21 +39,44 @@ def findExit(file):
 	content = [x.strip('\n') for x in content]
 	
 	steps = 0
-	curStep = content[0]
-	nextStep = 0
-	while (int(curStep) + int(nextStep) <= len(content)):
-		#print curStep
-		if content[int(curStep)] >= 0:
-			#print content[int(curStep)]
-			print int(content[int(curStep)])
-			nextStep = content[int(curStep) + int(content[int(curStep)])]
-			#print nextStep
-		#print nextStep
-		content[int(curStep)] = str(int(content[int(curStep)]) + 1)
-		steps = steps + 1
-		curStep = nextStep
-		
+	curIndex = 0
+	while (curIndex < len(content)):
+		indexVal = content[curIndex]
+		content[curIndex] = str(int(content[curIndex]) + 1)
+		curIndex += int(indexVal)
+		steps += 1
 	return steps
-	
-
 print("\nAnswer: " + str(findExit("input/day5.txt")))
+
+'''
+Day 5 - Morning (pt. 1)
+
+Now, the jumps are even stranger: 
+after each jump, if the offset was three or more, 
+instead decrease it by 1. Otherwise, increase it by 1 as before.
+
+Using this rule with the above example, the process now takes 10 steps, 
+and the offset values after finding the exit are left as 2 3 2 3 -1.
+
+How many steps does it now take to reach the exit?
+'''
+
+def findStrangeExit(file):
+	with open(file) as f:
+		content = f.readlines()
+	content = [x.strip('\n') for x in content]
+	
+	steps = 0
+	curIndex = 0
+	while (curIndex < len(content)):
+		indexVal = content[curIndex]
+		if int(indexVal) >= 3:
+			content[curIndex] = str(int(content[curIndex]) - 1)
+		else:
+			content[curIndex] = str(int(content[curIndex]) + 1)
+		curIndex += int(indexVal)
+		steps += 1
+	return steps
+
+print("\nAnswer: " + str(findStrangeExit("input/day5.txt")))
+
