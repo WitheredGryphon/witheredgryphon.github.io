@@ -26,7 +26,6 @@ def checkPasses(file):
 	with open(file) as f:
 		content = f.readlines()
 	content = [x.strip('\n') for x in content]
-	check = content
 
 	while(content):
 		phrase = content.pop(0)
@@ -72,7 +71,6 @@ def checkSortPasses(file):
 	with open(file) as f:
 		content = f.readlines()
 	content = [x.strip('\n') for x in content]
-	check = content
 
 	while(content):
 		phrase = content.pop(0)
