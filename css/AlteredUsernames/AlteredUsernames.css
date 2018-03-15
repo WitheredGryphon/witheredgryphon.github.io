@@ -23,3 +23,7 @@ span.userlevel {
 	text-shadow: 1px 1px 4px #333;
 	font-size: 0.6rem
 }
+
+.postrender .postinner > .postuser .postavatar {
+	margin-top: 1.5rem;
+}
