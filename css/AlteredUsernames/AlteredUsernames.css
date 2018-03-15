@@ -7,8 +7,9 @@
     text-shadow: 0.5px 0.5px 0.125px #000000;
 	font-weight: bolder;
 	padding-bottom: 2.0rem;
-	padding-top: 0rem;
+	padding-top: 0px;
 	top: 0px
+	text-align: center;
 }
 
 span.userlevel {
@@ -16,4 +17,5 @@ span.userlevel {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	left: auto;
 }
