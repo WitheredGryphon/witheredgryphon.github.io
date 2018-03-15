@@ -4,6 +4,10 @@ chambray: 3A539B
 iron: DADFE1
 */
 
+body {
+	color: #DADFE1;
+}
+
 #header {
 	background-color: #4B77BE;
 }
@@ -15,9 +19,25 @@ iron: DADFE1
 }
 
 #header .navbar-main.navbar.is-dark .navbar-start::after {
-	color: #DADFE1
+	color: #DADFE1;
 }
 
 #header #toolbar .navbar-item {
-	color: #DADFE1
+	color: #DADFE1;
+}
+
+#header .navbar-main.navbar.is-dark .navbar-end a.navbar-item {
+	color: #DADFE1;
+}
+
+#wrapper #content {
+	background-color: #4B77BE;
+}
+
+#wrapper #content .forumhead .title a {
+	color: #DADFE1;
+}
+
+body.page-forum .forumhead ul .content .subtitle {
+	color: #DADFE1;
 }
