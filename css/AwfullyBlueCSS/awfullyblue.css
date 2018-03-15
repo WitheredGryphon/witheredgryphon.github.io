@@ -10,6 +10,7 @@ body {
 
 #header {
 	background-color: #4B77BE;
+	border-bottom: 1px solid #3A539B;
 }
 
 #header #toolbar {
