@@ -1,7 +1,22 @@
+/* colors used:
+steel blue: 4B77BE
+chambray: 3A539B
+iron: DADFE1
+
 #header {
-	background-color: #4B77BE
+	background-color: #4B77BE;
 }
 
 #header #toolbar {
-	background-color: #3A539B
+	background-color: #3A539B;
+	border-left: 1px solid #3A539B;
+	border-top: 1px solid #3A539B;
+}
+
+#header .navbar-main.navbar.is-dark .navbar-start::after {
+	color: #DADFE1
+}
+
+#header #toolbar .navbar-item {
+	color: #DADFE1
 }
