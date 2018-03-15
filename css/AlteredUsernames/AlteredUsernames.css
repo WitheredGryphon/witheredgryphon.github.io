@@ -4,7 +4,7 @@
 
 .postrender .postinner > .postuser .username {
 	text-align: center;
-	text-shadow: 0.5px 0.5px 0.125px #000000;
+	text-shadow: 0.5px 0.5px 0.25px #555;
 	font-weight: bolder;
 	padding-bottom: 2.0rem;
 	padding-top: 0px;
@@ -17,4 +17,6 @@ span.userlevel {
 	top: 0px;
 	right: 0px;
 	left: auto;
+	border-radius: unset;
+	border-bottom-left-radius: 3px;
 }
