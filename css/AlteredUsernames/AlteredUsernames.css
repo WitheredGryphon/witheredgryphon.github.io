@@ -1,7 +1,7 @@
 .postrender .postinner > .postuser {
 	padding: 0px;
 }
-'
+
 .postrender .postinner > .postuser .username {
 	text-align: center;
     text-shadow: 0.5px 0.5px 0.125px #000000;
