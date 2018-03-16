@@ -32,3 +32,20 @@ spoiler {
 	color: #cfbb34;
 	text-shadow: 1px 1px 5px rgba(224, 188, 36, 0.5);
 }
+
+#wrapper #content .forumcategoryblock {
+	width: 80%;
+	border-right: 1px solid #bbb;
+}
+
+.drawer-container > .drawer {
+	position: absolute;
+	right: 0px;
+	width: 20%;
+}
+
+/*
+@import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
+@import url("https://witheredgryphon.github.io/css/AlteredUsernames/AlteredUsernames.css");
+@import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
+*/
