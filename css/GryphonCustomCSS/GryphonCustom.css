@@ -48,6 +48,19 @@ spoiler {
 	width: 85%;
 }
 
+body.page-forum .forumpanel {
+	width: 85%;
+}
+
+#wrapper #content .forumcategoryblock .forumpanel {
+	border-right: 1px solid #bbb;
+}
+
+#wrapper #content .forumcategoryblock .forumcategoryheader {
+	border-right: 1px solid #bbb;
+	width: 85%;
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/AlteredUsernames/AlteredUsernames.css");
