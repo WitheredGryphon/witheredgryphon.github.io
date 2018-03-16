@@ -75,6 +75,10 @@ body.page-forum .forumpanel {
 	width: 85%;
 	border-right: 1px solid #bbb;
 }
+
+#wrapper #content .threadlist .threadblock {
+	width: 100%
+}
 	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
