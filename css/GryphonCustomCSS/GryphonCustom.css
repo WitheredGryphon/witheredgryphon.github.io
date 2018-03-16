@@ -25,12 +25,10 @@ spoiler {
 
 .username.user-moderator a, .username.user-admin a {
 	color: #7bb36a !important;
-	text-shadow: 1px 1px 5px rgba(13, 48, 10, 0.4) !important;
 }
 
 .username.user-gold a {
 	color: #cfbb34;
-	text-shadow: 1px 1px 5px rgba(224, 188, 36, 0.5);
 }
 	
 /*
