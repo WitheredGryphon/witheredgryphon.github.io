@@ -3,8 +3,8 @@
 }
 
 .postrender .postinner > .postuser .background-image::before {
-	background-color: rgba(230,230,230,0.35);
-	transition: 0.25s all ease-out !important;
+	background-color: rgba(230,230,230,0.35) !important;
+	transition: 0.125s all ease-out !important;
 }
 
 .postrender .postinner > .postuser { 
