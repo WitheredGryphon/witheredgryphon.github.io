@@ -31,6 +31,10 @@ spoiler {
 	color: #cfbb34;
 }
 	
+.postblock-own .postmain .postrender > .posthead {
+	background-color: #f00;
+}
+	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/AlteredUsernames/AlteredUsernames.css");
