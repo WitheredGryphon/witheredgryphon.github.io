@@ -4,7 +4,7 @@
 
 .postrender .postinner > .postuser .background-image::before {
 	background-color: rgba(230,230,230,0.35) !important;
-	transition: 0.125s all ease-out !important;
+	transition: 0.25s all ease-out !important;
 }
 
 .postrender .postinner > .postuser { 
@@ -12,11 +12,11 @@
 }
 
 .postrender .postinner > .postuser .postavatar {
-	transition: 0.125s all ease-out !important;
+	transition: none;
 }
 
 .postrender .postinner > .postuser .username {
-	transition: 0.125s all ease-out !important;
+	transition: 0.25s all ease-out !important;
 }
 
 spoiler {
