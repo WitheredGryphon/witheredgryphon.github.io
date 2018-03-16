@@ -3,7 +3,7 @@
 }
 
 .postrender .postinner > .postuser .background-image::before {
-	background-color: unset;
+	background-color: rgba(230,230,230,0.35) !important;
 }
 
 .postrender .postinner > .postuser { 
