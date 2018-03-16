@@ -18,3 +18,17 @@
 .postrender .postinner > .postuser .username {
 	transition: 0.125s all ease-out !important;
 }
+
+spoiler {
+	transition: all 0.25s ease-in-out;
+}
+
+.username.user-moderator a, .username.user-admin a {
+	color: #89f967;
+	text-shadow: 1px 1px 5px darkgreen;
+}
+
+.username.user-gold a {
+	color: #cfbb34;
+	text-shadow: 1px 1px 5px rgba(224, 188, 36, 0.5);
+}
