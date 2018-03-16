@@ -34,14 +34,14 @@ spoiler {
 }
 
 #wrapper #content .forumcategoryblock {
-	width: 80%;
+	width: 85%;
 	border-right: 1px solid #bbb;
 }
 
 .drawer-container > .drawer {
 	position: absolute;
 	right: 0px;
-	width: 20%;
+	width: 15%;
 }
 
 /*
