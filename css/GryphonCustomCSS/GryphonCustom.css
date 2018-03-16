@@ -1,0 +1,7 @@
+.postblock-read .postrender .postinner>.postuser .background-image:after {
+    background: linear-gradient(to bottom, rgba(230,230,230,0.8), #e6e6e6 512px);
+}
+
+.postrender .postinner > .postuser { 
+	max-width: 256px; flex-grow: 1; flex-basis: 256px; 
+}
