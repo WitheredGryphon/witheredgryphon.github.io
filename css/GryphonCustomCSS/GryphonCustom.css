@@ -80,6 +80,10 @@ body.page-forum .forumpanel {
 	width: 100%
 }
 	
+body.page-forum .threadviewsection .postblock {
+	width: 100%
+}
+	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/AlteredUsernames/AlteredUsernames.css");
