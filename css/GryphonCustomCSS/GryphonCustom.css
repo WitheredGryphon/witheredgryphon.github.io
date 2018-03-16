@@ -4,8 +4,17 @@
 
 .postrender .postinner > .postuser .background-image::before {
 	background-color: rgba(230,230,230,0.35) !important;
+	transition: 0.125s all ease-out;
 }
 
 .postrender .postinner > .postuser { 
 	max-width: 256px; flex-grow: 1; flex-basis: 256px; 
+}
+
+.postrender .postinner > .postuser .postavatar {
+	transition: 0.125s all ease-out;
+}
+
+.postrender .postinner > .postuser .username {
+	transition: 0.125s all ease-out;
 }
