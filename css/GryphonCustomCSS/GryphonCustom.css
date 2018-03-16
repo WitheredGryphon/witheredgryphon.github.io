@@ -31,8 +31,8 @@ spoiler {
 	color: #cfbb34;
 }
 	
-.postblock-own .postmain .postrender > .posthead {
-	background-color: #f00;
+.postblock-own .postmain .postrender .postinner > .postcontent {
+	background: linear-gradient(to left, #eeffbb 200px, #e6e6e6 300px, #e6e6e6 100%);
 }
 	
 /*
