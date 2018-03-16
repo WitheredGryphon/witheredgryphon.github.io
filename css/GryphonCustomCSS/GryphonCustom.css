@@ -32,57 +32,6 @@ spoiler {
 	color: #cfbb34;
 	text-shadow: 1px 1px 5px rgba(224, 188, 36, 0.5);
 }
-
-#wrapper #content .forumcategoryblock {
-	width: 100%;
-	border: none;
-}
-
-.drawer-container > .drawer {
-	position: absolute;
-	right: 0px;
-	width: 15%;
-}
-
-.forumchildren {
-	width: 100%;
-}
-
-body.page-forum .forumpanel {
-	width: 85%;
-}
-
-#wrapper #content .forumcategoryblock .forumpanel {
-	border-right: 1px solid #bbb;
-}
-
-#wrapper #content .forumcategoryblock .forumcategoryheader {
-	width: 85%;	
-	border-right: 1px solid #bbb;
-}
-
-.pagnation.threadpagnation.above {
-	width: 85%;
-	border-right: 1px solid #bbb;
-}
-
-.threadlist.threadlist-regular {
-	width: 85%;
-	border-right: 1px solid #bbb;
-}
-
-.pagnation.threadpagnation.below {
-	width: 85%;
-	border-right: 1px solid #bbb;
-}
-
-#wrapper #content .threadlist .threadblock {
-	width: 100%
-}
-	
-body.page-forum .threadviewsection .postblock {
-	width: 100%
-}
 	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
