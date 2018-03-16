@@ -24,8 +24,8 @@ spoiler {
 }
 
 .username.user-moderator a, .username.user-admin a {
-	color: #89f967;
-	text-shadow: 1px 1px 5px darkgreen;
+	color: #7bb36a;
+	text-shadow: 1px 1px 5px rgba(13, 48, 10, 0.4);
 }
 
 .username.user-gold a {
