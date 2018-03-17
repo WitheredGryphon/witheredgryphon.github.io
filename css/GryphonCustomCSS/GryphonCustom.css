@@ -1,5 +1,5 @@
 .postrender .postinner > .postuser .background-image:after {
-    background: linear-gradient(to bottom, rgba(255,255,255,0), #e6e6e6 512px);
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #e6e6e6 496px);
 }
 
 .postrender .postinner > .postuser .background-image::before {
