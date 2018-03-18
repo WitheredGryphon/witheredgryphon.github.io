@@ -35,6 +35,11 @@ spoiler {
 	background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
 }
 	
+html::before {
+	background-image: url('https://horobox.co.uk/u/7Jd6.png');
+	background-size: unset;
+}
+	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/AlteredUsernames/AlteredUsernames.css");
