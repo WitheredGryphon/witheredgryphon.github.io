@@ -1,6 +1,7 @@
 html::before {
-	background-image: url('https://horobox.co.uk/u/7Jd6.png');
-	background-size: unset;
+	background-image: url("https://horobox.co.uk/u/7Jd6.png") !important;
+	background-size: unset !important;
+	background-color: red !important;
 }
 
 .postrender .postinner > .postuser .background-image:after {
