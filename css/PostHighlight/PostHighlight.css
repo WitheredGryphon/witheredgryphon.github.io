@@ -1,0 +1,3 @@
+.postblock-own .postmain .postrender .postinner > .postcontent {
+	background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
+}
