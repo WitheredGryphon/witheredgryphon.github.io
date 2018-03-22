@@ -1,0 +1,5 @@
+.postrender .postinner > .postuser { 
+	max-width: 256px; 
+	flex-grow: 1; 
+	flex-basis: 256px; 
+}
