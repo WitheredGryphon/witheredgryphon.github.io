@@ -3,12 +3,12 @@
 }
 
 .postrender .postinner > .postuser .username {
-	text-align: center;
-	text-shadow: 0.25px 0.25px 0.25px #666;
-	font-weight: bolder;
-	padding-bottom: 2.0rem;
-	padding-top: 0px;
-	top: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #0009;
+    font-weight: bolder;
+    padding-bottom: 0.8rem;
+    padding-top: 1.7rem;
+    top: 0px;
 }
 
 span.userlevel {
