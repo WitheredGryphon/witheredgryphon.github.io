@@ -1,4 +1,4 @@
-hotlink .ec_container {
+.ec_youtube_root, .ec_vidme_root {
 	max-height: 500px;
 	max-width: 900px;
 }
