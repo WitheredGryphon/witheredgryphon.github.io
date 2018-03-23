@@ -39,6 +39,16 @@ spoiler {
 .postblock-own .postmain .postrender .postinner > .postcontent {
 	background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
 }
+
+hotlink .ec_container {
+	max-height: 500px;
+	max-width: 900px;
+}
+
+.videoWrapper iframe, .audioWrapper iframe {
+	width: 100%;
+	height: 100%;
+}
 	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
