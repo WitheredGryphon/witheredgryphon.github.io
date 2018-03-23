@@ -40,9 +40,10 @@ spoiler {
 	background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
 }
 
-hotlink .ec_container {
+.ec_youtube_root, .ec_vidme_root {
 	max-height: 500px;
 	max-width: 900px;
+	padding: 0;
 }
 
 .videoWrapper iframe, .audioWrapper iframe {
