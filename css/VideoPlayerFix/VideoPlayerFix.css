@@ -1,0 +1,9 @@
+hotlink .ec_container {
+	max-height: 500px;
+	max-width: 900px;
+}
+
+.videoWrapper iframe, .audioWrapper iframe {
+	width: 100%;
+	height: 100%;
+}
