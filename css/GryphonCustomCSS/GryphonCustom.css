@@ -111,6 +111,8 @@ span.userlevel {
 .ec_iframely_root .ec_iframely .iframely-embed {
 	max-height: inherit;
 	max-width: 900px;
+	display: block;
+    margin: 0 auto;
 }
 	
 /*
