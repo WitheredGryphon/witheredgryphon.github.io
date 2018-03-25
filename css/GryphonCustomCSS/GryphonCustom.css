@@ -57,6 +57,8 @@ spoiler {
 	max-height: 500px;
 	max-width: 900px;
 	padding: 0;
+	margin-bottom: 20px;
+	margin-top: 20px
 }
 
 .videoWrapper iframe, .audioWrapper iframe {
