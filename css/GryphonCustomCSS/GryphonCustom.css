@@ -105,6 +105,10 @@ span.userlevel {
     padding-top: 1.7rem;
     top: 0px;
 }	
+
+.ec_iframely_root .ec_iframely .iframely-embed {
+	max-height: inherit;
+}
 	
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
