@@ -20,7 +20,7 @@
 @media screen and (max-width: 768px) {
     #wrapper,
     .force-wide-design #wrapper {
-        padding: 0
+        padding: 0;
     }
     .drawer-container .drawer {
         display: none;
