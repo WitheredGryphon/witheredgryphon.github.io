@@ -3,6 +3,10 @@
 		display: table;
 	}
 	
+	html::before {
+		display: none;
+	}
+	
 	.force-wide-design #wrapper {
 		padding: 0;
 	}
