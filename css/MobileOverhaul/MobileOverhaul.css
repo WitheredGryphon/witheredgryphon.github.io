@@ -1,6 +1,130 @@
-/** iPhone 5/SE **/
+/** iPhone 5/SE 
 @media screen and (max-width:768px) {
 	.force-wide-design #wrapper {
 		padding: 0;
 	}
+}**/
+
+@media screen and (max-width: 768px) {
+    #wrapper,
+    .force-wide-design #wrapper {
+        padding: 0
+    }
+    .drawer-container .drawer {
+        display: none;
+    }
+    #wrapper #content .forumcategoryblock,
+    body.page-forum .threadlistsection,
+    #wrapper #content .pagnation.threadpagnation,
+    #wrapper #content .pagnation.postpagnation,
+    .threadlist.threadlist-regular {
+        width: 100vw;
+        overflow: hidden;
+    }
+    /* body.page-forum .threadlistsection .threadblock.has-seen.has-new-posts .threadmain{
+        //max-width: calc(100% - 52px);
+        //text-overflow: ellipsis;
+    	word-wrap: break-word;
+    }
+    .threadtitle{
+       max-width: calc(100% - 52px);
+    }*/
+    body.page-forum .threadlistsection .threadblock .threadmain {
+        white-space: normal;
+    }
+    body.page-forum .forumblock .threadcount,
+    body.page-forum .forumblock .postcount {
+        display: none;
+    }
+    #wrapper #content .threadlist .threadblock .threadage,
+    #wrapper #content .threadlist .threadblock .postcount {
+        display: none;
+    }
+    #wrapper #content .pagnation.threadpagnation a.page.is-spacer,
+    #wrapper #content .pagnation.postpagnation a.page.is-spacer,
+    #wrapper #content .pagnation.threadpagnation a.page.is-spacer,
+    #wrapper #content .pagnation.postpagnation a.page:not(.is-active):not(.prevpage):not(.is-last):not(.nextpage) {
+        display: none;
+    }
+    #wrapper #content .pagnation.postpagnation a.page:nth-of-type(2) {
+        display: block!important;
+    }
+    #wrapper #content .postlist .postblock .postmain .postinner .postuser .background-image,
+    #wrapper #content .postlist .postblock .postmain .postinner .postuser .user-card,
+    .postrender .postinner>.postuser .postavatar {
+        display: none;
+    }
+    #wrapper #content .postlist .postblock .postmain .postinner .postuser {
+        height: 10px;
+        padding: 0;
+        top: 0px;
+        background: transparent;
+        border: none;
+        flex-shrink: initial;
+        position: absolute;
+    }
+    .postrender .postinner>.postuser .username {
+        padding: 0;
+        padding-left: 5px;
+        width: 200px;
+    }
+    .postblock.postblock-read .postcontent,
+    .postblock .postcontent {
+        position: relative;
+        max-width: 100vw;
+    }
+    #wrapper #content .postlist .forumpanel {
+        max-width: 100vw;
+    }
+    .threadreply .postinner>.postuser {
+        display: none;
+    }
+    #wrapper #content .postlist .forumpanel>.postmain .postfoot,
+    .navbar-toolbar .container .navbar-brand {
+        overflow-x: scroll;
+    }
+    #header .navbar-main.navbar.is-dark .navbar-brand .navbar-item.logo {}
+    .navbar.is-dark {
+        height: 85px;
+    }
+    #header #toolbar {
+        margin-left: 0;
+    }
+    .expandable,
+    .postrender .postinner .postbody {
+        padding: 5px;
+    }
+    .ql-container.ql-snow .ql-editor {
+        height: auto;
+        min-height: 50px;
+    }
+    .postblock .postfoot .left {
+        overflow: scroll;
+        justify-content: baseline;
+    }
+    .votes .votelist {
+        overflow: scroll;
+    }
+    .postblock .postfoot {
+        display: block;
+    }
+    .postblock .postfoot .right .votebuttons {
+        flex-basis: auto;
+        flex-shrink: 0;
+        display: block;
+    }
+    .postblock .postfoot .right .votebuttons>span {
+        float: left;
+    }
+    .postblock .postfoot .right .votebuttons .votebutton img {
+        width: 25px;
+        height: auto;
+    }
+    .threadreply .ql-container.ql-snow .ql-editor {
+        min-height: 200px;
+    }
+    .postblock .postfoot .right,
+    .postblock .postfoot .right>span {
+        display: block;
+    }
 }
