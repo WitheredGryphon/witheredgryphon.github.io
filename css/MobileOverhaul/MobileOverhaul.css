@@ -10,4 +10,8 @@
 	.force-wide-design #wrapper {
 		padding: 0;
 	}
+	
+	.drawer-container {
+		display: inline;
+	}
 }
