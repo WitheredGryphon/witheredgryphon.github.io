@@ -1,17 +1,5 @@
 /** iPhone 5/SE **/
-@media screen and (max-width:320px) {
-	html::before {
-		content: none;
-	}
-	
-	.drawer-container {
-		display: inline;
-	}
-	
-	#wrapper {
-		padding: 0;
-	}
-	
+@media screen and (max-width:768px) {
 	.force-wide-design #wrapper {
 		padding: 0;
 	}
