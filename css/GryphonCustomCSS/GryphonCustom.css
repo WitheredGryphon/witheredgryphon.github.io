@@ -125,6 +125,10 @@ span.userlevel {
 	display: none;
 }
 
+.postuser:hover {
+	background-color: black!important;
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
