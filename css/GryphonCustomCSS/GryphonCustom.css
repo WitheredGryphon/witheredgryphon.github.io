@@ -116,6 +116,11 @@ span.userlevel {
 	margin: 0 auto;
 }
 
+/* Test Code */
+div.background-image, div.user-card { background-image: none!important; }
+div.postuser { background-color: transparent!important; }
+
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
