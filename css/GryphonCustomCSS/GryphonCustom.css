@@ -125,8 +125,9 @@ span.userlevel {
 	display: none;
 }
 
-.postuser:hover .has-background-image {
+.postrender .postinner > .postuser:hover .background-image {
 	background-color: black!important;
+	background-image: unset!important;
 }
 
 /*
