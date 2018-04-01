@@ -48,3 +48,8 @@ body.page-forum .forumpanel {
 body.page-forum .threadviewsection .postblock {
 	width: 100%
 }
+
+body.page-forum .threadlistsection .threadlist {
+	max-width: 85%;
+	width: 85%;
+}
