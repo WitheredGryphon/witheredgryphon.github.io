@@ -116,7 +116,7 @@ span.userlevel {
 }
 
 /* Testing CSS3 n-th child Selector */
-.forumpanel .forumblock {
+#wrapper #content .forumcategoryblock .forumpanel {
 	background-color: black;
 }
 
