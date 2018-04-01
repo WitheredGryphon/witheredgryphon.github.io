@@ -116,8 +116,8 @@ span.userlevel {
 }
 
 /* Testing CSS3 n-th child Selector */
-.forumpanel:nth-child(11) {
-	display: none;
+.forumpanel .forumblock {
+	background-color: black;
 }
 
 /*
