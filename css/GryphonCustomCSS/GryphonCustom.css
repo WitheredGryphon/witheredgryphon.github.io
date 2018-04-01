@@ -117,11 +117,13 @@ span.userlevel {
 }
 
 /* Test Code */
-div.user-card { 
-	background-image: none;
+.user-card { 
 	display: none;
 }
 
+.postuser:hover .user-card {
+	display: none;
+}
 
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
