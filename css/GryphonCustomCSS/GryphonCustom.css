@@ -117,11 +117,7 @@ span.userlevel {
 
 /* Testing CSS3 n-th child Selector */
 #wrapper #content .forumcategoryblock .forumpanel:nth-child(11) {
-	background-color: black;
-}
-
-#wrapper #content .forumcategoryblock .forumpanel .forumlastpost:nth-child(11) {
-	background-color: black;
+	display: none;
 }
 
 /*
