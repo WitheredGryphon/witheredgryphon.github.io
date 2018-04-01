@@ -116,20 +116,6 @@ span.userlevel {
 	margin: 0 auto;
 }
 
-/* Test Code */
-.user-card { 
-	display: none;
-}
-
-.postuser:hover .user-card {
-	display: none;
-}
-
-.postrender .postinner > .postuser:hover .background-image {
-	background-color: black!important;
-	background-image: unset!important;
-}
-
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
