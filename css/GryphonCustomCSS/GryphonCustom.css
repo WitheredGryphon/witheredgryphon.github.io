@@ -117,8 +117,10 @@ span.userlevel {
 }
 
 /* Test Code */
-div.background-image, div.user-card { background-image: none!important; }
-div.postuser { background-color: transparent!important; }
+div.user-card { 
+	background-image: none;
+	display: none;
+}
 
 
 /*
