@@ -116,7 +116,7 @@ span.userlevel {
 }
 
 /* Testing CSS3 n-th child Selector */
-.forumchildren:nth-child(11) {
+.forumpanel:nth-child(11) {
 	display: none;
 }
 
