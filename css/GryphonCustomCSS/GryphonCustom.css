@@ -22,6 +22,7 @@ html::before {
 }
 
 .postrender .postinner > .postuser .postavatar {
+	margin-right: 1px;
 	transition: none;
 }
 
