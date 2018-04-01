@@ -115,11 +115,6 @@ span.userlevel {
 	margin: 0 auto;
 }
 
-/* Testing CSS3 n-th child Selector */
-#wrapper #content .forumcategoryblock .forumpanel:nth-child(11) {
-	display: none;
-}
-
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
