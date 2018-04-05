@@ -131,7 +131,11 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 	border: 1px solid #002aa2;
 	border-right: none;
 	padding-top: 1px;
-    padding-bottom: 1px;
+	padding-bottom: 1px;
+}
+
+.threadsubforum.subforum-cars {
+	background-color: orange;
 }
 
 /*
