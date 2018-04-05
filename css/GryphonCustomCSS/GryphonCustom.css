@@ -136,6 +136,7 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 
 a.threadsubforum.subforum-cars {
 	background-color: orange;
+	dispaly: none!important;
 }
 
 /*
