@@ -116,6 +116,16 @@ span.userlevel {
 	margin: 0 auto;
 }
 
+/* Fix font colors */
+.ql-container.ql-snow .ql-editor h1, .ql-container.ql-snow .ql-editor h2, .ql-container.ql-snow .ql-editor h3, .ql-container.ql-snow .ql-editor h4, .ql-container.ql-snow .ql-editor h5, .ql-container.ql-snow .ql-editor h6, .ql-container.ql-snow .ql-editor h7, .ql-container.ql-snow .ql-editor p {
+	color: #000;
+}
+
+/* test for sub-thread removal */
+.threadblock.forumpanel > .has-childforum.has-childforum-meta {
+	display: none;
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
