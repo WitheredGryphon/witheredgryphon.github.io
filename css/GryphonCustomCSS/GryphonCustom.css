@@ -122,7 +122,7 @@ span.userlevel {
 }
 
 /* test for sub-thread removal */
-.threadblock.forumpanel > .has-childforum.has-childforum-meta {
+ul.threadblock.forumpanel.has-childforum {
 	display: none;
 }
 
