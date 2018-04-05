@@ -121,10 +121,10 @@ span.userlevel {
 	color: #000;
 }
 
-/* test for sub-thread removal */
+/* test for sub-thread removal 
 ul.threadblock.forumpanel.has-childforum {
 	display: none;
-}
+}*/
 
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
