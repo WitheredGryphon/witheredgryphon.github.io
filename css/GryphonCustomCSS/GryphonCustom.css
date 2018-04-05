@@ -132,10 +132,11 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 	border-right: none;
 	padding-top: 1px;
 	padding-bottom: 1px;
+	background-color: unset;
 }
 
 a.threadsubforum.subforum-cars {
-	background-color: orange !important;
+	background-color: orange;
 }
 
 /*
