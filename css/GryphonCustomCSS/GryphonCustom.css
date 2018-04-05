@@ -130,6 +130,8 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 	border-radius: 4px 0px 0px 4px;
 	border: 1px solid #002aa2;
 	border-right: none;
+	padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 /*
