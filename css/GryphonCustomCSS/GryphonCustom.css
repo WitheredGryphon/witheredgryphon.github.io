@@ -121,10 +121,16 @@ span.userlevel {
 	color: #000;
 }
 
-/* test for sub-thread removal 
-ul.threadblock.forumpanel.has-childforum {
-	display: none;
-}*/
+body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
+	position: absolute;
+	left: -85px;
+	writing-mode: tb-rl;
+	top: 0px;
+	text-align: center;
+	border-radius: 4px 0px 0px 4px;
+	border: 1px solid #002aa2;
+	border-right: none;
+}
 
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
