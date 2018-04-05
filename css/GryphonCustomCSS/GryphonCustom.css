@@ -134,7 +134,7 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 	padding-bottom: 1px;
 }
 
-a.threadsubforum .subforum-cars {
+a.threadsubforum.subforum-cars {
 	background-color: orange;
 }
 
