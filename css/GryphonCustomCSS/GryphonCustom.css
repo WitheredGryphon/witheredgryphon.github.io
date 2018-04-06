@@ -201,9 +201,15 @@ a.threadsubforum.subforum-overwatch {
 	font-size: 0px;
 }
 
-a.threadsubforum.subforum-overwatch {
-	content: 'OW';
-	font-size: 0.6rem !important;
+a.threadsubforum.subforum-overwatch > * {
+	display: none !important;
+	content: '' !important;
+	visibility: hidden !important;
+	font-size: 0px !important;
+}
+
+a.threadsubforum.subforum-overwatch::after {
+	content: 'OW' !important;
 }
 
 /*
