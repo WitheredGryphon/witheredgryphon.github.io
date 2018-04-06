@@ -133,6 +133,10 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 	padding-bottom: 1px;
 }
 
+body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum:after {
+	content: '';
+}
+
 a.threadsubforum.subforum-cars {
 	background-color: orange !important;
 	border: 1px solid #7D6712;
