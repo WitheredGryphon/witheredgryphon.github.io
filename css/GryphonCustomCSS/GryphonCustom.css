@@ -177,18 +177,19 @@ a.threadsubforum.subforum-lifestyle {
 	left: -87px !important;
 }
 
-a.threadsubforum.subforum-overwatch::before {
-	content: '';
+a.threadsubforum.subforum-farcry {
+	background-color: #02A94C !important;
+	border: 1px solid #005023;
 }
 
-a.threadsubforum.subforum-overwatch::after {
-	content: 'OW';
-	background-color: #0085ef !important;
-	border: 1px solid #00223e;
+a.threadsubforum.subforum-halflife {
+	background-color: #05af0c !important;
+	border: 1px solid #09420b;
 }
 
-a.threadsubforum.subforum-overwatch {
-	visibility: hidden;
+a.threadsubforum.subforum-pubg {
+	background-color: #013e9a !important;
+	border: 1px solid #000;
 }
 
 /*
