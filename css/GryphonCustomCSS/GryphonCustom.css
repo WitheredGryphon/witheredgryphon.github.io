@@ -143,6 +143,11 @@ a.threadsubforum.subforum-meta {
 	border: 1px solid #7D1212;	
 }
 
+a.threadsubforum.subforum-fashion {
+	background-color: #2483e4 !important;
+	border 1px solid #083563;
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
