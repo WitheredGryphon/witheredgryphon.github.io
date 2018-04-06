@@ -118,7 +118,7 @@ span.userlevel {
 
 /* Fix font colors */
 .ql-container.ql-snow .ql-editor h1, .ql-container.ql-snow .ql-editor h2, .ql-container.ql-snow .ql-editor h3, .ql-container.ql-snow .ql-editor h4, .ql-container.ql-snow .ql-editor h5, .ql-container.ql-snow .ql-editor h6, .ql-container.ql-snow .ql-editor h7, .ql-container.ql-snow .ql-editor p {
-	color: #000;
+	color: #3a3a3a;
 }
 
 body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
@@ -204,12 +204,12 @@ a.threadsubforum.subforum-gip {
 	border: 1px solid #6B413E;
 }
 
-a.threadsubforum subforum-mario {
+a.threadsubforum.subforum-mario {
 	background-color: #920000 !important;
 	border: 1px solid #000;
 }
 
-a.threadsubforum subforum-dota {
+a.threadsubforum.subforum-dota {
 	background-color: #2b5a00 !important;
 	border: 1px solid #000;
 }
