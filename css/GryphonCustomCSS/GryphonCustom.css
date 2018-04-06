@@ -149,13 +149,13 @@ a.threadsubforum.subforum-fashion {
 }
 
 a.threadsubforum.subforum-guns {
-	background-color: #4fa052 !important;
-	border: 1px solid #29542b;
+	background-color: #05af0c !important;
+	border: 1px solid #09420b;
 }
 
 a.threadsubforum.subforum-drugs {
-	background-color: #777 !important;
-	border: 1px solid #222;
+	background-color: #670092 !important;
+	border: 1px solid #391448;
 }
 
 a.threadsubforum.subforum-fitness {
@@ -166,6 +166,11 @@ a.threadsubforum.subforum-fitness {
 a.threadsubforum.subforum-science {
 	background-color: #d425be !important;
 	border: 1px solid #711465;
+}
+
+a.threadsubforum.subforum-lifestyle {
+	background-color: #c96de0 !important;
+	border: 1px solid #552661;
 }
 
 /*
