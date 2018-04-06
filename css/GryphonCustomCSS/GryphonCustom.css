@@ -185,6 +185,10 @@ a.threadsubforum.subforum-farcry {
 a.threadsubforum.subforum-halflife {
 	background-color: #05af0c !important;
 	border: 1px solid #09420b;
+	font-size: 0.6rem !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
+	left: -87px !important;
 }
 
 a.threadsubforum.subforum-pubg {
