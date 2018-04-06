@@ -183,13 +183,9 @@ a.threadsubforum.subforum-science, a.threadsubforum.subforum-pubg, a.threadsubfo
 	border-right: none !important;
 }
 
-a.threadsubforum.subforum-lifestyle {
+a.threadsubforum.subforum-social {
 	background-color: #c96de0 !important;
 	border: 1px solid #552661 !important;
-	font-size: 0.6rem !important;
-	padding-right: 6px !important;
-	padding-left: 6px !important;
-	left: -87px !important;
 	border-right: none !important;
 }
 
