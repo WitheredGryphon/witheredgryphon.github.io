@@ -164,7 +164,7 @@ a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry, a.threadsubfor
 	border-right: none !important;
 }
 
-a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs, a.threadsubforum.subforum-gd20, a.threadsubforum.subforum-cars {
+a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs, a.threadsubforum.subforum-gd20, a.threadsubforum.subforum-vrsex {
 	background-color: #7c0dab !important;
 	border: 1px solid #000 !important;
 	border-right: none !important;
@@ -202,9 +202,9 @@ a.threadsubforum.subforum-fortnite, a.threadsubforum.subforum-mapping, a.threads
 	background-color: #00a790 !important;
 	border: 1px solid #03483e !important;
 	font-size: 0.6rem !important;
-	padding-right: 6px !important;
-	padding-left: 6px !important;
-	left: -87px !important;
+	padding-right: 7px !important;
+	padding-left: 7px !important;
+	left: -91px !important;
 	border-right: none !important;
 }
 
@@ -250,9 +250,9 @@ a.threadsubforum.subforum-overwatch {
 	background-color: #63a9e4 !important;
 	border: 1px solid #375d7d !important;
 	font-size: 0.5rem !important;
-	padding-right: 6px !important;
+	padding-right: 8px !important;
 	padding-left: 7px !important;
-	left: -88px !important;
+	left: -92px !important;
 	border-right: none !important;
 }
 
