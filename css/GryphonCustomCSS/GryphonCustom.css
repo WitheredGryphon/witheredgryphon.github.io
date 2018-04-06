@@ -116,9 +116,134 @@ span.userlevel {
 	margin: 0 auto;
 }
 
+
 /* Fix font colors */
 .ql-container.ql-snow .ql-editor h1, .ql-container.ql-snow .ql-editor h2, .ql-container.ql-snow .ql-editor h3, .ql-container.ql-snow .ql-editor h4, .ql-container.ql-snow .ql-editor h5, .ql-container.ql-snow .ql-editor h6, .ql-container.ql-snow .ql-editor h7, .ql-container.ql-snow .ql-editor p {
 	color: #3a3a3a;
+}
+
+
+/* Colorful Tabs */
+body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
+	position: absolute;
+	left: -85px;
+	writing-mode: tb-rl;
+	top: 0px;
+	text-align: center;
+	border-radius: 4px 0px 0px 4px;
+	border-right: none;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+a.threadsubforum.subforum-cars, a.threadsubforum.subforum-fbx, a.threadsubforum.subforum-tub {
+	background-color: #f5a20b !important;
+	border: 1px solid #7D6712;
+}
+
+a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2, a.threadsubforum.subforum-gd10 {
+	background-color: red !important;
+	border: 1px solid #7D1212;	
+}
+
+a.threadsubforum.subforum-fashion, a.threadsubforum.subforum-gta, a.threadsubforum.subforum-unity {
+	background-color: #2483e4 !important;
+	border: 1px solid #083563;
+}
+
+a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry, a.threadsubforum.subforum-ue, a.threadsubforum.subforum-gd9 {
+	background-color: #05af0c !important;
+	border: 1px solid #09420b;
+}
+
+a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs, a.threadsubforum.subforum-gd20 {
+	background-color: #7c0dab !important;
+	border: 1px solid #000;
+}
+
+a.threadsubforum.subforum-fitness, a.threadsubforum.subforum-gd26 {
+	background-color: #00a790 !important;
+	border: 1px solid #03483e;
+}
+
+a.threadsubforum.subforum-science, a.threadsubforum.subforum-pubg, a.threadsubforum.subforum-linux, a.threadsubforum.subforum-gd14 {
+	background-color: #013e9a !important;
+	border: 1px solid #000;
+}
+
+a.threadsubforum.subforum-lifestyle {
+	background-color: #c96de0 !important;
+	border: 1px solid #552661;
+	font-size: 0.6rem !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
+	left: -87px !important;
+}
+
+a.threadsubforum.subforum-halflife {
+	background-color: #f5a20b !important;
+	border: 1px solid #7D6712;
+	font-size: 0.6rem !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
+	left: -87px !important;
+}
+
+a.threadsubforum.subforum-fortnite, a.threadsubforum.subforum-mapping {
+	background-color: #00a790 !important;
+	border: 1px solid #03483e;
+	font-size: 0.6rem !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
+	left: -87px !important;
+}
+
+a.threadsubforum.subforum-gip {
+	background-color: #dc8282 !important;
+	border: 1px solid #6B413E;
+}
+
+a.threadsubforum.subforum-mario {
+	background-color: #920000 !important;
+	border: 1px solid #000;
+}
+
+a.threadsubforum.subforum-dota {
+	background-color: #2b5a00 !important;
+	border: 1px solid #000;
+}
+
+a.threadsubforum.subforum-vrgaming, a.threadsubforum.subforum-newsnode {
+	background-color: #960045 !important;
+	border: 1px solid #000;
+	font-size: 0.56rem !important;
+	padding-right: 6px !important;
+	padding-left: 7px !important;
+	left: -88px !important;
+}
+
+a.threadsubforum.subforum-newsnode {
+	background-color: #013e9a  !important;
+	border: 1px solid #000;
+	font-size: 0.55rem !important;
+	padding-right: 6px !important;
+	padding-left: 7px !important;
+	left: -88px !important;
+}
+
+a.threadsubforum.subforum-overwatch {
+	background-color: #63a9e4 !important;
+	border: 1px solid #375d7d;
+	font-size: 0.5rem !important;
+	padding-right: 6px !important;
+	padding-left: 7px !important;
+	left: -88px !important;
+}
+
+
+/* Remove front-page Subforums */
+body.page-forum .forumblock .forumname .forumsubforums {
+	display: none;
 }
 
 /*
