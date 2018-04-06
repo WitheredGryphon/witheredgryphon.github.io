@@ -219,6 +219,15 @@ a.threadsubforum.subforum-vrgaming, a.threadsubforum.subforum-newsnode {
 	left: -88px !important;
 }
 
+a.threadsubforum.subforum-newsnode {
+	background-color: #f5a20b !important;
+	border: 1px solid #7D6712;
+	font-size: 0.55rem !important;
+	padding-right: 6px !important;
+	padding-left: 7px !important;
+	left: -88px !important;
+}
+
 a.threadsubforum.subforum-overwatch {
 	background-color: #63a9e4 !important;
 	border: 1px solid #375d7d;
