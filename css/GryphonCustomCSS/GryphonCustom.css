@@ -177,6 +177,10 @@ a.threadsubforum.subforum-lifestyle {
 	left: -87px !important;
 }
 
+a.threadsubforum.subforum-lifestyle::after {
+	content: 'OW Game';
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
