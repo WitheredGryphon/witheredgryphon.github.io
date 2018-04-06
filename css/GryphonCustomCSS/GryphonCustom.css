@@ -138,7 +138,7 @@ a.threadsubforum.subforum-cars {
 	border: 1px solid #7D6712;
 }
 
-a.threadsubforum.subforum-meta, a.threadsubforum.subforum-pubg {
+a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2 {
 	background-color: red !important;
 	border: 1px solid #7D1212;	
 }
@@ -153,7 +153,7 @@ a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry {
 	border: 1px solid #09420b;
 }
 
-a.threadsubforum.subforum-drugs {
+a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs {
 	background-color: #7c0dab !important;
 	border: 1px solid #000;
 }
@@ -180,6 +180,15 @@ a.threadsubforum.subforum-lifestyle {
 a.threadsubforum.subforum-halflife {
 	background-color: orange !important;
 	border: 1px solid #7D6712;
+	font-size: 0.6rem !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
+	left: -87px !important;
+}
+
+a.threadsubforum.subforum-fortnite {
+	background-color: #00a790 !important;
+	border: 1px solid #03483e;
 	font-size: 0.6rem !important;
 	padding-right: 6px !important;
 	padding-left: 6px !important;
