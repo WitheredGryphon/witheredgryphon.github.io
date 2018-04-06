@@ -124,7 +124,7 @@ span.userlevel {
 
 
 /* Colorful Tabs */
-body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
+body.page-forum .threadlistsection .threadblock .threadmain a.threadsubforum {
 	position: absolute;
 	left: -85px;
 	writing-mode: tb-rl;
