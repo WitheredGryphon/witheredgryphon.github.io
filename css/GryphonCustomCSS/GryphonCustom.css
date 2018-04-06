@@ -126,7 +126,6 @@ span.userlevel {
 /* Colorful Tabs */
 body.page-forum .threadlistsection .threadblock .threadmain a.threadsubforum {
 	position: absolute;
-	left: -85px;
 	writing-mode: tb-rl;
 	top: 0px;
 	text-align: center;
@@ -136,7 +135,7 @@ body.page-forum .threadlistsection .threadblock .threadmain a.threadsubforum {
 	padding-bottom: 1px;
 	color: rgba(255,255,255,0.8);
 	border: none;
-	left: -90px;
+	left: -89px;
 	padding-left: 6px;
 	padding-right: 6px;
 }
@@ -189,7 +188,7 @@ a.threadsubforum.subforum-social {
 	border-right: none !important;
 }
 
-a.threadsubforum.subforum-halflife {
+a.threadsubforum.subforum-halflife, a.threadsubforum.subforum-therapy {
 	background-color: #f5a20b !important;
 	border: 1px solid #7D6712 !important;
 	font-size: 0.6rem !important;
