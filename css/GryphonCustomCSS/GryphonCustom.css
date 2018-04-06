@@ -204,6 +204,16 @@ a.threadsubforum.subforum-gip {
 	border: 1px solid #6B413E;
 }
 
+a.threadsubforum subforum-mario {
+	background-color: #920000 !important;
+	border: 1px solid #000;
+}
+
+a.threadsubforum subforum-dota {
+	background-color: #2b5a00 !important;
+	border: 1px solid #000;
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
