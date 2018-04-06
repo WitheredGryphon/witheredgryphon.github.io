@@ -138,7 +138,7 @@ a.threadsubforum.subforum-cars, a.threadsubforum.subforum-fbx, a.threadsubforum.
 	border: 1px solid #7D6712;
 }
 
-a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2, a.threadsubforum.subforum-mapping, a.threadsubforum.subforum-gd10 {
+a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2, a.threadsubforum.subforum-gd10 {
 	background-color: red !important;
 	border: 1px solid #7D1212;	
 }
@@ -186,7 +186,7 @@ a.threadsubforum.subforum-halflife {
 	left: -87px !important;
 }
 
-a.threadsubforum.subforum-fortnite {
+a.threadsubforum.subforum-fortnite, a.threadsubforum.subforum-mapping {
 	background-color: #00a790 !important;
 	border: 1px solid #03483e;
 	font-size: 0.6rem !important;
