@@ -147,7 +147,7 @@ a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2 {
 	border: 1px solid #7D1212;	
 }
 
-a.threadsubforum.subforum-fashion {
+a.threadsubforum.subforum-fashion, a.threadsubforum.subforum-gta {
 	background-color: #2483e4 !important;
 	border: 1px solid #083563;
 }
@@ -199,21 +199,9 @@ a.threadsubforum.subforum-fortnite {
 	left: -87px !important;
 }
 
-a.threadsubforum.subforum-overwatch {
-	background-color: blue;
-	border: 1px solid #000;
-	font-size: 0px;
-}
-
-a.threadsubforum.subforum-overwatch > * {
-	display: none !important;
-	content: '' !important;
-	visibility: hidden !important;
-	font-size: 0px !important;
-}
-
-a.threadsubforum.subforum-overwatch::after {
-	content: 'OW' !important;
+a.threadsubforum.subforum-gip {
+	background-color: #dc8282 !important;
+	border: 1px solid #6B413E;
 }
 
 /*
