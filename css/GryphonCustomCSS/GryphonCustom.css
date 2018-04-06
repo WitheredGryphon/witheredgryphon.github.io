@@ -256,12 +256,6 @@ a.threadsubforum.subforum-overwatch {
 	border-right: none !important;
 }
 
-
-/* Remove front-page Subforums */
-body.page-forum .forumblock .forumname .forumsubforums {
-	display: none;
-}
-
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
