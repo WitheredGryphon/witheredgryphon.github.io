@@ -186,6 +186,17 @@ a.threadsubforum.subforum-halflife {
 	left: -87px !important;
 }
 
+a.threadsubforum.subforum-overwatch {
+	background-color: blue;
+	border: 1px solid #000;
+	font-size: 0px;
+}
+
+a.threadsubforum.subforum-overwatch {
+	content: 'OW';
+	font-size: 0.6rem !important;
+}
+
 /*
 @import url("https://cdn.rawgit.com/Tamschi/Newpunch-Hover-Ratings/master/style.css");
 @import url("https://witheredgryphon.github.io/css/GryphonCustomCSS/GryphonCustom.css");
