@@ -182,12 +182,13 @@ a.threadsubforum.subforum-overwatch::before {
 }
 
 a.threadsubforum.subforum-overwatch::after {
-	content: 'OW Game';
+	content: '';
 }
 
 a.threadsubforum.subforum-overwatch {
 	background-color: #0085ef !important;
 	border: 1px solid #00223e;
+	content: 'OW';
 }
 
 /*
