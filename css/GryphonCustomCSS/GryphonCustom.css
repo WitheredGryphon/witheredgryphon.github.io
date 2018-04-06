@@ -133,41 +133,37 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
 	padding-bottom: 1px;
 }
 
-body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum:after {
-	content: '';
-}
-
-a.threadsubforum.subforum-cars {
+a.threadsubforum.subforum-cars, a.threadsubforum.subforum-fbx, a.threadsubforum.subforum-tub {
 	background-color: #f5a20b !important;
 	border: 1px solid #7D6712;
 }
 
-a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2 {
+a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2, a.threadsubforum.subforum-mapping, a.threadsubforum.subforum-gd10 {
 	background-color: red !important;
 	border: 1px solid #7D1212;	
 }
 
-a.threadsubforum.subforum-fashion, a.threadsubforum.subforum-gta {
+a.threadsubforum.subforum-fashion, a.threadsubforum.subforum-gta, a.threadsubforum.subforum-unity {
 	background-color: #2483e4 !important;
 	border: 1px solid #083563;
 }
 
-a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry {
+a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry, a.threadsubforum.subforum-ue, a.threadsubforum.subforum-gd9 {
 	background-color: #05af0c !important;
 	border: 1px solid #09420b;
 }
 
-a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs {
+a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs, a.threadsubforum.subforum-gd20 {
 	background-color: #7c0dab !important;
 	border: 1px solid #000;
 }
 
-a.threadsubforum.subforum-fitness {
+a.threadsubforum.subforum-fitness, a.threadsubforum.subforum-gd26 {
 	background-color: #00a790 !important;
 	border: 1px solid #03483e;
 }
 
-a.threadsubforum.subforum-science, a.threadsubforum.subforum-pubg {
+a.threadsubforum.subforum-science, a.threadsubforum.subforum-pubg, a.threadsubforum.subforum-linux, a.threadsubforum.subforum-gd14 {
 	background-color: #013e9a !important;
 	border: 1px solid #000;
 }
@@ -214,7 +210,7 @@ a.threadsubforum.subforum-dota {
 	border: 1px solid #000;
 }
 
-a.threadsubforum.subforum-vrgaming {
+a.threadsubforum.subforum-vrgaming, a.threadsubforum.subforum-newsnode {
 	background-color: #960045 !important;
 	border: 1px solid #000;
 	font-size: 0.56rem !important;
