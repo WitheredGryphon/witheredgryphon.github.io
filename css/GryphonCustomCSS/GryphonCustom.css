@@ -177,8 +177,17 @@ a.threadsubforum.subforum-lifestyle {
 	left: -87px !important;
 }
 
-a.threadsubforum.subforum-lifestyle::after {
+a.threadsubforum.subforum-overwatch::before {
+	content: '';
+}
+
+a.threadsubforum.subforum-overwatch::after {
 	content: 'OW Game';
+}
+
+a.threadsubforum.subforum-overwatch {
+	background-color: #0085ef !important;
+	border: 1px solid #00223e;
 }
 
 /*
