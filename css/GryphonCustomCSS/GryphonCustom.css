@@ -1,262 +1,263 @@
-/** OldPunch Background **/
-html::before {
-	background-image: url("https://horobox.co.uk/u/7Jd6.png");
-	background-size: unset;
-}
-
-
-/** More Opaque Backgrounds **/
-.postrender .postinner > .postuser .background-image:after {
-    background: linear-gradient(to bottom, rgba(255,255,255,0), #e6e6e6 496px);
-}
-
-
-/** Transition Stuff **/
-.postrender .postinner > .postuser .background-image::before {
-	background-color: rgba(230,230,230,0.35) !important;
-	transition: 0.125s all ease-out !important;
-}
-
-.postrender .postinner > .postuser { 
-	max-width: 256px; flex-grow: 1; flex-basis: 256px; 
-}
-
-.postrender .postinner > .postuser .postavatar {
-	margin-right: 1px;
-	transition: none;
-}
-
-.postrender .postinner > .postuser .username {
-	transition: 0.25s all ease-out !important;
-}
-
-
-/** Speedy Spoiler Transition **/
-spoiler {
-	transition: all 0.25s ease-in-out;
-}
-
-
-/** Changed Username Colors **/
-.username.user-moderator a, .username.user-admin a {
-	color: #7bb36a !important;
-}
-
-.username.user-gold a {
-	color: #cfbb34;
-}
-
-
-/** Post Highlighter **/	
-.postblock-own .postmain .postrender .postinner > .postcontent {
-	background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
-}
-
-
-/** Video Player Sizing Fix **/
-.ec_youtube_root, .ec_vidme_root {
-	max-height: 500px;
-	max-width: 900px;
-	padding: 0;
-	margin-bottom: 20px;
-	margin-top: 20px
-}
-
-.videoWrapper iframe, .audioWrapper iframe {
-	width: 100%;
-	height: 100%;
-}
-	
-	
-/** Altered Usernames **/	
-.userlevel {
-    width: 100%;
-    text-align: right;
-}
-
-.userlevel::after {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: auto;
-    content: attr(title);
-    display: inline-block;
-    padding: 2px 6px;
-}
-
-span.userlevel {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: auto;
-    padding: 2px 6px;
-    text-shadow: 1px 1px 4px #333;
-    font-size: 0.6rem;
-    border-radius: 0;
-}
-
-.postrender .postinner > .postuser {
-    padding: 0px;
-}
-
-.postrender .postinner > .postuser .username {
-    text-align: center;
-    text-shadow: 1px 1px 0px #0009;
-    font-weight: bolder;
-    padding-bottom: 0.8rem;
-    padding-top: 1.7rem;
-    top: 0px;
-}	
-
-.ec_iframely_root .ec_iframely .iframely-embed {
-	max-height: inherit;
-	max-width: 900px;
-	display: block;
-	margin: 0 auto;
-}
-
-
-/* Fix font colors */
-.ql-container.ql-snow .ql-editor h1, .ql-container.ql-snow .ql-editor h2, .ql-container.ql-snow .ql-editor h3, .ql-container.ql-snow .ql-editor h4, .ql-container.ql-snow .ql-editor h5, .ql-container.ql-snow .ql-editor h6, .ql-container.ql-snow .ql-editor h7, .ql-container.ql-snow .ql-editor p {
-	color: #3a3a3a;
-}
-
-
-/* Colorful Tabs */
-body.page-forum .threadlistsection .threadblock .threadmain a.threadsubforum {
-	position: absolute;
-	writing-mode: tb-rl;
-	top: 0px;
-	text-align: center;
-	border-radius: 4px 0px 0px 4px;
-	border-right: none;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	color: rgba(255,255,255,0.8);
-	border: none;
-	left: -89px;
-	padding-left: 6px;
-	padding-right: 6px;
-}
-
-a.threadsubforum.subforum-cars, a.threadsubforum.subforum-fbx, a.threadsubforum.subforum-tub, a.threadsubforum.subforum-film {
-	background-color: #f5a20b !important;
-	border: 1px solid #7D6712 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2, a.threadsubforum.subforum-gd10, a.threadsubforum.subforum-osx {
-	background-color: red !important;
-	border: 1px solid #7D1212 !important;
-	border-right: none !important;	
-}
-
-a.threadsubforum.subforum-fashion, a.threadsubforum.subforum-gta, a.threadsubforum.subforum-unity {
-	background-color: #2483e4 !important;
-	border: 1px solid #083563 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry, a.threadsubforum.subforum-ue, a.threadsubforum.subforum-gd9 {
-	background-color: #05af0c !important;
-	border: 1px solid #09420b !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs, a.threadsubforum.subforum-gd20, a.threadsubforum.subforum-vrsex {
-	background-color: #7c0dab !important;
-	border: 1px solid #000 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-fitness, a.threadsubforum.subforum-gd26, a.threadsubforum.subforum-tv {
-	background-color: #00a790 !important;
-	border: 1px solid #03483e !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-science, a.threadsubforum.subforum-pubg, a.threadsubforum.subforum-linux, a.threadsubforum.subforum-gd14 {
-	background-color: #013e9a !important;
-	border: 1px solid #000 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-social, a.threadsubforum.subforum-anime, a.threadsubforum.subforum-build {
-	background-color: #c96de0 !important;
-	border: 1px solid #552661 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-halflife, a.threadsubforum.subforum-therapy {
-	background-color: #f5a20b !important;
-	border: 1px solid #7D6712 !important;
-	font-size: 0.6rem !important;
-	padding-right: 7px !important;
-	padding-left: 7px !important;
-	left: -91px !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-fortnite, a.threadsubforum.subforum-mapping, a.threadsubforum.subforum-windows {
-	background-color: #00a790 !important;
-	border: 1px solid #03483e !important;
-	font-size: 0.6rem !important;
-	padding-right: 7px !important;
-	padding-left: 7px !important;
-	left: -91px !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-gip {
-	background-color: #dc8282 !important;
-	border: 1px solid #6B413E !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-mario, a.threadsubforum.subforum-music {
-	background-color: #920000 !important;
-	border: 1px solid #000 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-dota {
-	background-color: #2b5a00 !important;
-	border: 1px solid #000 !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-vrgaming {
-	background-color: #960045 !important;
-	border: 1px solid #000 !important;
-	font-size: 0.56rem !important;
-	padding-right: 8px !important;
-	padding-left: 7px !important;
-	left: -92px !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-newsnode {
-	background-color: #013e9a  !important;
-	border: 1px solid #000 !important;
-	font-size: 0.55rem !important;
-	padding-right: 6px !important;
-	padding-left: 7px !important;
-	left: -88px !important;
-	border-right: none !important;
-}
-
-a.threadsubforum.subforum-overwatch {
-	background-color: #63a9e4 !important;
-	border: 1px solid #375d7d !important;
-	font-size: 0.5rem !important;
-	padding-right: 8px !important;
-	padding-left: 7px !important;
-	left: -92px !important;
-	border-right: none !important;
-}
-
 @media screen and (min-width: 769px) {
+	/** OldPunch Background **/
+	html::before {
+		background-image: url("https://horobox.co.uk/u/7Jd6.png");
+		background-size: unset;
+	}
+
+
+	/** More Opaque Backgrounds **/
+	.postrender .postinner > .postuser .background-image:after {
+		background: linear-gradient(to bottom, rgba(255,255,255,0), #e6e6e6 496px);
+	}
+
+
+	/** Transition Stuff **/
+	.postrender .postinner > .postuser .background-image::before {
+		background-color: rgba(230,230,230,0.35) !important;
+		transition: 0.125s all ease-out !important;
+	}
+
+	.postrender .postinner > .postuser { 
+		max-width: 256px; flex-grow: 1; flex-basis: 256px; 
+	}
+
+	.postrender .postinner > .postuser .postavatar {
+		margin-right: 1px;
+		transition: none;
+	}
+
+	.postrender .postinner > .postuser .username {
+		transition: 0.25s all ease-out !important;
+	}
+
+
+	/** Speedy Spoiler Transition **/
+	spoiler {
+		transition: all 0.25s ease-in-out;
+	}
+
+
+	/** Changed Username Colors **/
+	.username.user-moderator a, .username.user-admin a {
+		color: #7bb36a !important;
+	}
+
+	.username.user-gold a {
+		color: #cfbb34;
+	}
+
+
+	/** Post Highlighter **/	
+	.postblock-own .postmain .postrender .postinner > .postcontent {
+		background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
+	}
+
+
+	/** Video Player Sizing Fix **/
+	.ec_youtube_root, .ec_vidme_root {
+		max-height: 500px;
+		max-width: 900px;
+		padding: 0;
+		margin-bottom: 20px;
+		margin-top: 20px
+	}
+
+	.videoWrapper iframe, .audioWrapper iframe {
+		width: 100%;
+		height: 100%;
+	}
+		
+		
+	/** Altered Usernames **/	
+	.userlevel {
+		width: 100%;
+		text-align: right;
+	}
+
+	.userlevel::after {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: auto;
+		content: attr(title);
+		display: inline-block;
+		padding: 2px 6px;
+	}
+
+	span.userlevel {
+		display: inline-block;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		left: auto;
+		padding: 2px 6px;
+		text-shadow: 1px 1px 4px #333;
+		font-size: 0.6rem;
+		border-radius: 0;
+	}
+
+	.postrender .postinner > .postuser {
+		padding: 0px;
+	}
+
+	.postrender .postinner > .postuser .username {
+		text-align: center;
+		text-shadow: 1px 1px 0px #0009;
+		font-weight: bolder;
+		padding-bottom: 0.8rem;
+		padding-top: 1.7rem;
+		top: 0px;
+	}	
+
+	.ec_iframely_root .ec_iframely .iframely-embed {
+		max-height: inherit;
+		max-width: 900px;
+		display: block;
+		margin: 0 auto;
+	}
+
+
+	/* Fix font colors */
+	.ql-container.ql-snow .ql-editor h1, .ql-container.ql-snow .ql-editor h2, .ql-container.ql-snow .ql-editor h3, .ql-container.ql-snow .ql-editor h4, .ql-container.ql-snow .ql-editor h5, .ql-container.ql-snow .ql-editor h6, .ql-container.ql-snow .ql-editor h7, .ql-container.ql-snow .ql-editor p {
+		color: #3a3a3a;
+	}
+
+
+	/* Colorful Tabs */
+	body.page-forum .threadlistsection .threadblock .threadmain a.threadsubforum {
+		position: absolute;
+		writing-mode: tb-rl;
+		top: 0px;
+		text-align: center;
+		border-radius: 4px 0px 0px 4px;
+		border-right: none;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		color: rgba(255,255,255,0.8);
+		border: none;
+		left: -89px;
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+	a.threadsubforum.subforum-cars, a.threadsubforum.subforum-fbx, a.threadsubforum.subforum-tub, a.threadsubforum.subforum-film {
+		background-color: #f5a20b !important;
+		border: 1px solid #7D6712 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-meta, a.threadsubforum.subforum-tf2, a.threadsubforum.subforum-gd10, a.threadsubforum.subforum-osx {
+		background-color: red !important;
+		border: 1px solid #7D1212 !important;
+		border-right: none !important;	
+	}
+
+	a.threadsubforum.subforum-fashion, a.threadsubforum.subforum-gta, a.threadsubforum.subforum-unity {
+		background-color: #2483e4 !important;
+		border: 1px solid #083563 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-guns, a.threadsubforum.subforum-farcry, a.threadsubforum.subforum-ue, a.threadsubforum.subforum-gd9 {
+		background-color: #05af0c !important;
+		border: 1px solid #09420b !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-drugs, a.threadsubforum.subforum-cs, a.threadsubforum.subforum-gd20, a.threadsubforum.subforum-vrsex {
+		background-color: #7c0dab !important;
+		border: 1px solid #000 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-fitness, a.threadsubforum.subforum-gd26, a.threadsubforum.subforum-tv {
+		background-color: #00a790 !important;
+		border: 1px solid #03483e !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-science, a.threadsubforum.subforum-pubg, a.threadsubforum.subforum-linux, a.threadsubforum.subforum-gd14 {
+		background-color: #013e9a !important;
+		border: 1px solid #000 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-social, a.threadsubforum.subforum-anime, a.threadsubforum.subforum-build {
+		background-color: #c96de0 !important;
+		border: 1px solid #552661 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-halflife, a.threadsubforum.subforum-therapy {
+		background-color: #f5a20b !important;
+		border: 1px solid #7D6712 !important;
+		font-size: 0.6rem !important;
+		padding-right: 7px !important;
+		padding-left: 7px !important;
+		left: -91px !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-fortnite, a.threadsubforum.subforum-mapping, a.threadsubforum.subforum-windows {
+		background-color: #00a790 !important;
+		border: 1px solid #03483e !important;
+		font-size: 0.6rem !important;
+		padding-right: 7px !important;
+		padding-left: 7px !important;
+		left: -91px !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-gip {
+		background-color: #dc8282 !important;
+		border: 1px solid #6B413E !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-mario, a.threadsubforum.subforum-music {
+		background-color: #920000 !important;
+		border: 1px solid #000 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-dota {
+		background-color: #2b5a00 !important;
+		border: 1px solid #000 !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-vrgaming {
+		background-color: #960045 !important;
+		border: 1px solid #000 !important;
+		font-size: 0.56rem !important;
+		padding-right: 8px !important;
+		padding-left: 7px !important;
+		left: -92px !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-newsnode {
+		background-color: #013e9a  !important;
+		border: 1px solid #000 !important;
+		font-size: 0.55rem !important;
+		padding-right: 6px !important;
+		padding-left: 7px !important;
+		left: -88px !important;
+		border-right: none !important;
+	}
+
+	a.threadsubforum.subforum-overwatch {
+		background-color: #63a9e4 !important;
+		border: 1px solid #375d7d !important;
+		font-size: 0.5rem !important;
+		padding-right: 8px !important;
+		padding-left: 7px !important;
+		left: -92px !important;
+		border-right: none !important;
+	}
+
+
 	#wrapper #content .forumcategoryblock {
 		width: 100%;
 		border: none;
