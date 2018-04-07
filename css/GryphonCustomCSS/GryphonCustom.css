@@ -256,7 +256,7 @@ a.threadsubforum.subforum-overwatch {
 	border-right: none !important;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
 	#wrapper #content .forumcategoryblock {
 		width: 100%;
 		border: none;
