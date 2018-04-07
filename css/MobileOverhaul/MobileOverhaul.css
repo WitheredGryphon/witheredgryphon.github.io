@@ -55,6 +55,10 @@
 		opacity: 0.15;
 		background-size: 100vw auto;
 		z-index: 2;
+	}
+	
+	.postblock .postmain .postinner .postuser .background-image:after,
+	.postblock .postmain .postinner .postuser .background-image:after {
 		background: linear-gradient(to bottom, rgba(255,255,255,0), #e6e6e6 496px);
 	}
 	
