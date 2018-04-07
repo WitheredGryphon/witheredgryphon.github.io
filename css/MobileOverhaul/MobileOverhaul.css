@@ -34,11 +34,13 @@
 		position: absolute;
 		margin: 0;
 		padding-left: 5px;
+		left: 0;
+		top: 0;
 	}
 	
 	.postrender .postinner>.postuser .postavatar > img {
-		width: auto !important;
-		height: 50px !important;
+		width: 32px !important;
+		height: 32px !important;
 	}
 	
 	#wrapper #content .threadlist .threadblock .threadage,
