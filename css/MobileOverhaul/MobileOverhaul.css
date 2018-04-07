@@ -46,7 +46,6 @@
         display: none;
     }
 	
-	.postblock .postmain .postinner .postuser .background-image,
 	.postblock .postmain .postinner .postuser .background-image {
 		display: block !important;
 		height: calc(100% - 39px);
@@ -57,7 +56,6 @@
 		z-index: 2;
 	}
 	
-	.postblock .postmain .postinner .postuser .background-image:after,
 	.postblock .postmain .postinner .postuser .background-image:after {
 		background: linear-gradient(to bottom, rgba(255,255,255,0), #e6e6e6 496px);
 	}
@@ -69,10 +67,6 @@
 	#wrapper #content .postlist .forumpanel>.postmain .posthead * {
 		position: relative;
 		z-index: 5;
-	}
-	
-	.postblock-read .postinner>.postuser .background-image:after {
-		background: none !important;
 	}
 	
 	#wrapper #content .postlist .postblock .postmain .postinner .postuser {
@@ -96,6 +90,10 @@
 		line-height: 40px;
 		vertical-align: middle;
 		display: inline-block;
+	}
+	
+	.ql-container.ql-snow .ql-editor postquote .body .expandable {
+		padding: 0.4rem;
 	}
 	
 	/** **/
