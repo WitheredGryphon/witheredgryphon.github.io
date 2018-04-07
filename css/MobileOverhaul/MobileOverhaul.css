@@ -29,6 +29,11 @@
 	
 	/** **/
 	
+	#wrapper #content {
+		border-left: none;
+		border-right: none;
+	}
+	
 	.postrender .postinner > .postuser .postavatar {
 		display: block;
 		position: absolute;
@@ -37,6 +42,10 @@
 		padding-top: 4px;
 		left: 0;
 		top: 0;
+	}
+	
+	.postrender .postinner > .postuser {
+		max-width: unset;
 	}
 	
 	.postrender .postinner>.postuser .postavatar > img {
