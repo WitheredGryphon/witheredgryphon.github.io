@@ -52,12 +52,13 @@
 		height: calc(100% - 79px);
 		margin-top: 79px;
 		width: 100vw;
-		opacity: 0.75;
+		opacity: 0.25;
 		background-size: 100vw auto;
+		z-index: 2;
 	}
 	
 	#wrapper #content .postlist .forumpanel>.postmain .posthead {
-		height: 80px;
+		height: 40px;
 	}
 	
 	#wrapper #content .postlist .forumpanel>.postmain .posthead * {
