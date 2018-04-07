@@ -29,23 +29,31 @@
 	
 	/** **/
 	
-	.postrender .postinner>.postuser .postavatar {
-		display: block !important;
-		height: 80px;
-		width: 100vw;
-		opacity: 0.75;
-		background-size: 100vw auto;
+	.postrender .postinner > .postuser .postavatar {
+		display: block;
+		position: absolute;
+		margin: 0;
+		padding-left: 5px;
 	}
 	
 	.postrender .postinner>.postuser .postavatar > img {
 		width: auto !important;
-		height: 50px!important;
+		height: 50px !important;
 	}
 	
     #wrapper #content .threadlist .threadblock .threadage,
     #wrapper #content .threadlist .threadblock .postcount {
         display: none;
     }
+	
+	.postblock .postmain .postinner .postuser .background-image,
+	.postblock .postmain .postinner .postuser .background-image {
+		display: block !important;
+		height: 80px;
+		width: 100vw;
+		opacity: 0.75;
+		background-size: 100vw auto;
+	}
 	
 	#wrapper #content .postlist .forumpanel>.postmain .posthead {
 		height: 80px;
@@ -71,7 +79,6 @@
     #wrapper #content .pagnation.postpagnation a.page:nth-of-type(2) {
         display: block!important;
     }
-    #wrapper #content .postlist .postblock .postmain .postinner .postuser .background-image,
     #wrapper #content .postlist .postblock .postmain .postinner .postuser .user-card {
         display: none;
     }
