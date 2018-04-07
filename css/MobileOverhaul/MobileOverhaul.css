@@ -101,18 +101,21 @@
 		color: rgba(0,0,0,0) !important;
 	}
 	
-	.postrender .postinner>.postuser .background-image:before, .postrender .postinner>.postuser .background-image:after {
+	.postrender .postinner > .postuser .background-image:before, .postrender .postinner > .postuser .background-image:after {
 		background: linear-gradient(to bottom, rgba(48, 48, 48, var(--bg-opacity)) 350px, #e6e6e6 460px);
 	}
 	
 	#wrapper #content .postlist .forumpanel>.postmain .posthead {
+		background-color: #303030;
 		height: 40px;
+		color: #b7adac;
 	}
 	
 	#wrapper #content .postlist .forumpanel>.postmain .posthead * {
 		position: relative;
 		display: inline;
 		z-index: 5;
+		color: #b7adac;
 	}
 	
 	#wrapper #content .postlist .postblock .postmain .postinner .postuser {
@@ -134,11 +137,22 @@
 	}
 	
 	.postrender .postinner>.postuser .posterinfo {
+		background-color: #303030;
 		width: inherit;
 	}
 	
 	.ql-container.ql-snow .ql-editor postquote .body .expandable {
 		padding: 0.4rem;
+	}
+	
+	span.userlevel.level-10, span.userlevel.level-11, span.userlevel.level-12, 
+	span.userlevel.level-13, span.userlevel.level-14, span.userlevel.level-15, 
+	span.userlevel.level-16, span.userlevel.level-17, span.userlevel.level-18, span.userlevel.level-19 {
+		background-color: #9c20f9;
+	}
+	
+	.username.user-gold a {
+		color: #e2cb28;
 	}
 	
 	/** **/
