@@ -89,10 +89,14 @@
 		top: 0px;
 		right: 0px;
 		left: auto;
+		height: 39px;
 		padding: 2px 6px;
 		text-shadow: 1px 1px 4px #333;
 		font-size: 0.6rem;
 		border-radius: 0;
+		z-index: -1;
+		opacity: 0.5;
+		width: 100%
 	}
 	
 	.postblock .postmain .postinner .postuser .background-image:after {
@@ -110,6 +114,7 @@
 	
 	#wrapper #content .postlist .postblock .postmain .postinner .postuser {
 		height: 100%;
+		width: 100%;
 		padding: 0;
 		top: 0px;
 		background: transparent;
@@ -129,6 +134,7 @@
 		line-height: 40px;
 		vertical-align: middle;
 		display: inline-block;
+		width: inherit;
 	}
 	
 	.ql-container.ql-snow .ql-editor postquote .body .expandable {
