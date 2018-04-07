@@ -49,7 +49,8 @@
 	.postblock .postmain .postinner .postuser .background-image,
 	.postblock .postmain .postinner .postuser .background-image {
 		display: block !important;
-		height: 80px;
+		height: calc(100% - 79px);
+		margin-top: 79px;
 		width: 100vw;
 		opacity: 0.75;
 		background-size: 100vw auto;
@@ -68,6 +69,29 @@
 		background: none !important;
 	}
 	
+	#wrapper #content .postlist .postblock .postmain .postinner .postuser {
+        height: 100%;
+        padding: 0;
+        top: 0px;
+        background: transparent;
+        border: none;
+        flex-shrink: initial;
+        position: absolute;
+    }
+	
+	.ql-container.ql-snow .ql-editor {
+        height: auto;
+        min-height: 50px;
+		z-index: 3;
+		position: relative;
+    }
+	
+	.postrender .postinner>.postuser .posterinfo {
+		line-height: 40px;
+		vertical-align: middle;
+		display: inline-block;
+	}
+	
 	/** **/
 	
     #wrapper #content .pagnation.threadpagnation a.page.is-spacer,
@@ -82,15 +106,7 @@
     #wrapper #content .postlist .postblock .postmain .postinner .postuser .user-card {
         display: none;
     }
-    #wrapper #content .postlist .postblock .postmain .postinner .postuser {
-        height: 10px;
-        padding: 0;
-        top: 0px;
-        background: transparent;
-        border: none;
-        flex-shrink: initial;
-        position: absolute;
-    }
+
     .postrender .postinner>.postuser .username {
         padding: 0;
         padding-left: 5px;
@@ -121,10 +137,6 @@
     .expandable,
     .postrender .postinner .postbody {
         padding: 5px;
-    }
-    .ql-container.ql-snow .ql-editor {
-        height: auto;
-        min-height: 50px;
     }
     .postblock .postfoot .left {
         overflow: scroll;
