@@ -49,8 +49,8 @@
 	.postblock .postmain .postinner .postuser .background-image,
 	.postblock .postmain .postinner .postuser .background-image {
 		display: block !important;
-		height: calc(100% - 79px);
-		margin-top: 79px;
+		height: calc(100% - 39px);
+		margin-top: 39px;
 		width: 100vw;
 		opacity: 0.25;
 		background-size: 100vw auto;
