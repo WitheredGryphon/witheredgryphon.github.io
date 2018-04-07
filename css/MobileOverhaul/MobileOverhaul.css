@@ -26,10 +26,42 @@
     body.page-forum .forumblock .postcount {
         display: none;
     }
+	
+	/** **/
+	
+	.postrender .postinner>.postuser .postavatar {
+		display: block !important;
+		height: 80px;
+		width: 100vw;
+		opacity: 0.75;
+		background-size: 100vw auto;
+	}
+	
+	.postrender .postinner>.postuser .postavatar > img {
+		width: auto !important;
+		height: 50px!important;
+	}
+	
     #wrapper #content .threadlist .threadblock .threadage,
     #wrapper #content .threadlist .threadblock .postcount {
         display: none;
     }
+	
+	#wrapper #content .postlist .forumpanel>.postmain .posthead {
+		height: 80px;
+	}
+	
+	#wrapper #content .postlist .forumpanel>.postmain .posthead * {
+		position: relative;
+		z-index: 5;
+	}
+	
+	.postblock-read .postinner>.postuser .background-image:after {
+		background: none !important;
+	}
+	
+	/** **/
+	
     #wrapper #content .pagnation.threadpagnation a.page.is-spacer,
     #wrapper #content .pagnation.postpagnation a.page.is-spacer,
     #wrapper #content .pagnation.threadpagnation a.page.is-spacer,
