@@ -1,0 +1,13 @@
+* {
+	color: #C5C6C7;
+}
+
+body {
+	background-color: #0B0C10;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
