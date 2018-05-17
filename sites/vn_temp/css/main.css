@@ -80,8 +80,9 @@ body {
 	display: none;
 }
 
-.jcarousel li:hover + div {
+.jcarousel li img:hover + div {
 	display: block;
+	background-color: black;
 }
 
 .jcarousel img {
