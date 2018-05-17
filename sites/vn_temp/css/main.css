@@ -273,12 +273,12 @@ body {
 }
 
 /** 999 **/
-.999Hover {
+.ninesHover {
 	display: none;
 	pointer-events: none;
 }
 
-.jcarousel li img:hover + .999Hover {
+.jcarousel li img:hover + .ninesHover {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -296,7 +296,7 @@ body {
 	animation: fadein 0.5s;
 }
 
-.999ThumbCW {
+.ninesThumbCW {
 	text-align: left;
 	margin-top: 24px;
 	margin-left: 8px;
