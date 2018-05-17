@@ -2,7 +2,7 @@
 #0b0C10 - background
 #1F2833 - deep blue
 #e1e5e8 - gray (font)
-#4d4dff - teal (icons?)
+#4d4dff - neon blue
 */
 
 body {
@@ -85,11 +85,13 @@ body {
 	display: block;
 	position: absolute;
 	top: 0;
+	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
 	width: 160px;
 	height: 228px;
 	text-align: center;
+	border: 1px solid #4d4dff;
 	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 0.5s; /* Firefox < 16 */
 	-ms-animation: fadein 0.5s; /* Internet Explorer */
@@ -100,6 +102,9 @@ body {
 .shoujoThumbCW {
 	text-align: left;
 	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
 }
 
 .jcarousel img {
