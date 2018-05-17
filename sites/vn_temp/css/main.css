@@ -76,6 +76,9 @@ body {
 	box-sizing: border-box;
 }
 
+
+/** thumbnail template - Katawa Shoujo **/
+
 .shoujoHover {
 	display: none;
 	pointer-events: none;
@@ -106,6 +109,393 @@ body {
 	margin-right: 8px;
 	margin-bottom: 8px;
 }
+
+/*************************/
+
+/** Fate/Stay Night thumbnail **/
+.fsnHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .fsnHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.fsnThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Clannad **/
+.clannadHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .clannadHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.clannadThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** MGQ **/
+.mgqHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .mgqHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.mgqThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Saya no Uta **/
+.snuHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .snuHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.snuThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Planetarian **/
+.planetarianHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .planetarianHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.planetarianThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** 999 **/
+.999Hover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .999Hover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.999ThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** DoGS **/
+.dogsHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .dogsHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.dogsThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Little Busters **/
+.lbHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .lbHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.lbThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Ace Attorney **/
+.pwHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .pwHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.pwThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Rewrite **/
+.rewriteHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .rewriteHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.rewriteThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Amnesia: Memories **/
+.amnesiaHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .amnesiaHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.amnesiaThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/** Dramatical Murder **/
+.dramaticalHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .dramaticalHover {
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 8px;
+	left: 0;
+	background-color: #0b0c10c2;
+	width: 160px;
+	height: 228px;
+	text-align: center;
+	border: 1px solid #4d4dff;
+	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.5s; /* Firefox < 16 */
+	-ms-animation: fadein 0.5s; /* Internet Explorer */
+	-o-animation: fadein 0.5s; /* Opera < 12.1 */
+	animation: fadein 0.5s;
+}
+
+.dramaticalThumbCW {
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
 
 .jcarousel img {
 	display: block;
