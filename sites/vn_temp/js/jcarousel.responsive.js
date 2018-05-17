@@ -8,7 +8,7 @@
 					width = carousel.innerWidth();
 
 				if (width >= 1500) {
-					width = width / 9;
+					width = width / 10;
 				} else if (width >= 1350) {
 					width = width / 8;
 				}
@@ -24,10 +24,10 @@
 				else if (width >= 750) {
 					width = width / 4;
 				}
-				else if (width >= 550) {
+				else if (width >= 540) {
 					width = width / 3;
 				}
-				else if (width >= 300) {
+				else if (width >= 330) {
 					width = width / 2;
 				}
 
