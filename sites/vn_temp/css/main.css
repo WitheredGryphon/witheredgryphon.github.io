@@ -27,3 +27,7 @@ body {
 	font-weight: bold;
 	color: #e1e5e8;
 }
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	width: 100%;
+}
