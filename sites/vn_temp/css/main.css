@@ -14,7 +14,7 @@ body {
 
 .navbar {
 	border: none;
-	margin-bottom: 0px;
+	margin-bottom: 16px;
 }
 
 .navbar-default {
@@ -37,6 +37,7 @@ body {
 #highlightCarousel {
 	border-bottom: 2px solid;
 	border-bottom-color: #4d4dff;
+	margin-top: 16px;
 }
 
 #category {
