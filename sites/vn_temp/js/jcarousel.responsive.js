@@ -24,10 +24,10 @@
 				else if (width >= 750) {
 					width = width / 4;
 				}
-				else if (width >= 600) {
+				else if (width >= 550) {
 					width = width / 3;
 				}
-				else if (width >= 450) {
+				else if (width >= 300) {
 					width = width / 2;
 				}
 
