@@ -6,16 +6,16 @@
 #45A29E - teal (icons?)
 */
 
-* {
-	color: #C5C6C7;
-}
-
 body {
-	background-color: #0B0C10;
+	background-color: #0b0c10;
 }
 
-.navbar .navbar-nav {
-	display: inline-block;
-	float: none;
-	text-align: center;
+.navbar-default {
+	background-color: #1f2833;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+	font-weight: bold;
+	color: #c5c6c7;
 }
