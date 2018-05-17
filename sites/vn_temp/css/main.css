@@ -80,7 +80,7 @@ body {
 	display: none;
 }
 
-.jcarousel li img:hover + div {
+.jcarousel li:hover + div {
 	display: block;
 	position: absolute;
 	top: 0;
