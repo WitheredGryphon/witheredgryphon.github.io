@@ -82,7 +82,10 @@ body {
 
 .jcarousel li img:hover + div {
 	display: block;
-	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #0b0c10c2;
 }
 
 .jcarousel img {
