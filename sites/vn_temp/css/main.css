@@ -76,7 +76,7 @@ body {
     box-sizing: border-box;
 }
 
-.jcarousel li div {
+.shoujoHover {
 	display: none;
 }
 
@@ -88,13 +88,6 @@ body {
 	background-color: #0b0c10c2;
 	width: 160px;
 	height: 228px;
-}
-
-.jcarousel img:hover + .thumbContentWrapper {
-	display:block;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .jcarousel img {
