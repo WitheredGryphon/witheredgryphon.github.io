@@ -80,7 +80,7 @@ body {
 	display: none;
 }
 
-.jcarousel img:hover + #shoujoHover {
+.jcarousel img:hover + .shoujoHover {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -90,7 +90,7 @@ body {
 	height: 228px;
 }
 
-.jcarousel img:hover + #thumbContentWrapper {
+.jcarousel img:hover + .thumbContentWrapper {
 	display:block;
 	position: absolute;
 	top: 0;
