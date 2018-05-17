@@ -31,3 +31,8 @@ body {
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	width: 100%;
 }
+
+#highlightCarousel {
+	border-bottom: 2px solid;
+	border-bottom-color: white;
+}
