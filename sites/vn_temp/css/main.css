@@ -80,7 +80,7 @@ body {
 	display: none;
 }
 
-.jcarousel img:hover + div {
+.jcarousel img:hover + #shoujoHover {
 	display: block;
 	position: absolute;
 	top: 0;
