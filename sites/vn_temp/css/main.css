@@ -71,6 +71,7 @@ body {
 
 .jcarousel li {
 	float: left;
+	max-height: 228px;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
