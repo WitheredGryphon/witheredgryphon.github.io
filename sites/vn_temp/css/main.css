@@ -76,17 +76,11 @@ body {
     box-sizing: border-box;
 }
 
-.thumbContentWrapper {
+.shoujoHover {
 	display: none;
 }
 
-.shoujoHover {
-	background-color: #00000000;
-	width: 160px;
-	height: 228px;
-}
-
-.jcarousel li .shoujoHover:hover {
+.jcarousel li:hover + .shoujoHover {
 	display: block;
 	position: absolute;
 	top: 0;
