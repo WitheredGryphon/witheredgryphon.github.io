@@ -1,7 +1,7 @@
 /* 
 #0b0C10 - background
 #1F2833 - deep blue
-#c5c6c7 - gray (font)
+#e1e5e8 - gray (font)
 #66cf1 - neon blue
 #45A29E - teal (icons?)
 */
@@ -12,6 +12,7 @@ body {
 
 .navbar {
 	border: none;
+	margin-bottom: 0px;
 }
 
 .navbar-default {
@@ -24,5 +25,5 @@ body {
 
 .navbar-default .navbar-brand {
 	font-weight: bold;
-	color: #c5c6c7;
+	color: #e1e5e8;
 }
