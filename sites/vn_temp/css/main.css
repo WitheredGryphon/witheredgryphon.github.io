@@ -76,6 +76,14 @@ body {
     box-sizing: border-box;
 }
 
+.jcarousel li div {
+	display: none;
+}
+
+.jcarousel li:hover + div {
+	display: block;
+}
+
 .jcarousel img {
     display: block;
     max-width: 100%;
