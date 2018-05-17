@@ -280,8 +280,8 @@ body {
 
 .jcarousel li img:hover + .ninesHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
