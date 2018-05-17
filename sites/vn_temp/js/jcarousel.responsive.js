@@ -7,11 +7,14 @@
                 var carousel = $(this),
                     width = carousel.innerWidth();
 
-                if (width >= 600) {
+                if (width >= 1500) {
                     width = width / 9;
-                } else if (width >= 350) {
-                    width = width / 2;
+                } else if (width >= 1100) {
+                    width = width / 8;
                 }
+				else if (width >= 320) {
+					width = width / 2;
+				}
 
                 carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
             })
