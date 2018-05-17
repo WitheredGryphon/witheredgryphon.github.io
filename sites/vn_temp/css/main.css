@@ -49,9 +49,7 @@ body {
 /** j-carousel **/
 
 .jcarousel-wrapper {
-    margin: 20px auto;
     position: relative;
-    border: 10px solid #fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
