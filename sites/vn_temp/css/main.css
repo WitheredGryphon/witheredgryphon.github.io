@@ -76,8 +76,9 @@ body {
     box-sizing: border-box;
 }
 
-.jcarousel li img + .shoujoHover {
+.shoujoHover {
 	display: none;
+	pointer-events: none;
 }
 
 .jcarousel li img:hover + .shoujoHover {
@@ -88,6 +89,12 @@ body {
 	background-color: #0b0c10c2;
 	width: 160px;
 	height: 228px;
+	text-align: center;
+}
+
+.shoujoThumbCW {
+	text-align: left;
+	margin-top: 24px;
 }
 
 .jcarousel img {
