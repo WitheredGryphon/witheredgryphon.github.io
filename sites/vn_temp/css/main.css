@@ -86,8 +86,8 @@ body {
 
 .jcarousel li img:hover + .shoujoHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -120,8 +120,8 @@ body {
 
 .jcarousel li img:hover + .fsnHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -152,8 +152,8 @@ body {
 
 .jcarousel li img:hover + .clannadHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -184,8 +184,8 @@ body {
 
 .jcarousel li img:hover + .mgqHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -216,8 +216,8 @@ body {
 
 .jcarousel li img:hover + .snuHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -248,8 +248,8 @@ body {
 
 .jcarousel li img:hover + .planetarianHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -312,8 +312,8 @@ body {
 
 .jcarousel li img:hover + .dogsHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -344,8 +344,8 @@ body {
 
 .jcarousel li img:hover + .lbHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -376,8 +376,8 @@ body {
 
 .jcarousel li img:hover + .pwHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -408,8 +408,8 @@ body {
 
 .jcarousel li img:hover + .rewriteHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -440,8 +440,8 @@ body {
 
 .jcarousel li img:hover + .amnesiaHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
@@ -472,8 +472,8 @@ body {
 
 .jcarousel li img:hover + .dramaticalHover {
 	display: block;
-	position: absolute;
-	top: 0;
+	position: relative;
+	top: -228px;
 	padding-top: 8px;
 	left: 0;
 	background-color: #0b0c10c2;
