@@ -179,7 +179,7 @@ body {
 	position: fixed;
 }
 
-#thumbRating {
+.thumbRating {
 	display: block;
 	color: #4d4dff;
 	text-align: center;
