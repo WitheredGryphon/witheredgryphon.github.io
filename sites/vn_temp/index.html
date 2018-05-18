@@ -72,7 +72,7 @@
 				<li>
 					<div class = "testDiv">
 						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "shoujoHover">
+						<div class = "shoujoContainer">
 							Katawa Shoujo
 							<div id="thumbCW">
 								<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." id="shoujoRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
@@ -235,15 +235,15 @@
 	
 	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
-	
+	<!-- $('[data-toggle="tooltip"]').tooltip(); -->
 	<script>
 		$(document).ready(function(){
-			$("#shoujoRating").hover(function(){
+			$(".shoujoContainer").hover(function(){
 				console.log("test");
-				$('[data-toggle="tooltip"]').tooltip(); 
+				$("#shoujoHover").css("display", "block");
 			}, 
 			function(){
-				
+				$("#shoujoHover").css("display", "none");
 			});  
 			$("#thumbCW").hover(function(){
 				console.log("thumbCW captured via hover");
