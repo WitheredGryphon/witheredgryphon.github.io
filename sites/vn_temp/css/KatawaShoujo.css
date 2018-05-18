@@ -129,7 +129,6 @@ body {
 
 	.connected-carousels .carousel-navigation li img {
 		display: block;
-		border: 5px solid #fff;
 	}
 
 	.connected-carousels .carousel-navigation li.active img {
