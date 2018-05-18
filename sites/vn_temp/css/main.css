@@ -104,6 +104,7 @@ body {
 }
 
 #thumbRating {
+	display: block;
 	color: #4d4dff;
 	text-align: center;
 	font-size: 22px;
