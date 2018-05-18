@@ -182,6 +182,12 @@ body {
 	font-size: 22px;
 }
 
+#expandInfo {
+	display: block;
+	color: #4d4dff;
+	vertical-align: middle;
+	text-align: middle;
+}
 
 /** thumbnail template - Katawa Shoujo **/
 
