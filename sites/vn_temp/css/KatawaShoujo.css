@@ -27,9 +27,11 @@ body {
 
 	.novelTitle {
 		margin-top: 16px;
+		margin-bottom: 16px;
 		font-weight: bold;
 		font-size: 48px;
 		text-align: center;
+		border-bottom: 1px solid #4d4dff;
 	}
 
 	.developer {
@@ -42,11 +44,14 @@ body {
 	}
 	
 	.leftText {
-		float: left;
+		display: inline;
+		margin-left: 16px;
 	}
 	
 	.rightText {
+		display: inline;
 		float: right;
+		margin-right: 16px;
 	}
 }
 
