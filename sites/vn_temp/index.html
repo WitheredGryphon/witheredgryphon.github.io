@@ -74,7 +74,7 @@
 					<div class = "shoujoHover">
 						Katawa Shoujo
 						<div id="thumbCW">
-							<a href="#" data-toggle="tooltip" title="This game received a 3.92 out of 5.0 according to VNDB.">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
+							<a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
 							<b>Genres:</b> Romance, Slice of Life
 						</div>
 					</div>
@@ -234,9 +234,9 @@
 	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
 	
-	<script type="text/javascript">
-		$(function () {
-			$("[rel='tooltip']").tooltip();
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();   
 		});
 	</script>
   </body>
