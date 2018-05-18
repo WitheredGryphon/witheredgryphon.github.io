@@ -24,6 +24,8 @@ a:hover {
 body {
 	background-color: #0b0c10;
 	background-image: url('../images/shoujo_wp.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 
@@ -35,10 +37,11 @@ body {
 
 .topWrapper {
 	border-bottom: 2px solid #4d4dff;
+	padding-bottom: 30px;
 }
 
-.leftWrapper .item {
-	margin-bottom: 60px;
+.midWrapper {
+	padding-bottom: 30px;
 }
 
 .novelDeveloper2, .novelPublisher2 {
@@ -48,6 +51,7 @@ body {
 .midWrapper {
 	padding-top: 30px;
 	padding-left: 15px;
+	padding-right: 15px;
 	background-color: #13151b;
 }
 
@@ -60,43 +64,22 @@ body {
 	color: #8989ff;
 }
 
-
-@media screen and (min-width: 1400px) {
-	.leftWrapper {
-		height: auto;
-		display: inline-block;
-		margin-right: 60px;
-	}
-	
-	.rightWrapper {
-		display: inline-block;
-		position: absolute;
-		top: 60px;
-	}	
-}
-
 @media screen and (max-width: 1399px) {	
-	.leftWrapper {
-		height: auto;
-		display: block;
-		margin-right: 60px;
-		width: 100%
-	}
-
-	.rightWrapper {
-		display: block;
-		position: absolute;
-		top: 60px;
-	}
-	
 	.contentWrapper {
 		margin: 0;
+	}
+	
+	.item {
+		margin-top: 16px;
 	}
 }
 
 @media screen and (max-width: 1024px) {
 	.clearfix {
 		max-width: 1024px !important;
+	}
+	body {
+		background: unset;
 	}
 }
 
@@ -114,15 +97,4 @@ body {
 .developer {
 	font-weight: normal;
 	font-size: 24px;
-}
-
-.leftText {
-	display: inline;
-	margin-left: 16px;
-}
-
-.rightText {
-	display: inline;
-	float: right;
-	margin-right: 16px;
 }
