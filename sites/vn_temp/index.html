@@ -238,9 +238,10 @@
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
 
-			$(".shoujoImage").hover(
+			$("#shoujoImage").hover(
 				function() {
 					$(".shoujoHover").css("display", "block");
+					console.log("test");
 				},
 				function() {
 					$(".shoujoHover").css("display", "none");
