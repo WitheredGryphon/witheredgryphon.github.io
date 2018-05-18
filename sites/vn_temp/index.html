@@ -238,14 +238,14 @@
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
 
-			$("#shoujoImage").mouseenter(
+			$(".shoujoHover").mouseenter(
 				function() {
 					$(".shoujoHover").css("background-color", "#0b0c10c2");
 					$(".shoujoHover").css("color", "#4d4dff");
 					console.log("test");
 				}
 			);
-			$("#shoujoImage").mouseout(
+			$(".shoujoHover").mouseout(
 				function() {
 					$(".shoujoHover").css("background-color", "#00000000");
 					$(".shoujoHover").css("color", "#00000000");
