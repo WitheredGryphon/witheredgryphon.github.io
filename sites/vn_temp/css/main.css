@@ -91,7 +91,6 @@ body {
 	position: absolute;
 	bottom: 24px;
 	font-size: 14px;
-	pointer-events: auto;
 }
 
 #thumbCW a {
@@ -123,19 +122,6 @@ body {
 	-ms-animation: fadein 0.5s; /* Internet Explorer */
 	-o-animation: fadein 0.5s; /* Opera < 12.1 */
 	animation: fadein 0.5s;
-}
-
-.shoujoHover *:hover {
-	display: block;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;	
 }
 
 /*************************/
