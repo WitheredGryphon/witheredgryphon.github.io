@@ -70,11 +70,11 @@
 		<div class="jcarousel">
 			<ul>
 				<li>
-					<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
+					<img src="images/katawa_shoujo_thumb.png" alt="Image 1" id="shoujoImage">
 					<div class = "shoujoHover">
 						Katawa Shoujo
 						<div id="thumbCW">
-							<a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+							<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB.">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
 							<b>Genres:</b> Romance, Slice of Life
 						</div>
 					</div>
@@ -236,7 +236,16 @@
 	
 	<script>
 		$(document).ready(function(){
-			$('[data-toggle="tooltip"]').tooltip();   
+			$('[data-toggle="tooltip"]').tooltip();
+
+			$(".shoujoImage").hover(
+				function() {
+					$(".shoujoHover").css("display", "block");
+				},
+				function() {
+					$(".shoujoHover").css("display", "none");
+				}
+			);
 		});
 	</script>
   </body>
