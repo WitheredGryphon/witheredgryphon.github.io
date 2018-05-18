@@ -28,12 +28,48 @@ body {
 	border-bottom: 2px solid #4d4dff;
 }
 
-.leftWrapper {
-	height: auto;
-}
-
 .leftWrapper .item {
 	margin-bottom: 60px;
+}
+
+
+@media screen and (min-width: 1400px) {
+	.leftWrapper {
+		height: auto;
+		display: inline-block;
+		margin-right: 60px;
+	}
+	
+	.rightWrapper {
+		display: inline-block;
+		position: absolute;
+		top: 60px;
+	}	
+}
+
+@media screen and (max-width: 1399px) {	
+	.leftWrapper {
+		height: auto;
+		display: block;
+		margin-right: 60px;
+		width: 100%
+	}
+
+	.rightWrapper {
+		display: block;
+		position: absolute;
+		top: 60px;
+	}
+	
+	.contentWrapper {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.clearfix {
+		max-width: 1024px !important;
+	}
 }
 
 .content-slider li{
@@ -43,9 +79,8 @@ body {
 .novelTitle {
 	margin-top: 16px;
 	margin-bottom: 16px;
-	font-weight: bold;
 	font-size: 48px;
-	text-align: center;
+	text-align: left;
 }
 
 .developer {
