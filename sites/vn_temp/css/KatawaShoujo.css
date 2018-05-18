@@ -32,6 +32,10 @@ body {
 	margin-bottom: 60px;
 }
 
+.novelDeveloper2, .novelPublisher2 {
+	color: #4d4dff;
+}
+
 
 @media screen and (min-width: 1400px) {
 	.leftWrapper {
