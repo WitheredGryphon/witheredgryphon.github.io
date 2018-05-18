@@ -103,13 +103,17 @@ body {
 /** thumbnail template - Katawa Shoujo **/
 
 .shoujoHover {
+	display: none;
+	pointer-events: none;
+}
+
+.jcarousel li img:hover + .shoujoHover {
 	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
 	left: 0;
-	background-color: #00000000;
-	color: #00000000;
+	background-color: #0b0c10c2;
 	width: 160px;
 	height: 228px;
 	text-align: center;
