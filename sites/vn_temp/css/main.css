@@ -43,12 +43,6 @@ body {
 	margin: 16px;
 }
 
-#thumbRating {
-	color: #4d4dff;
-	text-align: center;
-	font-size: 22px;
-}
-
 /** j-carousel **/
 
 .jcarousel-wrapper {
@@ -104,6 +98,16 @@ body {
 	border-bottom: 1px dotted #4d4dff;
 }
 
+.tooltip {
+	position: fixed;
+}
+
+#thumbRating {
+	color: #4d4dff;
+	text-align: center;
+	font-size: 22px;
+}
+
 
 /** thumbnail template - Katawa Shoujo **/
 
@@ -125,20 +129,11 @@ body {
 	animation: fadein 0.5s;
 }
 
-.jcarousel li img:hover + .shoujoHover {
-
-}
-
 /*************************/
 
 /** Fate/Stay Night thumbnail **/
 .fsnHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .fsnHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -158,11 +153,6 @@ body {
 /** Clannad **/
 .clannadHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .clannadHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -182,11 +172,6 @@ body {
 /** MGQ **/
 .mgqHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .mgqHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -206,11 +191,6 @@ body {
 /** Saya no Uta **/
 .snuHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .snuHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -230,11 +210,6 @@ body {
 /** Planetarian **/
 .planetarianHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .planetarianHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -254,11 +229,6 @@ body {
 /** 999 **/
 .ninesHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .ninesHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -278,11 +248,6 @@ body {
 /** DoGS **/
 .dogsHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .dogsHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -302,11 +267,6 @@ body {
 /** Little Busters **/
 .lbHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .lbHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -326,11 +286,6 @@ body {
 /** Ace Attorney **/
 .pwHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .pwHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -350,11 +305,6 @@ body {
 /** Rewrite **/
 .rewriteHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .rewriteHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -374,11 +324,6 @@ body {
 /** Amnesia: Memories **/
 .amnesiaHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .amnesiaHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -398,11 +343,6 @@ body {
 /** Dramatical Murder **/
 .dramaticalHover {
 	display: none;
-	pointer-events: none;
-}
-
-.jcarousel li img:hover + .dramaticalHover {
-	display: block;
 	position: relative;
 	top: -228px;
 	padding-top: 8px;
@@ -418,7 +358,6 @@ body {
 	-o-animation: fadein 0.5s; /* Opera < 12.1 */
 	animation: fadein 0.5s;
 }
-
 
 .jcarousel img {
 	display: block;
