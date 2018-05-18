@@ -236,7 +236,13 @@
 	
 	<script>
 		$(document).ready(function(){
-			$('[data-toggle="tooltip"]').tooltip();   
+			$("#shoujoRating").hover(function(){
+				console.log("test");
+				$('[data-toggle="tooltip"]').tooltip(); 
+			}, 
+			function(){
+				
+			});  
 		});
 	</script>
   </body>
