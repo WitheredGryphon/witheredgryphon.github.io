@@ -31,7 +31,6 @@ body {
 		font-weight: bold;
 		font-size: 48px;
 		text-align: center;
-		border-bottom: 1px solid #4d4dff;
 	}
 
 	.developer {
@@ -40,7 +39,9 @@ body {
 	}
 	
 	.availablility {
+		border-bottom: 2px solid #4d4dff;
 		font-size: 16px;
+		padding-top: 8px;
 	}
 	
 	.leftText {
