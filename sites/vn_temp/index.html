@@ -70,7 +70,7 @@
 		<div class="jcarousel">
 			<ul>
 				<li>
-					<img src="images/katawa_shoujo_thumb.png" alt="Image 1" id="shoujoImage">
+					<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
 					<div class = "shoujoHover">
 						Katawa Shoujo
 						<div id="thumbCW">
@@ -236,21 +236,7 @@
 	
 	<script>
 		$(document).ready(function(){
-			$('[data-toggle="tooltip"]').tooltip();
-
-			$(".shoujoHover").mouseenter(
-				function() {
-					$(".shoujoHover").css("background-color", "#0b0c10c2");
-					$(".shoujoHover").css("color", "#4d4dff");
-					console.log("test");
-				}
-			);
-			$(".shoujoHover").mouseout(
-				function() {
-					$(".shoujoHover").css("background-color", "#00000000");
-					$(".shoujoHover").css("color", "#00000000");
-				}
-			);
+			$('[data-toggle="tooltip"]').tooltip();   
 		});
 	</script>
   </body>
