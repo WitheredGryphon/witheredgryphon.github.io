@@ -39,7 +39,7 @@ body {
 	}
 	
 	.availability {
-		border-bottom: 2px solid #4d4dff;
+		border-top: 2px solid #4d4dff;
 		font-size: 16px;
 		padding-top: 8px;
 	}
