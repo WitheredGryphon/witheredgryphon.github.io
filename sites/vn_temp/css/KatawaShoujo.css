@@ -114,28 +114,13 @@ body {
 
 	.connected-carousels .carousel-stage {
 		height: 400px;
-		border: 10px solid #fff;
-		-webkit-border-radius: 5px;
-		   -moz-border-radius: 5px;
-				border-radius: 5px;
-		-webkit-box-shadow: 0 0 2px #999;
-		   -moz-box-shadow: 0 0 2px #999;
-				box-shadow: 0 0 2px #999;
 	}
 
 	/** Navigation carousel specific styles **/
 
 	.connected-carousels .carousel-navigation {
-		height: 60px;
-		width: 240px;
-		background: #fff;
-		border: 10px solid #fff;
-		-webkit-border-radius: 5px;
-		   -moz-border-radius: 5px;
-				border-radius: 5px;
-		-webkit-box-shadow: 0 0 2px #999;
-		   -moz-box-shadow: 0 0 2px #999;
-				box-shadow: 0 0 2px #999;
+		height: auto;
+		width: 100%;
 	}
 
 	.connected-carousels .carousel-navigation li {
