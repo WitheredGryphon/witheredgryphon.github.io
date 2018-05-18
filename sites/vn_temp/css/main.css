@@ -91,6 +91,7 @@ body {
 	position: absolute;
 	bottom: 24px;
 	font-size: 14px;
+	pointer-events: auto;
 }
 
 #thumbCW a {
