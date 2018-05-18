@@ -88,7 +88,7 @@ body {
 	margin-left: 8px;
 	margin-right: 8px;
 	position: absolute;
-	bottom: 24px;
+	bottom: 8px;
 	font-size: 14px;
 }
 
@@ -187,11 +187,14 @@ body {
 }
 
 .expandInfo {
-	display: block;
+	color: #4d4dff;
 	font-size: 32px;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 32px;
+	width: 32px;
 	color: #4d4dff;
 	vertical-align: middle;
-	text-align: middle;
 }
 
 /** thumbnail template - Katawa Shoujo **/
