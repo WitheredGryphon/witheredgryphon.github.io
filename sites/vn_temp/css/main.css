@@ -93,6 +93,12 @@ body {
 	font-size: 14px;
 }
 
+#testDiv {
+	width: 160px;
+	height: 228px;
+	display: block;
+}
+
 #thumbCW a {
 	text-decoration: none;
 	border-bottom: 1px dotted #4d4dff;
