@@ -13,8 +13,17 @@ img {
 	width: inherit;
 }
 
+a {
+	color:#8989ff;
+}
+
+a:hover {
+	color:#8989ff;
+}
+
 body {
 	background-color: #0b0c10;
+	background-image: url('../images/shoujo_wp.png');
 }
 
 
@@ -34,6 +43,21 @@ body {
 
 .novelDeveloper2, .novelPublisher2 {
 	color: #4d4dff;
+}
+
+.midWrapper {
+	padding-top: 30px;
+	padding-left: 15px;
+	background-color: #13151b;
+}
+
+.sectionHead {
+	font-size: 24px;
+	border-bottom: 1px solid #4d4dff;
+}
+
+.novelPublisher, .novelDeveloper {
+	color: #8989ff;
 }
 
 
@@ -90,12 +114,6 @@ body {
 .developer {
 	font-weight: normal;
 	font-size: 24px;
-}
-
-.availability {
-	border-top: 2px solid #4d4dff;
-	font-size: 16px;
-	padding-top: 8px;
 }
 
 .leftText {
