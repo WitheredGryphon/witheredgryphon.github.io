@@ -13,24 +13,49 @@ body {
 	background-color: #0b0c10;
 }
 
-.contentWrapper {
-	margin-left: 15%;
-	margin-right: 15%;
-	background-color: #13151b;
+
+@media screen and (min-width: 1025px) {
+	.contentWrapper {
+		margin-left: 15%;
+		margin-right: 15%;
+		background-color: #13151b;
+	}
+
+	.videoWrapper {
+		border-bottom: 2px solid #4d4dff;
+	}
+
+	.novelTitle {
+		margin-top: 16px;
+		font-weight: bold;
+		font-size: 48px;
+		text-align: center;
+	}
+
+	.developer {
+		font-weight: normal;
+		font-size: 24px;
+	}
 }
 
-.videoWrapper {
-	border-bottom: 2px solid #4d4dff;
-}
+@media screen and (max-width: 1024px) {
+	.contentWrapper {
+		background-color: #13151b;
+	}
 
-.novelTitle {
-	margin-top: 16px;
-	font-weight: bold;
-	font-size: 48px;
-	text-align: center;
-}
+	.videoWrapper {
+		border-bottom: 2px solid #4d4dff;
+	}
 
-.developer {
-	font-weight: normal;
-	font-size: 24px;
+	.novelTitle {
+		margin-top: 16px;
+		font-weight: bold;
+		font-size: 48px;
+		text-align: center;
+	}
+
+	.developer {
+		font-weight: normal;
+		font-size: 24px;
+	}
 }
