@@ -36,6 +36,18 @@ body {
 		font-weight: normal;
 		font-size: 24px;
 	}
+	
+	.availablility {
+		font-size: 16px;
+	}
+	
+	.leftText {
+		float: left;
+	}
+	
+	.rightText {
+		float: right;
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,13 +63,14 @@ body {
 		margin-top: 16px;
 		font-weight: bold;
 		font-size: 48px;
-		font-size: 8vw;
+		font-size: 6vw;
 		text-align: center;
+		border-bottom: 1px solid #4d4dff;
 	}
 
 	.developer {
 		font-weight: normal;
 		font-size: 24px;
-		font-size: 6vw;
+		font-size: 3vw;
 	}
 }
