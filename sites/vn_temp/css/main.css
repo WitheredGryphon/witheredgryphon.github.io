@@ -5,6 +5,10 @@
 #4d4dff - neon blue
 */
 
+a {
+	color: #4d4dff;
+}
+
 body {
 	background-color: #0b0c10;
 	color: #e1e5e8;
@@ -182,8 +186,9 @@ body {
 	font-size: 22px;
 }
 
-#expandInfo {
+.expandInfo {
 	display: block;
+	font-size: 32px;
 	color: #4d4dff;
 	vertical-align: middle;
 	text-align: middle;
