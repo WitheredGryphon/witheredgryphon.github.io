@@ -51,11 +51,13 @@ body {
 		margin-top: 16px;
 		font-weight: bold;
 		font-size: 48px;
+		font-size: 8vw;
 		text-align: center;
 	}
 
 	.developer {
 		font-weight: normal;
 		font-size: 24px;
+		font-size: 6vw;
 	}
 }
