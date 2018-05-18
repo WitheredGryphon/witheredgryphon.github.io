@@ -238,11 +238,13 @@
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
 
-			$("#shoujoImage").hover(
+			$("#shoujoImage").mouseenter(
 				function() {
 					$(".shoujoHover").css("display", "block");
 					console.log("test");
-				},
+				}
+			);
+			$("#shoujoImage").mouseout(
 				function() {
 					$(".shoujoHover").css("display", "none");
 				}
