@@ -12,6 +12,9 @@
 	
 	<!-- Main CSS -->
 	<link href="css/main.css" rel="stylesheet">
+	
+	<!-- Fakeloader Framework's CSS -->
+	<link href="css/fakeloader.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,6 +24,8 @@
     <![endif]-->
   </head>
   <body>
+  <div id="fakeloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner"><div class="loader"></div></div></div></div>
+  
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -203,7 +208,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="dramaticContainer">
+					<div class="dramaticalContainer">
 						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
 						<div class = "dramaticalHover">
 							Dramatical Murder
@@ -258,9 +263,14 @@
     <script src="js/bootstrap.min.js"></script>
 	
 	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/fakeloader.min.js"></script>
 	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
 	<script>
 		$(document).ready(function(){
+			function() {
+				window.FakeLoader.init( );
+			}
+		
 			$(".shoujoContainer").hover(function(){
 				console.log("test");
 				$(".shoujoHover").css("display", "block");
@@ -353,12 +363,12 @@
 			function(){
 				$(".amnesiaHover").css("display", "none");
 			});
-			$(".dramaticContainer").hover(function(){
+			$(".dramaticalContainer").hover(function(){
 				console.log("test");
-				$(".dramaticHover").css("display", "block");
+				$(".dramaticalHover").css("display", "block");
 			}, 
 			function(){
-				$(".dramaticHover").css("display", "none");
+				$(".dramaticalHover").css("display", "none");
 			});
 			
 			
