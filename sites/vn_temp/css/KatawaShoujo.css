@@ -64,7 +64,7 @@ body {
 	/** j carousel ** /
 	/** Stage container **/
 	.connected-carousels .stage {
-		width: 620px;
+		width: 600px;
 		margin: 20px auto;
 		position: relative;
 	}
