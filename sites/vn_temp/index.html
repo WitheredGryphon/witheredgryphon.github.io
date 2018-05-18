@@ -238,15 +238,17 @@
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
 
-			$("#shoujoImage").mouseover(
+			$("#shoujoImage").mouseenter(
 				function() {
-					$(".shoujoHover").css("display", "block");
+					$(".shoujoHover").css("background-color", "#0b0c10c2");
+					$(".shoujoHover").css("color", "#4d4dff");
 					console.log("test");
 				}
 			);
 			$("#shoujoImage").mouseout(
 				function() {
-					$(".shoujoHover").css("display", "none");
+					$(".shoujoHover").css("background-color", "#00000000");
+					$(".shoujoHover").css("color", "#00000000");
 				}
 			);
 		});
