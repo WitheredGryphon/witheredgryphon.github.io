@@ -235,7 +235,6 @@
 	
 	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
-	<!-- $('[data-toggle="tooltip"]').tooltip(); -->
 	<script>
 		$(document).ready(function(){
 			$(".shoujoContainer").hover(function(){
@@ -245,15 +244,7 @@
 			function(){
 				$(".shoujoHover").css("display", "none");
 			});  
-			$("#thumbCW").hover(function(){
-				console.log("thumbCW captured via hover");
-			},
-			function() {
-			
-			});
-			$("#thumbCW").mouseenter(function(){
-				console.log("thumbCW captured via mouseenter");
-			});
+			$('[data-toggle="tooltip"]').tooltip();
 		});
 	</script>
   </body>
