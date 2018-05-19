@@ -187,10 +187,12 @@ body {
 }
 
 .expandInfo {
+	display: block;
 	color: #4d4dff;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 32px;
-	padding-left: 8px;
-	padding-right: 8px;
+	margin-top: 12px;
 	height: 32px;
 	width: 32px;
 	color: #4d4dff;
@@ -199,11 +201,17 @@ body {
 
 /** thumbnail template - Katawa Shoujo **/
 
-.shoujoHover {
+.vnContainer {
+	width: 160px;
+	height: 228px;
+	display: block
+}
+
+.vnHover {
 	display: none;
 	position: relative;
 	top: -228px;
-	padding-top: 8px;
+	padding-top: 28px;
 	left: 0;
 	background-color: #0b0c10c2;
 	width: 160px;
@@ -216,236 +224,17 @@ body {
 	-o-animation: fadein 0.5s; /* Opera < 12.1 */
 	animation: fadein 0.5s;
 }
+
+.vnContainer .vnHover {
+	display: none;
+}
+
+.vnContainer:hover .vnHover {
+	display: block;
+}
+
 
 /*************************/
-
-/** Fate/Stay Night thumbnail **/
-.fsnHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Clannad **/
-.clannadHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** MGQ **/
-.mgqHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Saya no Uta **/
-.snuHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Planetarian **/
-.planetarianHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** 999 **/
-.ninesHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** DoGS **/
-.dogsHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Little Busters **/
-.lbHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Ace Attorney **/
-.pwHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Rewrite **/
-.rewriteHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Amnesia: Memories **/
-.amnesiaHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-/** Dramatical Murder **/
-.dramaticalHover {
-	display: none;
-	position: relative;
-	top: -228px;
-	padding-top: 8px;
-	left: 0;
-	background-color: #0b0c10c2;
-	width: 160px;
-	height: 228px;
-	text-align: center;
-	border: 1px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
 
 .jcarousel img {
 	display: block;
