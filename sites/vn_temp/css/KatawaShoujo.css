@@ -64,13 +64,47 @@ body {
 	color: #8989ff;
 }
 
-@media screen and (max-width: 1399px) {	
+.similarNovelsHead {
+	font-size: 20px;
+	background-color: #4d4dffbb;
+	text-align: center;
+	padding: 2px;
+}
+
+.linksHead {
+	font-size: 20px;
+	background-color: #4d4dffbb;
+	text-align: center;
+	padding: 2px;
+}
+
+.bannerThumb {
+	width: 100%;
+}
+
+.bannerThumb img {
+	width: 100%;
+}
+
+#mobileBar {
+	display: none;
+}
+
+@media screen and (max-width: 1199px) {	
 	.contentWrapper {
 		margin: 0;
 	}
 	
 	.item {
 		margin-top: 16px;
+	}
+	
+	#webBar {
+		display: none;
+	}
+	
+	#mobileBar {
+		display: block;
 	}
 }
 
