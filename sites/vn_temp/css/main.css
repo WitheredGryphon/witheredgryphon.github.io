@@ -13,6 +13,7 @@ body {
 	background-color: #0b0c10;
 	color: #e1e5e8;
 	font-size: 24px;
+	padding-top: 70px;
 }
 
 .navbar {
@@ -31,6 +32,43 @@ body {
 .navbar-default .navbar-brand {
 	font-weight: bold;
 	color: #e1e5e8;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #b0b9bf;
+}
+
+/* side nav css */
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: #0b0c10;
+	overflow-x: hidden;
+	transition: 0.35s;
+	padding-top: 50px;
+}
+
+.sidenav .sideNavItem a {
+	padding: 16px 8px 16px 8px;
+	text-decoration: none;
+	font-size: 0.7em;
+	color: #e1e5e8;
+	display: block;
+	transition: 0.3s;
+	width: max-content;
+}
+
+.sidenav .sideNavItem {
+	border-bottom: solid 1px #333;
+	width: 100%;
+}
+
+.sidenav a:hover {
+	color: #b0b9bf;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -79,6 +117,10 @@ body {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.carousel-indicators {
+	z-index: 1;
 }
 
 #thumbCW {
