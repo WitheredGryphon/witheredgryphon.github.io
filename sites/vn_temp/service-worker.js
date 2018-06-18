@@ -64,7 +64,7 @@ self.addEventListener('fetch', function(event) {
 				.catch(unableToResolve);
 
 			console.log('WORKER: fetch event', cached ? '(cached)' : '(network)', event.request.url);
-			return cached || networked; // return true if we have a cached or networked match
+			return cached || netReq; // return true if we have a cached or networked match
 
 			function fetchedFromNetwork(repsonse) {
 				var cacheCopy = response.clone();
