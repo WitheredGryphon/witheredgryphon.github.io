@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
 			return cache.addAll(
         	[
 				'/sites/vn_temp/',
-				'/sites/vn_temp/css/bootstrap.min.css'
+				'/sites/vn_temp/css/bootstrap.min.css',
 				'/sites/vn_temp/css/main.css',
 				'/sites/vn_temp/css/bootstrap-theme.min.css',
 				'/sites/vn_temp/css/docs.css',
