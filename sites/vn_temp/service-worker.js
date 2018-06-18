@@ -72,7 +72,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/images/next.png',
 				'/sites/vn_temp/images/phoenix_wright_thumb.png',
 				'/sites/vn_temp/images/prev.png',
-				'/sites/vn_temp/images/rewrite_banner.png',
+				'/sites/vn_temp/images/rewrite_banner.jpg',
 				'/sites/vn_temp/images/rewrite_thumb.png',
 				'/sites/vn_temp/images/saya_no_uta_thumb.png',
 				'/sites/vn_temp/images/shoujo_img1.jpg',
