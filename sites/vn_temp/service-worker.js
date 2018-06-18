@@ -30,7 +30,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/js/jcarousel.responsive.js',
 				'/sites/vn_temp/js/jquery.jcarousel.min.js',
 				'/sites/vn_temp/js/lightbox.js',
-				'/sites/vn_temp/js/lightslider.min.js',
+				'/sites/vn_temp/js/lightslider.js',
 				'/sites/vn_temp/js/npm.js',
 				'/sites/vn_temp/index.html',
 				'/sites/vn_temp/GandBNovels.html',
