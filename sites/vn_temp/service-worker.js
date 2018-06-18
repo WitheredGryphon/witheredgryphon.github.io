@@ -24,7 +24,7 @@ self.addEventListener('install', function(event) {
 		  'js/jcarousel.responsive.js',
 		  'js/jquery.jcarousel.min.js',
 		  'js/lightbox.js',
-		  'js/lightslider.min.js'
+		  'js/lightslider.min.js',
 		  'js/npm.js',
           'index.html',
 		  'GandBNovels.html',
@@ -32,6 +32,14 @@ self.addEventListener('install', function(event) {
 		  'LittleBusters.html'
         ]
       );
+    })
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
     })
   );
 });
