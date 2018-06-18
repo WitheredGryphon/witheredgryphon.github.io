@@ -6,7 +6,7 @@
       		"src":"images/android-chrome-192x192.png",
       		"sizes": "192x192",
       		"type": "image/png"
-    	}
+    	},
 		{
       		"src":"images/android-chrome-512x512",
       		"sizes": "512x512",
@@ -16,5 +16,5 @@
 	"start_url": "/?utm_source=homescreen",
 	"background_color": "#0b0c10",
 	"theme_color": "#4d4dff",
-	"display": "standalone",
+	"display": "standalone"
 }
