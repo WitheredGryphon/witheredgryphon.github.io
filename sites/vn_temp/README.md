@@ -21,23 +21,33 @@ Even if the site doesn't win the competition I still plan on leaving it up for u
 
 ### TODO
 
-x 2016-06-13 Design and implement a sticky navbar with a hamburger menu
+x 2018-06-13 Design and implement a sticky navbar with a hamburger menu +Navbar
 
-(A) 2016-06-13 Finish implementing new navbar across web pages @functionality +Navbar
+x 2018-06-17 2016-06-13 Finish implementing new navbar across web pages @Functionality +Navbar
 
-(B) 2016-06-13 Develop grid/table web page for each genre linked from side navbar
+(A) 2018-06-13 Develop grid/table web page for each genre linked from side navbar
 
-(C) 2016-06-13 Fix responsiveness of main page for small mobile devices +MainPage
+(B) 2018-06-13 Fix responsiveness of main page for small mobile devices +MainPage
 
-(D) 2016-06-13 Identify and implement fix for tiny highlighted picks on small mobile devices +MainPage
+(C) 2018-06-13 Identify and implement fix for tiny highlighted picks on small mobile devices +MainPage
 
-(E) 2016-06-13 Implement remaining visual novel pages after voting results come in
+(D) 2018-06-17 Fix home page highlight reel to display info on hover @Feature +MainPage
+
+(E) 2018-06-17 Add icons or something to fill the space on the right side of the navbar @Design +Navbar
+
+(D) 2018-06-13 Implement remaining visual novel pages after voting results come in
 
 ### CHANGES
 
-2016-06-13 10:34 PM CDT
+2018-06-13 10:34 PM CDT
 
 - Switched navbar to sticky
 - Implemented hamburger menu
 - Renamed brand title to help with mobile displays
 - Drafted a README.md for better clarity with changes and updates
+
+2018-06-17 10:21 PM CDT
+
+- Added navbar to currently finished info pages
+- Added redirect for home button in navbar
+- Fixed date typo in TODO list

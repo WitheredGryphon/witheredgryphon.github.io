@@ -26,8 +26,63 @@ body {
 	background-image: url('../images/busters_wp.png');
 	background-size: contain;
 	background-repeat: no-repeat;
+	padding-top: 50px;
 }
 
+.navbar {
+	border: none;
+	margin-bottom: 16px;
+}
+
+.navbar-default {
+	background-color: #4d4dff;
+	border-radius: 0px;
+	border-color: unset;
+	color: #0a0a0a;
+	box-shadow: 0px 1px 9px 2px;
+}
+
+.navbar-default .navbar-brand {
+	font-weight: bold;
+	color: #e1e5e8;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #b0b9bf;
+}
+
+/* side nav css */
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: #0b0c10;
+	overflow-x: hidden;
+	transition: 0.35s;
+	padding-top: 50px;
+}
+
+.sidenav .sideNavItem a {
+	padding: 16px 8px 16px 8px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #e1e5e8;
+	display: block;
+	transition: 0.3s;
+	width: max-content;
+}
+
+.sidenav .sideNavItem {
+	border-bottom: solid 1px #333;
+	width: 100%;
+}
+
+.sidenav a:hover {
+	color: #b0b9bf;
+}
 
 .contentWrapper {
 	margin-left: 15%;
