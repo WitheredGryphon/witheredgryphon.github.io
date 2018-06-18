@@ -46,6 +46,11 @@ self.addEventListener('install', function(event) {
 self.addEventListener('fetch', function(event) {
 	console.log('WORKER: fetch started')
 
+	// Fix by Paul Irish for Chromium dev tools bug generating errors
+	if (e.request.cache === 'only-if-cached' && e.request.mode !== 'same-origin') {
+		return;
+	}
+
 	if (event.request.method !== 'GET') {
 		console.log('WORKER: fetch ignored', event.request.method, event.request.url);
 		return;
