@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
 			return cache.addAll(
         	[
 				'/sites/vn_temp/',
-				'/sites/vn_temp/css/bootstrap.css',
+				'/sites/vn_temp/css/bootstrap.min.css'
 				'/sites/vn_temp/css/main.css',
 				'/sites/vn_temp/css/bootstrap-theme.min.css',
 				'/sites/vn_temp/css/docs.css',
@@ -71,6 +71,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/images/monster_girl_quest_thumb.png',
 				'/sites/vn_temp/images/next.png',
 				'/sites/vn_temp/images/phoenix_wright_thumb.png',
+				'/sites/vn_temp/images/planetarian_thumb.png',
 				'/sites/vn_temp/images/prev.png',
 				'/sites/vn_temp/images/rewrite_banner.jpg',
 				'/sites/vn_temp/images/rewrite_thumb.png',
