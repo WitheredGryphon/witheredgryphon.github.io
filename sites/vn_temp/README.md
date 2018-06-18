@@ -35,7 +35,7 @@ x 2018-06-17 2016-06-13 Finish implementing new navbar across web pages @Functio
 
 (E) 2018-06-17 Add icons or something to fill the space on the right side of the navbar @Design +Navbar
 
-(D) 2018-06-13 Implement remaining visual novel pages after voting results come in
+(F) 2018-06-13 Implement remaining visual novel pages after voting results come in
 
 ### CHANGES
 
