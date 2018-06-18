@@ -1795,9 +1795,9 @@
 		if ('serviceWorker' in navigator) {
 		  	navigator.serviceWorker.register('service-worker.js')
 			.then(function(reg){
-				console.log("WORKER: successfully registered");
+				console.log("CLIENT: successfully registered");
 			}).catch(function(err) {
-				console.log("WORKER: register failed - ", err)
+				console.log("CLIENT: register failed - ", err)
 			});
 		}
 	</script>
