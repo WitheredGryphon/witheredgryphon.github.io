@@ -51,3 +51,8 @@ x 2018-06-17 2018-06-13 Finish implementing new navbar across web pages @Functio
 - Added navbar to currently finished info pages
 - Added redirect for home button in navbar
 - Fixed date typo in TODO list
+
+2018-06-18 10:30 AM CDT
+
+- Significantly optimized images to reduce load time and overhead
+- Added JSON manifest

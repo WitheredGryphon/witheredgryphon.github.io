@@ -1,0 +1,15 @@
+{
+  "short_name": "2018 Chart",
+  "name": "/r/vn's 2018 Recommendation Chart",
+  "icons": [
+    {
+      "src":"images/site_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#0b0c10",
+  "Theme_color": "#4d4dff",
+  "display": "standalone"
+}
