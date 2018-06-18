@@ -23,7 +23,7 @@ Even if the site doesn't win the competition I still plan on leaving it up for u
 
 x 2018-06-13 Design and implement a sticky navbar with a hamburger menu +Navbar
 
-x 2018-06-17 2016-06-13 Finish implementing new navbar across web pages @Functionality +Navbar
+x 2018-06-17 2018-06-13 Finish implementing new navbar across web pages @Functionality +Navbar
 
 (A) 2018-06-13 Develop grid/table web page for each genre linked from side navbar
 
