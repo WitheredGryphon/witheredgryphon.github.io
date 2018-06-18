@@ -16,6 +16,8 @@
 	<!-- Fakeloader Framework's CSS -->
 	<link href="css/fakeloader.css" rel="stylesheet">
 
+	<link rel="manifest" href="manifest.json">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -1789,6 +1791,15 @@
 				document.getElementById("sideNavbar").style.borderRight = "2px solid";
 				document.getElementById("sideNavbar").style.borderRightColor = "#4d4dff";
 			}
+		}
+		if ('serviceWorker' in navigator) {
+		  	console.log("Will the service worker register?");
+		  	navigator.serviceWorker.register('service-worker.js')
+			.then(function(reg){
+				console.log("Yes, it did.");
+			}).catch(function(err) {
+				console.log("No it didn't. This happened: ", err)
+			});
 		}
 	</script>
   </body>

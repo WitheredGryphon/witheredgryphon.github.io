@@ -56,3 +56,8 @@ x 2018-06-17 2018-06-13 Finish implementing new navbar across web pages @Functio
 
 - Significantly optimized images to reduce load time and overhead
 - Added JSON manifest
+
+2018-06-18 10:48 AM CDT
+
+- Add manifest to index
+- Add service worker
