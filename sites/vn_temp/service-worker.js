@@ -9,6 +9,7 @@ self.addEventListener('install', function(event) {
         	[
 				'/sites/vn_temp/',
 				'/sites/vn_temp/css/bootstrap.min.css',
+				'/sites/vn_temp/css/bootstrap.min.css.map',
 				'/sites/vn_temp/css/main.css',
 				'/sites/vn_temp/css/bootstrap-theme.min.css',
 				'/sites/vn_temp/css/docs.css',
@@ -90,7 +91,10 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/images/shoujo_img12.jpg',
 				'/sites/vn_temp/images/shoujo_img13.jpg',
 				'/sites/vn_temp/images/shoujo_wp.png',
-				'/sites/vn_temp/images/site_icon.png'
+				'/sites/vn_temp/images/site_icon.png',
+				'/sites/vn_temp/fonts/glyphicons-halflings-regular.woff2',
+				'/sites/vn_temp/fonts/glyphicons-halflings-regular.woff',
+				'/sites/vn_temp/fonts/glyphicons-halflings-regular.ttf'
 			]);
     	})
 		.then(function() {
