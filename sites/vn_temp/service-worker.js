@@ -102,20 +102,18 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/fonts/glyphicons-halflings-regular.woff2',
 				'/sites/vn_temp/fonts/glyphicons-halflings-regular.woff',
 				'/sites/vn_temp/fonts/glyphicons-halflings-regular.ttf',
-				'/sites/vn_temp/fonts/fa-solid-900.woff2',
-				'/sites/vn_temp/fonts/fa-brands-400.woff2',
-				'/sites/vn_temp/flags/br.svg',
-				'/sites/vn_temp/flags/pl.svg',
-				'/sites/vn_temp/flags/es.svg',
-				'/sites/vn_temp/flags/ru.svg',
-				'/sites/vn_temp/flags/hu.svg',
-				'/sites/vn_temp/flags/de.svg',
-				'/sites/vn_temp/flags/fr.svg',
-				'/sites/vn_temp/flags/jp.svg',
-				'/sites/vn_temp/flags/cn.svg',
-				'/sites/vn_temp/flags/it.svg',
-				'/sites/vn_temp/flags/it.svg',
-				'/sites/vn_temp/flags/gb.svg'
+				'/sites/vn_temp/flags/4x3/br.svg',
+				'/sites/vn_temp/flags/4x3/pl.svg',
+				'/sites/vn_temp/flags/4x3/es.svg',
+				'/sites/vn_temp/flags/4x3/ru.svg',
+				'/sites/vn_temp/flags/4x3/hu.svg',
+				'/sites/vn_temp/flags/4x3/de.svg',
+				'/sites/vn_temp/flags/4x3/fr.svg',
+				'/sites/vn_temp/flags/4x3/jp.svg',
+				'/sites/vn_temp/flags/4x3/cn.svg',
+				'/sites/vn_temp/flags/4x3/it.svg',
+				'/sites/vn_temp/flags/4x3/it.svg',
+				'/sites/vn_temp/flags/4x3/gb.svg'
 			]);
     	})
 		.then(function() {
