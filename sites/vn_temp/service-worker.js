@@ -97,11 +97,26 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/images/favicon-16x16.png',
 				'/sites/vn_temp/images/favicon-32x32.png',
 				'/sites/vn_temp/images/mstile-150x150.png',
+				'/sites/vn_temp/images/controls.png',
 				'/sites/vn_temp/images/site.webmanifest',
 				'/sites/vn_temp/images/safari-pinned-tab.svg',
 				'/sites/vn_temp/fonts/glyphicons-halflings-regular.woff2',
 				'/sites/vn_temp/fonts/glyphicons-halflings-regular.woff',
-				'/sites/vn_temp/fonts/glyphicons-halflings-regular.ttf'
+				'/sites/vn_temp/fonts/glyphicons-halflings-regular.ttf',
+				'/sites/vn_temp/fonts/fa-solid-900.woff2',
+				'/sites/vn_temp/fonts/fa-brands-400.woff2',
+				'/sites/vn_temp/flags/br.svg',
+				'/sites/vn_temp/flags/pl.svg',
+				'/sites/vn_temp/flags/es.svg',
+				'/sites/vn_temp/flags/ru.svg',
+				'/sites/vn_temp/flags/hu.svg',
+				'/sites/vn_temp/flags/de.svg',
+				'/sites/vn_temp/flags/fr.svg',
+				'/sites/vn_temp/flags/jp.svg',
+				'/sites/vn_temp/flags/cn.svg',
+				'/sites/vn_temp/flags/it.svg',
+				'/sites/vn_temp/flags/it.svg',
+				'/sites/vn_temp/flags/gb.svg'
 			]);
     	})
 		.then(function() {
