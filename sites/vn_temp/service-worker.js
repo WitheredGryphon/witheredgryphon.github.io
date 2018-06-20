@@ -113,7 +113,21 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/flags/4x3/cn.svg',
 				'/sites/vn_temp/flags/4x3/it.svg',
 				'/sites/vn_temp/flags/4x3/it.svg',
-				'/sites/vn_temp/flags/4x3/gb.svg'
+				'/sites/vn_temp/flags/4x3/gb.svg',
+				'/sites/vn_temp/flags/1x1/br.svg',
+				'/sites/vn_temp/flags/1x1/pl.svg',
+				'/sites/vn_temp/flags/1x1/es.svg',
+				'/sites/vn_temp/flags/1x1/ru.svg',
+				'/sites/vn_temp/flags/1x1/hu.svg',
+				'/sites/vn_temp/flags/1x1/de.svg',
+				'/sites/vn_temp/flags/1x1/fr.svg',
+				'/sites/vn_temp/flags/1x1/jp.svg',
+				'/sites/vn_temp/flags/1x1/cn.svg',
+				'/sites/vn_temp/flags/1x1/it.svg',
+				'/sites/vn_temp/flags/1x1/it.svg',
+				'/sites/vn_temp/flags/1x1/gb.svg',
+				'/sites/vn_temp/webfonts/fa-solid-900.woff',
+				'/sites/vn_temp/webfonts/fa-solid-900.ttf'
 			]);
     	})
 		.then(function() {
