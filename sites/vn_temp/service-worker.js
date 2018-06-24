@@ -135,7 +135,7 @@ self.addEventListener('install', function(event) {
 			]);
     	})
 		.then(function() {
-			console.log('WORKER: install complete');
+			//console.log('WORKER: install complete');
 		})
 	);
 });
@@ -143,14 +143,14 @@ self.addEventListener('install', function(event) {
 // https://css-tricks.com/serviceworker-for-offline/
 // NICOLAS BEVACQUA ON NOVEMBER 10, 2015
 self.addEventListener('fetch', function(event) {
-	console.log('WORKER: fetch started')
+	//console.log('WORKER: fetch started')
 
 	// Fix by Paul Irish for Chromium dev tools bug generating errors
 	if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') {
 		return;
 	}
 	if (event.request.method !== 'GET') {
-		console.log('WORKER: fetch ignored', event.request.method, event.request.url);
+		//console.log('WORKER: fetch ignored', event.request.method, event.request.url);
 		return;
 	}
 
@@ -160,26 +160,26 @@ self.addEventListener('fetch', function(event) {
 				.then(fetchedFromNetwork, unableToResolve)
 				.catch(unableToResolve);
 
-			console.log('WORKER: fetch event', cached ? '(cached)' : '(network)', event.request.url);
+			//console.log('WORKER: fetch event', cached ? '(cached)' : '(network)', event.request.url);
 			return cached || netReq; // return true if we have a cached or networked match
 
 			function fetchedFromNetwork(repsonse) {
 				var cacheCopy = response.clone();
 
-				console.log('WORKER: fetch response from network', event.request.url);
+				//console.log('WORKER: fetch response from network', event.request.url);
 
 				caches.open(version + 'pages').then(function add(cache) {
 					cache.put(event.request, cacheCopy);
 				})
 				.then(function() {
-					console.log('WORKER: fetch response stored in cache', event.request.url);
+					//console.log('WORKER: fetch response stored in cache', event.request.url);
 				});
 
 				return response;
 			}
 
 			function unableToResolve() {
-				console.log('WORKER: fetch request from both cache and network failed');
+				//console.log('WORKER: fetch request from both cache and network failed');
 
 				return new Response('<h1>Service Unavailable</h1>', {
 					status: 503,
@@ -194,7 +194,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-	console.log('WORKER: activation in progress');
+	//console.log('WORKER: activation in progress');
 
 	event.waitUntil(
 		caches.keys().then(function(keys) {
@@ -207,7 +207,7 @@ self.addEventListener('activate', function(event) {
 			);
 		})
 		.then(function() {
-			console.log('WORKER: activation complete');
+			//console.log('WORKER: activation complete');
 		})
 	);
 });
