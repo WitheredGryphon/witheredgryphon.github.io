@@ -46,23 +46,11 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<span class="navbar-brand glyphicon glyphicon-menu-hamburger" style="cursor:pointer" onclick="toggleNav()"></span>
+				<a href="index.html"><span class="navbar-brand glyphicon glyphicon-home" style="cursor:pointer"></span></a>
 				<span class="navbar-brand" style="pointer-events: none; float: right; text-align: right; padding-top: 16px;">/r/vn's 2018 Recommendations</span>
 			</div>
 		</div>
 	</nav>
-
-	<div id="sideNavbar" class="sidenav" style="padding-top: 70;">
-		<div class = "sideNavItem"><a href="index.html">Home</a></div>
-		<div class = "sideNavItem"><a href="GandBNovels.html">Gateway & Beginner Novels</a></div>
-		<div class = "sideNavItem"><a href="#">Adventure</a></div>
-		<div class = "sideNavItem"><a href="#">Comedy</a></div>
-		<div class = "sideNavItem"><a href="#">Action</a></div>
-		<div class = "sideNavItem"><a href="#">Drama</a></div>
-		<div class = "sideNavItem"><a href="#">Thriller & Suspense</a></div>
-		<div class = "sideNavItem"><a href="#">Romance</a></div>
-		<div class = "sideNavItem"><a href="#">Music</a></div>
-	</div>
 
 	<div class="contentWrapper">
 		<div class="topWrapper">
@@ -468,19 +456,6 @@
 			$('[data-toggle="tooltip"]').tooltip();
 		});
 
-		function toggleNav() {
-			var navWidth = document.getElementById("sideNavbar").style.width;
-			if (navWidth == "250px") {
-				document.getElementById("sideNavbar").style.width = "0px";
-				document.getElementById("sideNavbar").style.borderRight = "0px";
-			}
-			else {
-				document.getElementById("sideNavbar").style.width = "250px";
-				document.getElementById("sideNavbar").style.borderRight = "2px solid";
-				document.getElementById("sideNavbar").style.borderRightColor = "#4d4dff";
-			}
-		}
-
 		if ('serviceWorker' in navigator) {
 		  	navigator.serviceWorker.register('service-worker.js')
 			.then(function(reg){
@@ -489,17 +464,6 @@
 				//console.log("CLIENT: register failed - ", err)
 			});
 		}
-
-		let deferredPrompt;
-
-		window.addEventListener('beforeinstallprompt', (e) => {
-		  // Prevent Chrome 67 and earlier from automatically showing the prompt
-		  e.preventDefault();
-		  // Stash the event so it can be triggered later.
-		  deferredPrompt = e;
-		  // Update UI notify the user they can add to home screen
-		  btnAdd.style.display = 'block';
-		});
 	</script>
 	</body>
 </html>
