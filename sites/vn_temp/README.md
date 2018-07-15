@@ -25,17 +25,15 @@ x 2018-06-13 Design and implement a sticky navbar with a hamburger menu +Navbar
 
 x 2018-06-17 2018-06-13 Finish implementing new navbar across web pages @Functionality +Navbar
 
-(A) 2018-06-13 Develop grid/table web page for each genre linked from side navbar
+(A) 2018-06-13 Fix responsiveness of main page for small mobile devices +MainPage
 
-(B) 2018-06-13 Fix responsiveness of main page for small mobile devices +MainPage
+(B) 2018-06-13 Identify and implement fix for tiny highlighted picks on small mobile devices +MainPage
 
-(C) 2018-06-13 Identify and implement fix for tiny highlighted picks on small mobile devices +MainPage
+(C) 2018-06-17 Fix home page highlight reel to display info on hover @Feature +MainPage
 
-(D) 2018-06-17 Fix home page highlight reel to display info on hover @Feature +MainPage
+(D) 2018-06-17 Add icons or something to fill the space on the right side of the navbar @Design +Navbar
 
-(E) 2018-06-17 Add icons or something to fill the space on the right side of the navbar @Design +Navbar
-
-(F) 2018-06-13 Implement remaining visual novel pages after voting results come in
+(E) 2018-06-13 Implement remaining visual novel pages after voting results come in
 
 ### CHANGES
 
@@ -61,3 +59,8 @@ x 2018-06-17 2018-06-13 Finish implementing new navbar across web pages @Functio
 
 - Add manifest to index
 - Add service worker
+
+2018-07-14 11:42 PM CDT
+
+- Added support for content warnings for VNs (All ages, 15+, 17+, and 18+)
+- Replaced old icons in "links" section with new "button" icons
