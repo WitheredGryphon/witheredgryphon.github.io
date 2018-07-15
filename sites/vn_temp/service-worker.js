@@ -33,7 +33,6 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/js/lightslider.js',
 				'/sites/vn_temp/js/npm.js',
 				'/sites/vn_temp/index.html',
-				'/sites/vn_temp/GandBNovels.html',
 				'/sites/vn_temp/KatawaShoujo.html',
 				'/sites/vn_temp/LittleBusters.html',
 				'/sites/vn_temp/images/999_thumb.png',
