@@ -64,3 +64,8 @@ x 2018-06-17 2018-06-13 Finish implementing new navbar across web pages @Functio
 
 - Added support for content warnings for VNs (All ages, 15+, 17+, and 18+)
 - Replaced old icons in "links" section with new "button" icons
+
+2018-07-16 2:36 PM CDT
+
+- Added many more icons for store pages, switched out "links" for store sites
+- Moved old info links up to the top of the page

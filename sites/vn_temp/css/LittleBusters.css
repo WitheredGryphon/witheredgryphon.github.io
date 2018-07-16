@@ -1,4 +1,4 @@
-/* 
+/*
 #0b0C10 - background
 #1F2833 - deep blue
 #e1e5e8 - gray (font)
@@ -164,19 +164,19 @@ body {
 	color: #e1e5e8 !important;
 }
 
-@media screen and (max-width: 1199px) {	
+@media screen and (max-width: 1199px) {
 	.contentWrapper {
 		margin: 0;
 	}
-	
+
 	.item {
 		margin-top: 16px;
 	}
-	
+
 	#webBar {
 		display: none;
 	}
-	
+
 	#mobileBar {
 		display: block;
 	}
@@ -208,4 +208,8 @@ body {
 .developer {
 	font-weight: normal;
 	font-size: 24px;
+}
+
+.vnButton {
+    margin-bottom: 8px
 }
