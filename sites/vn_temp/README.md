@@ -1,4 +1,5 @@
 # /r/visualnovel's 2018 competition submission
+# By /u/TheRealZethin
 
 This is my web creation for the /r/visualnovel's 2018 competition to re-design the recommendation chart for Visual Novels.
 
