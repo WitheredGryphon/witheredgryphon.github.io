@@ -127,6 +127,8 @@ body {
     .contentWarningMobile {
         display: block
     }
+
+	.
 }
 
 .novelDeveloper,.novelPublisher {
@@ -185,6 +187,17 @@ body {
     }
 }
 
+.mobileNav {
+	display: none;
+}
+
+.novelTitle {
+	margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: left
+}
+
 @media screen and (max-width:767px) {
     .clearfix {
         max-width: 1024px!important
@@ -197,16 +210,22 @@ body {
     .valign {
         display: block
     }
+
+	.webNav {
+		display: none;
+	}
+
+	.mobileNav {
+		display: block;
+	}
+
+	.novelTitle {
+		font-size: 2.5em;
+	}
 }
 
 .content-slider li {
     text-align: center
-}
-
-.novelTitle {
-    margin-bottom: 16px;
-    font-size: 48px;
-    text-align: left
 }
 
 .developer {

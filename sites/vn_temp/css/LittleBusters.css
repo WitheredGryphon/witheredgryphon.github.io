@@ -164,6 +164,8 @@ body {
 	color: #e1e5e8 !important;
 }
 
+
+
 @media screen and (max-width: 1199px) {
 	.contentWrapper {
 		margin: 0;
@@ -182,6 +184,17 @@ body {
 	}
 }
 
+.novelTitle {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-size: 48px;
+	text-align: left;
+}
+
+.mobileNav {
+	display: none;
+}
+
 @media screen and (max-width: 767px) {
 	.clearfix {
 		max-width: 1024px !important;
@@ -192,17 +205,22 @@ body {
 	.valign {
 		display: block;
 	}
+
+	.webNav {
+		display: none;
+	}
+
+	.mobileNav {
+		display: block;
+	}
+
+	.novelTitle {
+		font-size: 2.5em;
+	}
 }
 
 .content-slider li{
 	text-align: center;
-}
-
-.novelTitle {
-	margin-top: 16px;
-	margin-bottom: 16px;
-	font-size: 48px;
-	text-align: left;
 }
 
 .developer {
