@@ -16,6 +16,12 @@
 	<!-- Fakeloader Framework's CSS -->
 	<link href="css/fakeloader.css" rel="stylesheet">
 
+	<!-- Flickity (carousel) CSS -->
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+	  
+	<!-- FontAwesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
 	<link rel="manifest" href="manifest.json">
 	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=2">
@@ -84,1692 +90,354 @@
 	<div id="category">
 		<b>Gateway and Beginner Novels</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell">
+			<div class="infoContainer katawaShoujo">
+				<div class="row" style="font-size: 20px">Katawa Shoujo</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="KatawaShoujo.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 						</div>
 					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/steins_gate_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Steins;Gate</div>
-							<a href = "SteinsGate.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.52 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Thriller, Sci-Fi
-							</div>
-						</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Slice of Life, Drama
 					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/danganronpa_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Dangan Ronpa</div>
-							<a href = "DanganRonpa.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.01 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Mystery, Psychological
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/vallhalla_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>VA-11 HALL-A</div>
-							<a href = "Vallhalla.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.01 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Sci-Fi, Dystopian, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/narcissu_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>Narcissu</div>
-							<a href = "Narcissu.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.79 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
+				</div>
+			</div>
+			<img src="images/katawa_shoujo_thumb.png" />
 		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+		<div class="gallery-cell">
+			<div class="infoContainer steinsGate">
+				<div class="row" style="font-size: 20px">Steins;Gate</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="SteinsGate.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Sci-Fi, Mystery, Drama
+					</div>
+				</div>
+			</div>
+			<img src="images/steins_gate_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer phoenixWright">
+				<div class="row" style="font-size: 20px">Phoenix Wright</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="PhoenixWright.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Mystery, Drama, Suspense
+					</div>
+				</div>
+			</div>
+			<img src="images/phoenix_wright_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer danganRonpa">
+				<div class="row" style="font-size: 20px">Dangan Ronpa</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="DanganRonpa.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Mystery, Thriller, Drama
+					</div>
+				</div>
+			</div>
+			<img src="images/danganronpa_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer fateStayNight">
+				<div class="row" style="font-size: 20px">Fate/Stay Night</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="FateStayNight.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Action, Drama
+					</div>
+				</div>
+			</div>
+			<img src="images/fate_stay_night_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer nineNineNine">
+				<div class="row" style="font-size: 20px">999</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="999.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Mystery, Suspense, Thriller
+					</div>
+				</div>
+			</div>
+			<img src="images/999_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer planetarian">
+				<div class="row" style="font-size: 20px">Planetarian</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="Planetarian.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Sci-Fi, Drama
+					</div>
+				</div>
+			</div>
+			<img src="images/planetarian_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer vallhalla">
+				<div class="row" style="font-size: 20px">VA-11 HALL-A</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="Vallhalla.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Sci-Fi, Dystopian, Comedy
+					</div>
+				</div>
+			</div>
+			<img src="images/vallhalla_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer narcissu">
+				<div class="row" style="font-size: 20px">Narcissu</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 50%;"><a href="Narcissu.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Drama
+					</div>
+				</div>
+			</div>
+			<img src="images/narcissu_thumb.png" />
+		</div>
+		<div class="gallery-cell">
+			<div class="infoContainer devilOnGString">
+				<div class="row" style="font-size: 20px">The Devil on G-String</div>
+				<div class="row" style="font-size: 32px; position: absolute; bottom: 45%;"><a href="DevilOnGString.html"><i class="fas fa-arrow-alt-circle-right"></i></a></div>
+				<div class="row" style="font-size: 14px; position: absolute; bottom: 0; text-align: left">
+					<div class="row" style="padding: 0; margin: 0; margin-bottom: 12px;">
+						<b>Rating:</b>
+						<div class="stars-outer">
+							<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+							<div class="stars-inner"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="row" style="padding: 0; margin: 0">
+						<b>Genres:</b> Mystery, Suspense, Drama
+					</div>
+				</div>
+			</div>
+			<img src="images/devil_on_g_string_thumb.png" />
+		</div>
 	</div>
 
 	<div id="category">
 		<b>Drama</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/ef_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>ef - a fairy tale of the two</div>
-								<a href = "ef.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 4.06 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Drama, Mystery, Romance
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/eden_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Eden*</div>
-							<a href = "Eden.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.86 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Romance, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/grisaia_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>The Fruit of Grisaia</div>
-							<a href = "Grisaia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.24 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Psychological
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/hifm_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>The House in Fata Morgana</div>
-							<a href = "HouseInFataMorgana.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.41 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Horror
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/ef_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/eden_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/grisaia_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/clannad_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/higurashi_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/narcissu_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/swan_song_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/chaos_child_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/kara_no_shojo_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/symphonic_rain_thumb.png" /></div>
 	</div>
-
+	
 	<div id="category">
 		<b>Comedy</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/monster_girl_quest_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Monster Girl Quest</div>
-							<a href = "MonsterGirlQuest.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.81 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Eroge, Gameplay
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/majikoi_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/my_girlfriend_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/hatoful_boyfriend_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/tsujidou_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/sengoku_rance_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/monster_girl_quest_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/vallhalla_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/evenicle_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/little_busters_thumb.png" /></div>
 	</div>
-
+	
+	<div id="category">
+		<b>Sci-Fi / Fantasy</b>
+	</div>
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/fault_milestone_one_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/yuno_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/muv_luv_alternative_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/steins_gate_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/chaos_child_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/root_double_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/sekien_no_inganock_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/chrono_clock_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/muv_luv_thumb.png" /></div>
+	</div>
+	
 	<div id="category">
 		<b>Action</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/monster_girl_quest_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Monster Girl Quest</div>
-							<a href = "MonsterGirlQuest.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.81 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Eroge, Gameplay
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/tokyo_babel_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/rose_gun_days_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/comyu_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/dies_irae_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/fate_stay_night_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/tsukihime_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/rewrite_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/kamidori_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/monster_girl_quest_thumb.png" /></div>
 	</div>
 
 	<div id="category">
-		<b>Drama</b>
+		<b>Slice of Life</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/monster_girl_quest_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Monster Girl Quest</div>
-							<a href = "MonsterGirlQuest.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.81 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Eroge, Gameplay
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
-	</div>
-
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/princess_evangile_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/hoshizora_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/konosora_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/fureraba_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/katawa_shoujo_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/clannad_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/grisaia_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/himawari_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/sharin_no_kuni_thumb.png" /></div>
+	</div>	
+	
 	<div id="category">
-		<b>Thriller and Suspense</b>
+		<b>Otome</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/monster_girl_quest_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Monster Girl Quest</div>
-							<a href = "MonsterGirlQuest.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.81 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Eroge, Gameplay
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
-	</div>
-
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/code_realize_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/heart_no_kuni_no_alice_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/nightshade_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/togainu_no_chi_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/black_wolves_saga_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/nameless_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/cinderella_phenomenon_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/amnesia_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/ayakashi_gohan_thumb.png" /></div>
+	</div>	
+	
 	<div id="category">
-		<b>Romance</b>
+		<b>Boy's Love / Girl's Love</b>
 	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/monster_girl_quest_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Monster Girl Quest</div>
-							<a href = "MonsterGirlQuest.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.81 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Eroge, Gameplay
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
-	</div>
-
-	<div id="category">
-		<b>Music</b>
-	</div>
-
-	<div class="jcarousel-wrapper">
-		<div class="jcarousel">
-			<ul>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/katawa_shoujo_thumb.png" alt="Image 1">
-						<div class = "vnHover">
-								<div>Katawa Shoujo</div>
-								<a href = "KatawaShoujo.html" class = "expandInfo">
-									<span class="glyphicon glyphicon-circle-arrow-right"></span>
-								</a>
-								<div id="thumbCW">
-									<a href="#" data-toggle="tooltip" title="This novel received a 3.92 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-									<b>Genres:</b> Romance, Slice of Life
-								</div>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/fate_stay_night_thumb.png" alt="Image 2">
-						<div class = "vnHover">
-							<div>Fate/Stay Night</div>
-							<a href = "FateStayNight.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.34 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Adventure, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/clannad_thumb.png" alt="Image 3">
-						<div class = "vnHover">
-							<div>Clannad</div>
-							<a href = "Clannad.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.35 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Drama, Romance, Slice of Life
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/monster_girl_quest_thumb.png" alt="Image 4">
-						<div class = "vnHover">
-							<div>Monster Girl Quest</div>
-							<a href = "MonsterGirlQuest.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.81 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Eroge, Gameplay
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/saya_no_uta_thumb.png" alt="Image 5">
-						<div class = "vnHover">
-							<div>Saya no Uta</div>
-							<a href = "SayaNoUta.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.09 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Horror, Thriller, Mystery
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/planetarian_thumb.png" alt="Image 6">
-						<div class = "vnHover">
-							<div>Planetarian</div>
-							<a href = "Planetarian.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.98 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Drama, Sci-Fi, Post-apocalyptic
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/999_thumb.png" alt="Image 7">
-						<div class = "vnHover">
-							<div>999</div>
-							<a href = "Nines.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.20 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Drama, Suspense
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/devil_on_g_string_thumb.png" alt="Image 8">
-						<div class = "vnHover">
-							<div>The Devil on G-String</div>
-							<a href = "DevilOnGString.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.26 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Thriller, Romance
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/little_busters_thumb.png" alt="Image 9">
-						<div class = "vnHover">
-							<div>Little Busters!</div>
-							<a href = "LittleBusters.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.29 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Slice of Life, Romance, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/phoenix_wright_thumb.png" alt="Image 10">
-						<div class = "vnHover">
-							<div>Phoenix Wright: Ace Attorney</div>
-							<a href = "PhoenixWright.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.11 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Mystery, Gameplay, Drama
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/rewrite_thumb.png" alt="Image 11">
-						<div class = "vnHover">
-							<div>Rewrite</div>
-							<a href = "Rewrite.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.30 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Action, Romance, Adventure
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class = "vnContainer">
-						<img src="images/amnesia_thumb.png" alt="Image 12">
-						<div class = "vnHover">
-							<div>Amnesia: Memories</div>
-							<a href = "Amnesia.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 3.76 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9734;</a>
-								<b>Genres:</b> Romance, Mystery, Fantasy
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="vnContainer">
-						<img src="images/dramatical_murder_thumb.png" alt="Image 13">
-						<div class = "vnHover">
-							<div>Dramatical Murder</div>
-							<a href = "DramaticalMurder.html" class = "expandInfo">
-								<span class="glyphicon glyphicon-circle-arrow-right"></span>
-							</a>
-							<div id="thumbCW">
-								<a href="#" data-toggle="tooltip" title="This novel received a 4.00 out of 5.00 according to VNDB." class="thumbRating">&#9733; &#9733; &#9733; &#9733; &#9733;</a>
-								<b>Genres:</b> Otome, Action, Sci-Fi
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		<a href="#" class="jcarousel-control-next">&rsaquo;</a>
-	</div>
-
+	
+	<div class="gallery js-flickity"
+	data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+		<div class="gallery-cell"><img src="images/dramatical_murder_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/hoshizora_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/konosora_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/fureraba_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/katawa_shoujo_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/clannad_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/grisaia_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/himawari_thumb.png" /></div>
+		<div class="gallery-cell"><img src="images/sharin_no_kuni_thumb.png" /></div>
+	</div>	
+	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<!-- Flickity JS -->
+	<script src="js/flickity.pkgd.min.js"></script>
+	
 	<script type="text/javascript" src="js/fakeloader.min.js"></script>
-	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+	
 	<script>
+		<!-- More thanks to George from TutsPlus -->
+		const ratings = {
+			katawaShoujo : 3.92,
+			steinsGate : 4.52,
+			phoenixWright: 4.11,
+			danganRonpa : 4.01,
+			fateStayNight : 4.34,
+			nineNineNine : 4.19,
+			planetarian : 3.98,
+			vallhalla : 4.01,
+			narcissu : 3.79,
+			devilOnGString : 4.25
+		};
+		
+		const stars = 5;
+		
+		for (const rating in ratings) {
+			const starPercent = (ratings[rating] / stars) * 100;
+			const starPercentRounded = `${(Math.round(starPercent / 10) * 10)}%`;
+			document.querySelector(`.${rating} .stars-inner`).style.width = starPercentRounded; 
+		}
+	
 		$(document).ready(function(){
 			window.FakeLoader.init( { auto_hide: true } );
 
