@@ -8,6 +8,7 @@ self.addEventListener('install', function(event) {
 			return cache.addAll(
         	[
 				'/sites/vn_temp/',
+				'/sites/vn_temp/css/all.css',
 				'/sites/vn_temp/css/bootstrap.min.css',
 				'/sites/vn_temp/css/bootstrap.min.css.map',
 				'/sites/vn_temp/css/main.css',
@@ -18,6 +19,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/css/fa-solid.min.css',
 				'/sites/vn_temp/css/fakeloader.css',
 				'/sites/vn_temp/css/flag-icon.min.css',
+				'/sites/vn_temp/css/flickity.css',
 				'/sites/vn_temp/css/fontawesome-all.min.css',
 				'/sites/vn_temp/css/KatawaShoujo.css',
 				'/sites/vn_temp/css/lightbox.css',
@@ -26,6 +28,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/js/bootstrap.min.js',
 				'/sites/vn_temp/js/jquery-3.3.1.min.js',
 				'/sites/vn_temp/js/fakeloader.min.js',
+				'/sites/vn_temp/js/flickity.pkgd.min.js',
 				'/sites/vn_temp/js/jcarousel.connected-carousels.js',
 				'/sites/vn_temp/js/jcarousel.responsive.js',
 				'/sites/vn_temp/js/jquery.jcarousel.min.js',
@@ -38,6 +41,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/images/999_thumb.png',
 				'/sites/vn_temp/images/amnesia_thumb.png',
 				'/sites/vn_temp/images/ayakashi_gohan_thumb.png',
+				'/sites/vn_temp/images/black_wolves_saga_thumb.png',
 				'/sites/vn_temp/images/busters_img1.jpg',
 				'/sites/vn_temp/images/busters_img2.jpg',
 				'/sites/vn_temp/images/busters_img3.jpg',

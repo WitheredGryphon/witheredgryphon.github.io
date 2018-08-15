@@ -119,37 +119,6 @@ a:hover {
 	vertical-align: middle;
 }
 
-.vnHighlightContainer .vnHoverMain {
-	display: none;
-}
-
-.vnHighlightContainer:hover .vnHoverMain {
-	display: block;
-	position: absolute;
-	top: 0px;
-	background-color: #0b0c10c2;
-	width: 100%;
-	height: 100%;
-	border-top: 2px solid #4d4dff;
-	padding-left: 15%;
-	padding-top: 5%;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
-}
-
-.highlightTitle {
-	font-size: 1.3em;
-}
-
-.highlightDesc {
-	font-size: 0.6em;
-	line-height: 1.6;
-	width: 40%;
-}
-
 /*************************/
 /* external css: flickity.css */
 
@@ -207,6 +176,10 @@ body { font-family: sans-serif; }
 	display: none;
 }
 
+.carousel {
+	width: 100%;
+}
+
 
 /** (thanks George Matsukous from TutPlus) **/
 .stars-outer {
@@ -214,10 +187,10 @@ body { font-family: sans-serif; }
   position: relative;
   font-family: FontAwesome;
 }
- 
+
 .stars-outer::before {
 }
- 
+
 .stars-inner {
   position: absolute;
   top: 0;
@@ -226,7 +199,7 @@ body { font-family: sans-serif; }
   overflow: hidden;
   width: 0;
 }
- 
+
 .stars-inner::before {
   color: #f8ce0b;
 }
