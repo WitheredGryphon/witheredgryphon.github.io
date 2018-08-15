@@ -37,6 +37,7 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/LittleBusters.html',
 				'/sites/vn_temp/images/999_thumb.png',
 				'/sites/vn_temp/images/amnesia_thumb.png',
+				'/sites/vn_temp/images/ayakashi_gohan_thumb.png',
 				'/sites/vn_temp/images/busters_img1.jpg',
 				'/sites/vn_temp/images/busters_img2.jpg',
 				'/sites/vn_temp/images/busters_img3.jpg',
