@@ -5,6 +5,11 @@
 #4d4dff - neon blue
 */
 
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/fa-regular-400.woff);
+}
+
 body {
 	background-color: #0b0c10;
 	color: #e1e5e8;
@@ -123,28 +128,28 @@ a:hover {
 /* external css: flickity.css */
 
 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body { font-family: sans-serif; }
 
 .gallery-cell {
-  width: 160px;
-  height: 228px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
+	width: 160px;
+	height: 228px;
+	margin-right: 10px;
+	background: #8C8;
+	counter-increment: gallery-cell;
 
 }
 
 /* cell number */
 .gallery-cell:before {
-  display: block;
-  text-align: center;
-  line-height: 228px;
-  font-size: 80px;
-  color: white;
+	display: block;
+	text-align: center;
+	line-height: 228px;
+	font-size: 80px;
+	color: white;
 }
 
 .gallery-cell .infoContainer {
@@ -163,13 +168,13 @@ body { font-family: sans-serif; }
 .gallery-cell:hover .infoContainer {
 	background-color: #111111cc;
 	position: absolute;
-    display:block;
+	display:block;
 	border: 2px solid #4d4dff;
-	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 0.5s; /* Firefox < 16 */
-	-ms-animation: fadein 0.5s; /* Internet Explorer */
-	-o-animation: fadein 0.5s; /* Opera < 12.1 */
-	animation: fadein 0.5s;
+	-webkit-animation: fadein 0.35s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.35s; /* Firefox < 16 */
+	-ms-animation: fadein 0.35s; /* Internet Explorer */
+	-o-animation: fadein 0.35s; /* Opera < 12.1 */
+	animation: fadein 0.35s;
 }
 
 .flickity-page-dots {
@@ -183,55 +188,59 @@ body { font-family: sans-serif; }
 
 /** (thanks George Matsukous from TutPlus) **/
 .stars-outer {
-  display: inline-block;
-  position: relative;
-  font-family: FontAwesome;
+	display: inline-block;
+	position: relative;
+	font-family: 'FontAwesome' !important;
+	font-weight: 700;
 }
 
 .stars-outer::before {
+	font-family: 'FontAwesome' !important;
+	content: '\f006  \f006  \f006  \f006  \f006';
 }
 
 .stars-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 0;
 }
 
 .stars-inner::before {
-  color: #f8ce0b;
+	font-family: 'FontAwesome' !important;
+	content: "\f005  \f005  \f005  \f005  \f005";
 }
 
 /** (thanks A.M.K. from Stack Overflow) **/
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to	 { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to	 { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to	 { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to	 { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to	 { opacity: 1; }
 }
 
 .mobileNav {

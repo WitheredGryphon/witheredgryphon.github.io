@@ -140,6 +140,8 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/images/tokyo_babel_thumb.png',
 				'/sites/vn_temp/images/tsujidou_thumb.png',
 				'/sites/vn_temp/images/tsukihime_thumb.png',
+				'/sites/vn_temp/images/umineko_thumb.png',
+				'/sites/vn_temp/images/utawarerumono_thumb.png',
 				'/sites/vn_temp/images/vallhalla_thumb.png',
 				'/sites/vn_temp/images/yuno_thumb.png',
 				'/sites/vn_temp/images/android-chrome-192x192.png',
@@ -192,12 +194,12 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/flags/1x1/it.svg',
 				'/sites/vn_temp/flags/1x1/it.svg',
 				'/sites/vn_temp/flags/1x1/gb.svg',
-				'/sites/vn_temp/webfonts/fa-solid-900.woff',
-				'/sites/vn_temp/webfonts/fa-solid-900.woff2',
-				'/sites/vn_temp/webfonts/fa-solid-900.ttf',
-				'/sites/vn_temp/webfonts/fa-brands-400.ttf',
-				'/sites/vn_temp/webfonts/fa-brands-400.woff',
-				'/sites/vn_temp/webfonts/fa-brands-400.woff2'
+				'/sites/vn_temp/fonts/fa-solid-900.woff',
+				'/sites/vn_temp/fonts/fa-solid-900.woff2',
+				'/sites/vn_temp/fonts/fa-solid-900.ttf',
+				'/sites/vn_temp/fonts/fa-brands-400.ttf',
+				'/sites/vn_temp/fonts/fa-brands-400.woff',
+				'/sites/vn_temp/fonts/fa-brands-400.woff2'
 			]);
     	})
 		.then(function() {
