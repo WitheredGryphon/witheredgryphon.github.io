@@ -135,12 +135,11 @@ a:hover {
 body { font-family: sans-serif; }
 
 .gallery-cell {
-	width: 160px;
-	height: 228px;
+	width: 270px;
+	height: 480px;
 	margin-right: 10px;
 	background: #8C8;
 	counter-increment: gallery-cell;
-
 }
 
 /* cell number */
@@ -154,19 +153,19 @@ body { font-family: sans-serif; }
 
 .gallery-cell .infoContainer {
 	width: 100%;
-	height: 228px;
-	text-align: center;
+	height: 480px;
 	display: none;
 }
 
 .gallery-cell .infoContainer .row {
 	margin: 0;
 	width: 100%;
-	padding: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
 }
 
 .gallery-cell:hover .infoContainer {
-	background-color: #111111cc;
+	background-color: #111111ed;
 	position: absolute;
 	display:block;
 	border: 2px solid #4d4dff;
@@ -185,6 +184,31 @@ body { font-family: sans-serif; }
 	width: 100%;
 }
 
+.mobileBanner {
+	display: none;
+}
+
+.infoGo {
+	font-size: 40px;
+	position: absolute;
+	top: 33%;
+	text-align: center;
+}
+
+.infoTitle {
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 15%;
+	text-align: center;
+}
+
+.infoStats {
+	font-size: 14px;
+	position: absolute;
+	bottom: 12px;
+	padding-bottom: 12px;
+}
 
 /** (thanks George Matsukous from TutPlus) **/
 .stars-outer {
@@ -263,4 +287,44 @@ body { font-family: sans-serif; }
 	.webNav {
 		display: none;
 	}
+	
+	.mobileBanner {
+		display: block;
+	}
+	
+	.webBanner {
+		display: none;
+	}
+	
+	.gallery-cell {
+		width: 160px;
+		height: 228px;
+	}
+	
+	.infoGo {
+		top: 33%;
+		font-size: 32px;
+	}
+
+	.infoTitle {
+		top: 5%;
+		font-size: 20px;
+		font-weight: normal;
+	}
+	
+	.infoStats {
+		bottom: 0;
+	}
+
+	.gallery-cell .infoContainer {
+		height: 228px;
+	}
+}
+
+.footerText {
+	padding-top: 56Fpx;
+	padding-bottom: 16px;
+	text-align: center;
+	color: #777;
+	font-size: 0.5em;
 }
