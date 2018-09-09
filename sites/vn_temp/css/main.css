@@ -137,9 +137,12 @@ body { font-family: sans-serif; }
 .gallery-cell {
 	width: 270px;
 	height: 480px;
-	margin-right: 10px;
-	background: #8C8;
+	margin-right: 16px;
 	counter-increment: gallery-cell;
+}
+
+.gallery {
+	padding-bottom: 48px;
 }
 
 /* cell number */
