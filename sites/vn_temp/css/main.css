@@ -14,7 +14,6 @@ body {
 	background-color: #0b0c10;
 	color: #e1e5e8;
 	font-size: 24px;
-	padding-top: 70px;
 }
 
 a {
@@ -27,15 +26,19 @@ a:hover {
 
 .navbar {
 	border: none;
-	margin-bottom: 16px;
+	margin-bottom: -50px;
+	padding-left: 4px;
+	padding-top: 4px;
 }
 
 .navbar-default {
-	background-color: #4d4dff;
+	background-color: unset;
+	position: absolute;
 	border-radius: 0px;
 	border-color: unset;
+	width: 100%;
 	color: #0a0a0a;
-	box-shadow: 0px 1px 9px 8px;
+	z-index: 2;
 }
 
 .navbar-default .navbar-brand {
@@ -85,10 +88,10 @@ a:hover {
 }
 
 #highlightCarousel {
-	border-bottom: 2px solid #4d4dff;
-	border-top: 2px solid #4d4dff;
-	margin-top: 16px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
 	min-height: 350px;
+	box-shadow: 0px 15px 20px 12px #000000;
 }
 
 #highlightCarousel img {
