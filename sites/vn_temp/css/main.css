@@ -87,16 +87,27 @@ a:hover {
 	width: 100%;
 }
 
-#highlightCarousel {
-	opacity: 0.4;
-	filter: alpha(opacity=40);
-	min-height: 350px;
-	box-shadow: 0px 15px 20px 12px #000000;
+.carousel-main {
+	opacity: 0.50;
+	filter: alpha(opacity=50);
+	box-shadow: 0px 15px 20px 12px #060606;
+	background-color: #00000000
 }
 
-#highlightCarousel img {
-	min-height: 350px;
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  margin-bottom: -16px;
 }
+
+.carousel-cell {
+	margin-right: 16px;
+}
+
 
 #category {
 	margin: 16px;
@@ -278,16 +289,29 @@ body { font-family: sans-serif; }
 }
 
 @media screen and (max-width:767px) {
-	#highlightCarousel {
-		display: none;
+	body {
+		padding-top: 20px;
 	}
-
-	#highlightCarouselTitle {
+	
+	.carousel-main {
 		display: none;
 	}
 
 	.mobileNav {
+		padding-left: 0;
+		margin-top: 0;
+		padding-top: 0;
 		display: block;
+	}
+	
+	.mobileNav .container-fluid {
+		background-color: #4d4dff;
+	}
+	
+	.navbar {
+		position: fixed;
+		border-bottom: 1px solid #0a0a0a;
+		box-shadow: 0px 4px 20px 1px #060606
 	}
 
 	.webNav {

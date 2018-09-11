@@ -42,49 +42,32 @@
   <body>
   <div id="fakeloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner"><div class="loader"></div></div></div></div>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default webNav">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a href="#"><span class="navbar-brand glyphicon glyphicon-home" style="cursor:pointer"></span></a>
-				<span class="navbar-brand webNav" style="pointer-events: none; float: right; text-align: right; padding-top: 16px;">/r/vn's 2018 Recommendations</span>
-				<span class="navbar-brand mobileNav" style="pointer-events: none; float: right; text-align: right; padding-top: 16px;">/r/vn's 2018 Chart</span>
+				<span class="navbar-brand" style="pointer-events: none; float: right; text-align: right; padding-top: 16px;">/r/vn's 2018 Recommendations</span>
+			</div>
+		</div>
+	</nav>
+	
+	<nav class="navbar navbar-default navbar-fixed-top mobileNav">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="#"><span class="navbar-brand glyphicon glyphicon-home" style="cursor:pointer"></span></a>
+				<span class="navbar-brand" style="pointer-events: none; float: right; text-align: right; padding-top: 16px;">/r/vn's 2018 Chart</span>
 			</div>
 		</div>
 	</nav>
 
-	<div id="highlightCarousel" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators" style="width: auto; margin-left: 0;">
-			<li data-target="#highlightCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#highlightCarousel" data-slide-to="1"></li>
-			<li data-target="#highlightCarousel" data-slide-to="2"></li>
-		</ol>
-
-		<div class="carousel-inner">
-
-			<div class="item active">
-				<a href="DiesIrae.html"><img src="images/dies_irae.png" alt="dies irae" ></a>
-			</div>
-
-			<div class="item">
-				<a href="Higurashi.html"><img src="images/higurashi.png" alt="higurashi"></a>
-			</div>
-
-			<div class="item">
-				<a href="HouseInFataMorgana.html"><img src="images/hifm.png" alt="hifm"></a>
-			</div>
-		</div>
-
-		<a class="left carousel-control" href="#highlightCarousel" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#highlightCarousel" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-			<span class="sr-only">Next</span>
-		</a>
+	<div class="carousel carousel-main" data-flickity='{ "autoPlay": true, "resize": true, "wrapAround": true }'>
+		<div class="carousel-cell"><img src="images/hifm.png"></div>
+		<div class="carousel-cell"><img src="images/dies_irae.png"></div>
+		<div class="carousel-cell"><img src="images/higurashi.png"></div>
 	</div>
 
-	<div id="category" style="padding-top: 32px;">
+
+	<div id="category" style="padding-top: 48px;">
 		<b>Gateway and Beginner Novels</b>
 	</div>
 
