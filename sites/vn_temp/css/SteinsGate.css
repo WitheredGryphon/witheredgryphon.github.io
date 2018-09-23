@@ -207,6 +207,11 @@ body {
 	margin-bottom: 20px;
 }
 
+.carousel img {
+	max-height: 720px;
+	max-width: 1280px;
+}
+
 .carousel-cell {
 	width: 100%;
 	height: auto;
