@@ -26,20 +26,23 @@ body {
 	background-image: url('../images/busters_wp.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-top: 50px;
+	padding-top: 24px;
 }
 
 .navbar {
 	border: none;
-	margin-bottom: 16px;
+	margin-bottom: 12px;
 }
 
 .navbar-default {
 	background-color: #4d4dff;
 	border-radius: 0px;
 	border-color: unset;
-	color: #0a0a0a;
+	color: #0a0a0aab;
+	border: 1px solid #000;
 	box-shadow: 0px 1px 9px 2px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .navbar-default .navbar-brand {
@@ -85,9 +88,12 @@ body {
 }
 
 .contentWrapper {
-	margin-left: 15%;
-	margin-right: 15%;
-	background-color: #13151b;
+	margin-left: 10%;
+	margin-right: 10%;
+	background: linear-gradient(to top, rgba(19, 21, 27, 1) 50%, rgba(19, 21, 27, 0.8));
+	color: #0a0a0a;
+	box-shadow: 0px 1px 9px 2px;
+	border: 1px solid #000;
 }
 
 .topWrapper {
@@ -164,9 +170,86 @@ body {
 	color: #e1e5e8 !important;
 }
 
+.mobileNav {
+	display: none;
+}
 
+.novelTitle {
+	margin-bottom: 16px;
+	font-size: 48px;
+	text-align: left;
+}
+
+.content-slider li{
+	text-align: center;
+}
+
+.developer {
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.vnButton {
+    margin-bottom: 8px
+}
+
+.contentWarningMobile,.contentWarningWeb {
+	border: 1px solid #86c341;
+	border-radius: 1px
+}
+
+.contentWarningMobile {
+	display: none
+}
+
+.carousel {
+	padding-top: 8px;
+	margin-bottom: 20px;
+}
+
+.carousel img {
+	max-height: 720px;
+	max-width: 1280px;
+}
+
+.carousel-cell {
+	width: 100%;
+	height: auto;
+	margin-right: 8px;
+	counter-increment: carousel-cell;
+}
+
+.carousel-nav .carousel-cell img {
+}
+
+.carousel-nav .flickity-button {
+	display: none;
+}
+
+.carousel-cell:before {
+	display: block;
+	text-align: center;
+	font-size: 80px;
+}
+
+.carousel-nav .carousel-cell {
+	height: auto;
+	width: 100px;
+}
+
+.carousel-nav .carousel-cell:before {
+	font-size: 50px;
+}
+
+.carousel-nav .carousel-cell.is-nav-selected img {
+	border-radius: 6px;
+}
 
 @media screen and (max-width: 1199px) {
+	body {
+		padding-top: 50px;
+	}
+	
 	.contentWrapper {
 		margin: 0;
 	}
@@ -182,17 +265,19 @@ body {
 	#mobileBar {
 		display: block;
 	}
-}
 
-.novelTitle {
-	margin-top: 16px;
-	margin-bottom: 16px;
-	font-size: 48px;
-	text-align: left;
-}
+	.webNav {
+		display: none;
+	}
 
-.mobileNav {
-	display: none;
+	.mobileNav {
+		display: block;
+	}
+
+	.navbar-default {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -206,28 +291,19 @@ body {
 		display: block;
 	}
 
-	.webNav {
-		display: none;
-	}
-
-	.mobileNav {
-		display: block;
-	}
-
 	.novelTitle {
 		font-size: 2.5em;
 	}
 }
 
-.content-slider li{
-	text-align: center;
-}
+@media screen and (max-width:375px) {
+		.contentWarningMobile,.contentWarningWeb {
+			border: 1px solid orange;
+			border-radius: 1px;
+			display: none
+		}
 
-.developer {
-	font-weight: normal;
-	font-size: 24px;
-}
-
-.vnButton {
-    margin-bottom: 8px
+		.contentWarningMobile {
+			display: block
+		}
 }
