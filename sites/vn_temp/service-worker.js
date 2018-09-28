@@ -11,7 +11,6 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/Danganronpa.html',
 				'/sites/vn_temp/index.html',
 				'/sites/vn_temp/KatawaShoujo.html',
-				'/sites/vn_temp/listFiles.py',
 				'/sites/vn_temp/LittleBusters.html',
 				'/sites/vn_temp/manifest.json',
 				'/sites/vn_temp/PhoenixWright.html',
