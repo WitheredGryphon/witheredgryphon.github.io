@@ -563,8 +563,6 @@ self.addEventListener('install', function(event) {
 				'/sites/vn_temp/flags/4x3/za.svg',
 				'/sites/vn_temp/flags/4x3/zm.svg',
 				'/sites/vn_temp/flags/4x3/zw.svg',
-				'/sites/vn_temp/css/fonts/fontawesome-webfont.woff',
-				'/sites/vn_temp/css/fonts/fontawesome-webfont.woff2',
 				'/sites/vn_temp/images/15up_icon.jpg',
 				'/sites/vn_temp/images/17up_icon.jpg',
 				'/sites/vn_temp/images/18up_icon.jpg',
