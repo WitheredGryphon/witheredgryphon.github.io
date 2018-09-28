@@ -292,6 +292,11 @@ body {
 	.novelTitle {
 		font-size: 2.5em;
 	}
+
+	.contentWrapper {
+		background: unset;
+		background-color: #0b0c10;
+	}
 }
 
 @media screen and (max-width:375px) {
