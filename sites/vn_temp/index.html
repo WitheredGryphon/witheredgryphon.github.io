@@ -13,9 +13,6 @@
 	<!-- Main CSS -->
 	<link href="css/main.css" rel="stylesheet">
 
-	<!-- Fakeloader Framework's CSS -->
-	<link href="css/fakeloader.css" rel="stylesheet">
-
 	<!-- Flickity (carousel) CSS -->
 	<link rel="stylesheet" href="css/flickity.css" media="screen">
 
@@ -41,7 +38,6 @@
 	<![endif]-->
   </head>
   <body>
-  <div id="fakeloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner"><div class="loader"></div></div></div></div>
 
 	<nav class="navbar navbar-default webNav">
 		<div class="container-fluid">
@@ -2374,12 +2370,9 @@
 	<script src="js/lazysizes.min.js"></script>
 	<script src="js/ls.unveilhooks.min.js"></script>
 	
-	<script type="text/javascript" src="js/fakeloader.min.js"></script>
-
 	<script>
 
 		$(document).ready(function(){
-			window.FakeLoader.init( { auto_hide: true } );
 
 			$(".thumbRating").click(function(e) {
 				e.preventDefault();

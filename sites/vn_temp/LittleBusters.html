@@ -11,9 +11,6 @@
 
 		<!-- Custom CSS -->
 		<link href="css/LittleBusters.css" rel="stylesheet">
-
-		<!-- Fakeloader Framework's CSS -->
-		<link href="css/fakeloader.css" rel="stylesheet">
 		
 		<!-- Flickity -->
 		<link rel="stylesheet" href="css/flickity.css" media="screen">
@@ -34,8 +31,6 @@
 	</head>
 
 	<body>
-		<div id="fakeloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner"><div class="loader"></div></div></div></div>
-
 		<nav class="mobileNav navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -413,12 +408,9 @@
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/fakeloader.min.js"></script>
 		<script src="js/flickity.pkgd.min.js"></script>
 		<script>
-			$(document).ready(function(){
-				window.FakeLoader.init( { auto_hide: true } );
-				
+			$(document).ready(function(){				
 				$('.carousel-main').flickity();
 				
 				$('.carousel-nav').flickity({
