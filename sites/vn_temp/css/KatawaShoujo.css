@@ -190,10 +190,6 @@ body {
 	font-size: 24px;
 }
 
-.vnButton {
-	margin-bottom: 8px
-}
-
 .contentWarningMobile,.contentWarningWeb {
 	border: 1px solid #ff0000;
 	border-radius: 1px
@@ -275,6 +271,13 @@ body {
 	.mobileNav {
 		display: block;
 	}
+	
+	.navbar-default {
+		margin-left: 0;
+		margin-right: 0;
+		border: none;
+		border-bottom: 1px solid #0b0c10;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -291,17 +294,10 @@ body {
 	.novelTitle {
 		font-size: 2.5em;
 	}
-	
-	.navbar-default {
-		margin-left: 0;
-		margin-right: 0;
-	}
 }
 
 @media screen and (max-width:375px) {
 		.contentWarningMobile,.contentWarningWeb {
-			border: 1px solid orange;
-			border-radius: 1px;
 			display: none
 		}
 

@@ -23,7 +23,7 @@ a:hover {
 
 body {
 	background-color: #0b0c10;
-	background-image: url('../images/busters_wp.png');
+	background-image: url('../images/danganronpa_wp.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 24px;
@@ -190,7 +190,7 @@ body {
 }
 
 .contentWarningMobile,.contentWarningWeb {
-	border: 1px solid #86c341;
+	border: 1px solid #ff6302;
 	border-radius: 1px
 }
 
@@ -269,7 +269,7 @@ body {
 	.mobileNav {
 		display: block;
 	}
-
+	
 	.navbar-default {
 		margin-left: 0;
 		margin-right: 0;
