@@ -1,6 +1,6 @@
 "use strict";
 
-var version = 'v1::';
+var version = 'v2::';
 
 self.addEventListener('install', function(event) {
 	event.waitUntil(
@@ -924,13 +924,7 @@ self.addEventListener('fetch', function(event) {
 			function unableToResolve() {
 				console.log('WORKER: fetch request from both cache and network failed');
 
-				return new Response('<h1>Service Unavailable</h1>', {
-					status: 503,
-					statusText: 'Service Unavailable',
-					headers: new Headers({
-						'Content-Type': 'text/html'
-					})
-				});
+				return caches.match('/sites/vn_temp/index.html');
 			}
 		})
 	);
