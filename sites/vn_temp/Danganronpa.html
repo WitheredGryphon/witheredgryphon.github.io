@@ -54,25 +54,25 @@
 				<div class = "container-fluid">
 					<div class="row valign" style = "margin-right: 0;">
 						<div class="col-sm-7" style="padding-right: 0; padding-left: 16px; padding-top: 8px;" align="center">
-							<div class="carousel carousel-main js-flickity" data-flickity='{ "pageDots": false, "fullscreen": true }'>
-								<div class="carousel-cell"><img src="images/danganronpa_img1.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img2.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img3.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img4.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img5.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img6.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img7.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img8.jpg"></div>
+							<div class="carousel carousel-main js-flickity" data-flickity='{ "pageDots": false, "fullscreen": true, "imagesLoaded": true }'>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img1.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img2.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img3.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img4.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img5.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img6.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img7.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img8.jpg"></div>
 							</div>
-							<div class="carousel carousel-nav js-flickity" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-								<div class="carousel-cell"><img src="images/danganronpa_img1.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img2.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img3.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img4.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img5.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img6.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img7.jpg"></div>
-								<div class="carousel-cell"><img src="images/danganronpa_img8.jpg"></div>
+							<div class="carousel carousel-nav js-flickity" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false, "imagesLoaded": true }'>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img1.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img2.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img3.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img4.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img5.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img6.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img7.jpg"></div>
+								<div class="carousel-cell"><img class="lazyload" data-src="images/danganronpa_img8.jpg"></div>
 							</div>
 						</div>
 						<div class="col-sm-5" style="margin-left: 16px;">
@@ -200,8 +200,8 @@
 							<br />
 							<div class="row" style="margin-left: 0; padding-left: 0; max-width: 90%">
 								<div class="col-xs-7" style="padding-left: 0;">
-									<a data-toggle="tooltip" title="VNDB" style="font-size: 32px;" href="https://vndb.org/v7014" rel="noopener" target="_blank"><img src="images/vndb_button.png" style="padding-right: 8px;"></a>
-									<a data-toggle="tooltip" title="Reddit" style="font-size: 32px;" href="https://www.reddit.com/r/danganronpa/" rel="noopener" target="_blank"><img src="images/reddit_button.png"></a>
+									<a data-toggle="tooltip" title="VNDB" style="font-size: 32px;" href="https://vndb.org/v7014" rel="noopener" target="_blank"><img class="lazyload" data-src="images/vndb_button.png" style="padding-right: 8px;"></a>
+									<a data-toggle="tooltip" title="Reddit" style="font-size: 32px;" href="https://www.reddit.com/r/danganronpa/" rel="noopener" target="_blank"><img class="lazyload" data-src="images/reddit_button.png"></a>
 								</div>
 							</div>
 						</div>
@@ -214,11 +214,11 @@
 						<div class="row">
 							<!-- Make sure you change the color in the CSS file for "contentWarningWeb" and "contentWarningMobile" -->
 							<div class="contentWarningMobile">
-								<img src="images/17up_icon.jpg">
+								<img class="lazyload" data-src="images/17up_icon.jpg">
 								<span style="margin-left: 8px; text-align: center;">This game is rated ages 17+</span>
 							</div>
 							<div class="contentWarningWeb">
-								<img src="images/17up_icon.jpg">
+								<img class="lazyload" data-src="images/17up_icon.jpg">
 								<span style="margin-left: 8px; text-align: center;">This game is intended for ages 17+</span>
 							</div>
 						</div>
@@ -339,19 +339,19 @@
 							<br />
 							<div class="row">
 								<div class="bannerThumb">
-									<a href="999.html"><img src="images/999_banner.jpg" /></a>
+									<a href="999.html"><img class="lazyload" data-src="images/999_banner.jpg" /></a>
 								</div>
 							</div>
 							<br />
 							<div class="row">
 								<div class="bannerThumb">
-									<a href="Higurashi.html"><img src="images/higurashi_banner.jpg" /></a>
+									<a href="Higurashi.html"><img class="lazyload" data-src="images/higurashi_banner.jpg" /></a>
 								</div>
 							</div>
 							<br />
 							<div class="row">
 								<div class="bannerThumb">
-									<a href="PhoenixWright.html"><img src="images/phoenixWright_banner.jpg" /></a>
+									<a href="PhoenixWright.html"><img class="lazyload" data-src="images/phoenixWright_banner.jpg" /></a>
 								</div>
 							</div>
 							<br />
@@ -363,11 +363,11 @@
 						</div>
 						<br />
 						<div class="row" style="text-align: center">
-							<a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/" rel="noopener" target="_blank"><img src="images/steam_button.png" style="width: 100%;"></a>
+							<a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/" rel="noopener" target="_blank"><img class="lazyload" data-src="images/steam_button.png" style="width: 100%;"></a>
 						</div>
 						<br />
 						<div class="row vnButton" style="text-align: center;">
-							<a href="https://www.amazon.com/DanganRonpa-Trigger-Happy-Havoc-PlayStation-Vita/dp/B00DVPMVIU" rel="noopener" target="_blank"><img src="images/amazon_button.png" style="width: 100%;"></a>
+							<a href="https://www.amazon.com/DanganRonpa-Trigger-Happy-Havoc-PlayStation-Vita/dp/B00DVPMVIU" rel="noopener" target="_blank"><img class="lazyload" data-src="images/amazon_button.png" style="width: 100%;"></a>
 						</div>
 					</div>
 					<br />
@@ -381,19 +381,19 @@
 							<br />
 							<div class="row">
 								<div class="bannerThumb">
-									<a href="999.html"><img src="images/999_banner.jpg" /></a>
+									<a href="999.html"><img class="lazyload" data-src="images/999_banner.jpg" /></a>
 								</div>
 							</div>
 							<br />
 							<div class="row">
 								<div class="bannerThumb">
-									<a href="Higurashi.html"><img src="images/higurashi_banner.jpg" /></a>
+									<a href="Higurashi.html"><img class="lazyload" data-src="images/higurashi_banner.jpg" /></a>
 								</div>
 							</div>
 							<br />
 							<div class="row">
 								<div class="bannerThumb">
-									<a href="PhoenixWright.html"><img src="images/phoenixWright_banner.jpg" /></a>
+									<a href="PhoenixWright.html"><img class="lazyload" data-src="images/phoenixWright_banner.jpg" /></a>
 								</div>
 							</div>
 						</div>
@@ -405,11 +405,11 @@
 							</div>
 							<br />
 							<div class="row vnButton" style="text-align: center;">
-								<a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/" rel="noopener" target="_blank"><img src="images/steam_button.png" style="width: 100%;"></a>
+								<a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/" rel="noopener" target="_blank"><img class="lazyload" data-src="images/steam_button.png" style="width: 100%;"></a>
 							</div>
 							<br />
 							<div class="row vnButton" style="text-align: center;">
-								<a href="https://www.amazon.com/DanganRonpa-Trigger-Happy-Havoc-PlayStation-Vita/dp/B00DVPMVIU" rel="noopener" target="_blank"><img src="images/amazon_button.png" style="width: 100%;"></a>
+								<a href="https://www.amazon.com/DanganRonpa-Trigger-Happy-Havoc-PlayStation-Vita/dp/B00DVPMVIU" rel="noopener" target="_blank"><img class="lazyload" data-src="images/amazon_button.png" style="width: 100%;"></a>
 							</div>
 						</div>
 					</div>
@@ -423,6 +423,11 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/flickity.pkgd.min.js"></script>
+		
+		<!-- Lazy Loader -->
+		<script src="js/lazysizes.min.js"></script>
+		<script src="js/ls.unveilhooks.min.js"></script>
+		
 		<script>
 			$(document).ready(function(){
 				
