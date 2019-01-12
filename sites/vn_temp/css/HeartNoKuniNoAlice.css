@@ -32,6 +32,7 @@ body {
 .navbar {
 	border: none;
 	margin-bottom: 12px;
+	
 }
 
 .navbar-default {
@@ -201,11 +202,12 @@ body {
 .carousel {
 	padding-top: 8px;
 	margin-bottom: 20px;
+	max-height: 800px;
 }
 
 .carousel img {
-	max-height: 720px;
-	max-width: 1280px;
+	max-width: 600px;
+	max-height: 800px;
 }
 
 .carousel-cell {
@@ -269,7 +271,7 @@ body {
 	.mobileNav {
 		display: block;
 	}
-	
+
 	.navbar-default {
 		margin-left: 0;
 		margin-right: 0;
