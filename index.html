@@ -1,173 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/main.css">
-		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/mdb.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+		<!-- Plugin file -->
+		<link rel="stylesheet" href="./css/addons/datatables.min.css">
+		<link rel="stylesheet" href="css/style.css">
 		<title>Black Souls II</title>
 	</head>
 	<body>
-		<div class="container" style="margin-top: 64px; padding-bottom: 64px; background-color: #3f3f3f; color: #ececec; border: 3px solid #6f6f6f;">
-			<div class="row text-center" style="display: inline; padding: 16px;">
-				<span style="text-align: center!important">
-					<h1 style="margin-top: 64px;">Black Souls II - Fan Translation Project</h1>
-				</span>
-			</div>
-			<br />
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<h2>Progress:</h2>
-				<span style="display: block; padding-left: 48px; padding-right: 48px; font-size: 12px">Last updated 10-6-19</span>			
-				<br />
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Chapters:</b> 33/33 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>H-Scenes:</b> 7/80</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Pledges:</b> 14/14 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Bonfire Menu:</b> 30/30 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Items:</b> 182/182 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Actors:</b> 79/79 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Classes:</b> 49/49 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Skills:</b> 536/536 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Weapons:</b> 307/307 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Armors:</b> 146/146 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Enemies:</b> 123/123 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>Troops:</b> 338/338 (DONE)</span>
-				<span class="text-left" style="display: block; margin-left: 400px;"><b>States:</b> 103/103 (DONE)</span>
-			</div>
-			<div class="row" style="display: block; margin-top: 16px; padding-left: 64px; padding-right: 64px;">
-				<h5 class="text-center">Quick Note</h5>
-				If/when an official translation is released, <b>please</b> support the authors or developers of the official translation.
-				<br /><br />
-				Furthermore, this translation is not professionally done. There are likely to be inaccuracies, typos,
-				grammar issues, and there may even be blatant mistranslations. This is a one-man project, and I'm working with a very limited knowledge
-				of the language. By using this patch you're acknowledging that all of these errors and/or bugs may be found within the patch. If you
-				come across something that needs to be corrected, please send me a message on Github.
-			</div>
-			<br />
-			<div class="row" style="display: block; margin-top: 16px; padding-left: 64px; padding-right: 64px;">
-				<h5 class="text-center">Update 8/18/19</h5>
-				I've finally reached the halfway point for chapters. I've added some new pictures in celebration, enjoy.
-			</div>
-			<br />
-			<div class="row" style="display: inline; margin-top: 16px;">
-				<h2 class="text-center">Installation Instructions</h2>
-				<div class="row text-justify" style="padding-left: 128px; padding-right: 128px;">
-					<b>This translation requires you to have a complete copy of the game. The translation is not
-					a substitute for the game.</b>
-					<br />
-					Please support the developers by purchasing their game here:
-					<br />
-					<u><b>https://www.dlsite.com/ecchi-eng/work/=/product_id/RE237469.html</u></b>
+		<header>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark opaque">
+				<div class="container">
+					<a class="navbar-brand" href="#">Black Souls II</a>
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" 
+					aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="basicExampleNav">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" target="_blank" href="https://www.dlsite.com/ecchi-eng/work/=/product_id/RE237469">Purchase</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#dlc">DLC</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#images">Images</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#download">Download</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<br />
-				<div class="row text-justify" style="padding-left: 128px; padding-right: 128px;">
-					<b>Instructions:</b> <br />1. Download the translation patch directly or from a mirror.
-					<br />2. Extract the .RGSS3A file to your Black Souls II installation directory.
-					<br />3. When asked, choose yes to overwrite the file.
-					<br />4. After the overwrite is successful, the game should be in English.
-					<br /><br />Note: Saves are unaffected by future patches to the translation.
-					<br />Note 2: For installation, you must extract Black Souls II using a Japanese Code Page.
-					<br /><br /><a href="https://learnmmd.com/http:/learnmmd.com/bandizip-keeps-japanese-file-names-intact/">Here's a simple tutorial to extract Japanese files with Bandizip.</a>
-				</div>
-				<br />
-				<div class="row text-left" style="display: block; padding-left: 128px; padding-right: 128px;">
-					<b><u>10/13/19: English Patch Version 0.5 Beta (Download):</u></b><br />
-					<span style="margin-left: 16px;"><a href="https://drive.google.com/open?id=1HLVLfpJzZ3M4EMgHSBrRg8hhpKOe_CMI"><b>Google Drive</b></a></span>
-					<br />
-					<span style="margin-left: 16px;"><a href="https://megaup.net/3uyp8/Game.rgss3a"><b>MegaUp</b></a></span>
-					<br />
-					<span style="margin-left: 16px;"><a href="https://ufile.io/hg1v27j3"><b>Uploadfiles.io</b></a></span>
-				</div>
-				<br />
-				<div class="row text-left" style="display: block; padding-left: 128px; padding-right: 128px;">
-					<b><u>Patch Notes:</u></b><br />
-					<span style="margin-left: 16px;">
-						9/21/19 (Version 0.1): 
-						<div style="margin-left:64px;">Base release</div>
-					</span>
-					<br />
-					<span style="margin-left: 16px;">
-						9/23/19 (Version 0.2): 
-						<div style="margin-left:64px;">Fixed White Crow translation.</div>
-						<div style="margin-left:64px;">Fixed Polar Bear translation.</div>
-						<div style="margin-left:64px;">TL'd Jubjub's songs.</div>
-					</span>
-					<br />
-					<span style="margin-left: 16px;">
-						9/29/19 (Version 0.3): 
-						<div style="margin-left:64px;">Fixed some missing skill translations.</div>
-						<div style="margin-left:64px;">Fixed missing translation in Crash Chamber.</div>
-						<div style="margin-left:64px;">Finished bonfire translations.</div>
-						<div style="margin-left:64px;">Finished pledge dialogues for: Node, Bill, Dodo, Shisha, Duchess, Lorina, and The Hatter.</div>
-						<div style="margin-left:64px;">Fixed a typo for a name in Carroll River.</div>
-					</span>
-					<br />
-					<span style="margin-left: 16px;">
-						10/6/19 (Version 0.4): 
-						<div style="margin-left:64px;">Fixed some missing translations in Lutwidge and Liddell Cemetery.</div>
-						<div style="margin-left:64px;">Finished pledge dialogues for: Modoki, Victoria, Bandersnatch, Jubjub, Jabberwock, Shivuchi, and Kuti.</div>
-					</span>
-					<br />
-					<span style="margin-left: 16px;">
-						10/13/19 (Version 0.5): 
-						<div style="margin-left:64px;">Fixed Node basement dialogue translation.</div>
-						<div style="margin-left:64px;">Fixed Node fairy tale translation.</div>
-						<div style="margin-left:64px;">Fixed Oxward Academy translation.</div>
-						<div style="margin-left:64px;">Fixed several area name translations.</div>
-						<div style="margin-left:64px;">Fixed Clock Tower Ogre translation.</div>
-						<div style="margin-left:64px;">Fixed Nameless Forest dialogue translations.</div>
-						<div style="margin-left:64px;">Fixed shortcut Infinite Food and Nameless Forest shortcut translations.</div>
-						<div style="margin-left:64px;">Fixed Queensland clown translation.</div>
-						<div style="margin-left:64px;">Translated Prickett's show (includes Romaji and English translations).</div>
-					</span>
-				</div>
-			</div>
-			<br />
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<h2>Sample Images</h2>
-			</div>
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<figure>
-					<img src="images/bs1.png" alt="The White Crow's shop"/>
-					<figcaption> The White Crow's shop </figcaption>
-				</figure>
-			</div>	
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<figure>
-					<img src="images/bs2.png" alt="The White Crow's shop"/>
-					<figcaption> The Cheshire Cat </figcaption>
-				</figure>
-			</div>	
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<figure>
-					<img src="images/bs3.png" alt="The White Crow's shop"/>
-					<figcaption> The Crash Chamber </figcaption>
-				</figure>
-			</div>
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<figure>
-					<img src="images/bs4.png" alt="The White Crow's shop"/>
-					<figcaption> Example of the SEN (sanity) system </figcaption>
-				</figure>
-			</div>
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<figure>
-					<img src="images/bs5.png" alt="The White Crow's shop"/>
-					<figcaption> The Mental Ward </figcaption>
-				</figure>
-			</div>
-			<div class="row text-center" style="display: inline; margin-top: 16px;">
-				<figure>
-					<img src="images/bs6.png" alt="The White Crow's shop"/>
-					<figcaption> Downtown Lutwidge </figcaption>
-				</figure>
-			</div>
-		</div>
+			</nav>
+				<div id="intro" class="view">
+
+					<div class="mask rgba-black-strong">
+
+						<div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+							<div class="row d-flex justify-content-center text-center">
+
+								<div class="col-md-12">
+
+									<!-- Heading -->
+									<h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Black Souls II</h2>
+									<!-- Description -->
+									<h4 class="white-text font-weight-bold my-4">God of the Deep Ocean | The Old King of Chess | Crown of the Lion and Unicorn</h4>
+									<!-- Sub-description -->
+									<h5 class="white-text mb-2">Fan Translation Patch</h5>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>		
+		</header>
 		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>		
+		<!--Main layout-->
+		<main class="mt-5">
+			<div class="container">
+				<section id="dlc" class="text-center">
+
+				  <!-- Heading -->
+				  <h2 class="mb-5 font-weight-bold">Downloadable Content</h2>
+
+				  <!--Grid row-->
+				  <div class="row">
+
+					  <!--Grid column-->
+					  <div class="col-md-4 mb-5">
+						  <i class="fas fa-water fa-4x light-blue-text"></i>
+						  <h4 class="my-4 font-weight-bold">God of the Deep Ocean</h4>
+						  <p class="grey-text">Explore the abyss of the sea with new areas, characters, items, and more. Conquer new bosses and find the princess of the Deep Ocean.</p>
+					  </div>
+					  <!--Grid column-->
+
+					  <!--Grid column-->
+					  <div class="col-md-4 mb-1">
+						  <i class="fas fa-chess fa-4x text-white-80"></i>
+						  <h4 class="my-4 font-weight-bold">The Old King of Chess</h4>
+						  <p class="grey-text">The Chaos Dungeon has appeared. The world has changed, with additional bosses, nightmare spirits, and new interactions for NPCs.</p>
+					  </div>
+					  <!--Grid column-->
+
+					  <!--Grid column-->
+					  <div class="col-md-4 mb-1">
+						  <i class="fas fa-paw fa-4x orange-text"></i>
+						  <h4 class="my-4 font-weight-bold">Crown of the Lion and Unicorn</h4>
+						  <p class="grey-text">In development.</p>
+					  </div>
+					  <!--Grid column-->
+
+				  </div>
+				  <!--Grid row-->
+
+				</section>
+
+				<hr class="my-5">
+
+				<section id="images" class="text-center">
+
+				  <!--Grid row-->
+				  <div class="row">
+
+					<!--Grid column-->
+					<div class="col-lg-4 col-md-12 mb-4">
+
+					  <div class="view overlay z-depth-1-half">
+						<img src="images/bs1.png" class="img-fluid">
+						<a href="images/bs1.png" data-toggle="lightbox" data-gallery="example-gallery">
+						  <div class="mask rgba-white-slight"></div>
+						</a>
+					  </div>
+
+					  <h4 class="my-4 font-weight-bold">The White Crow</h4>
+					  <p class="grey-text">The White Crow looks for something sweet to sate his appetite. He's prepared to trade some exotic goods in exchange.</p>
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-4 col-md-6 mb-4">
+
+					  <div class="view overlay z-depth-1-half">
+						<img src="images/bs2.png" class="img-fluid">
+						<a href="images/bs2.png" data-toggle="lightbox" data-gallery="example-gallery">
+						  <div class="mask rgba-white-slight"></div>
+						</a>
+					  </div>
+
+					  <h4 class="my-4 font-weight-bold">The Cheshire Cat</h4>
+					  <p class="grey-text">An enigmatic cat who speaks in riddles. What's her true purpose?</p>
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-4 col-md-6 mb-4">
+
+					  <div class="view overlay z-depth-1-half">
+						<img src="images/bs3.png" class="img-fluid">
+						<a href="images/bs3.png" data-toggle="lightbox" data-gallery="example-gallery">
+						  <div class="mask rgba-white-slight"></div>
+						</a>
+					  </div>
+
+					  <h4 class="my-4 font-weight-bold">The Crash Chamber</h4>
+					  <p class="grey-text">Welcome to Wonderland!</p>
+
+					</div>
+					<!--Grid column-->
+
+				  </div>
+				  <!--Grid row-->
+
+				  <!--Grid row-->
+				  <div class="row">
+
+					<!--Grid column-->
+					<div class="col-lg-4 col-md-12 mb-4">
+
+					  <div class="view overlay z-depth-1-half">
+						<img src="images/bs4.png" class="img-fluid">
+						<a href="images/bs4.png" data-toggle="lightbox" data-gallery="example-gallery">
+						  <div class="mask rgba-white-slight"></div>
+						</a>
+					  </div>
+
+					  <h4 class="my-4 font-weight-bold">Charles Tavern</h4>
+					  <p class="grey-text">Mingle with the locals. You may even make a friend.</p>
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-4 col-md-6 mb-4">
+
+					  <div class="view overlay z-depth-1-half">
+						<img src="images/bs5.png" class="img-fluid">
+						<a href="images/bs5.png" data-toggle="lightbox" data-gallery="example-gallery">
+						  <div class="mask rgba-white-slight"></div>
+						</a>
+					  </div>
+
+					  <h4 class="my-4 font-weight-bold">Mental Ward</h4>
+					  <p class="grey-text">The dreary Mental Ward houses the mentally unstable. The screams from within echo loudly.</p>
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-4 col-md-6 mb-4">
+
+					  <div class="view overlay z-depth-1-half">
+						<img src="images/bs6.png" class="img-fluid">
+						<a href="images/bs6.png" data-toggle="lightbox" data-gallery="example-gallery">
+						  <div class="mask rgba-white-slight"></div>
+						</a>
+					  </div>
+
+					  <h4 class="my-4 font-weight-bold">Lutwidge Town</h4>
+					  <p class="grey-text">Brave the streets of Lutwidge Town. Uncover the mystery of Jack the Ripper.</p>
+
+					</div>
+					<!--Grid column-->
+
+				  </div>
+				  <!--Grid row-->
+
+				</section>
+
+				<hr class="my-5">
+
+				<section id="download" class="text-center">
+					<!-- Heading -->
+					<h2 class="mb-5 font-weight-bold">Download</h2>
+						<!--Grid row-->
+						<div class="row">
+
+							<!--Grid column-->
+							<div class="col-md-4 mb-5">
+								<span class="fa-stack fa-3x">
+									<i class="far fa-circle fa-stack-2x"></i>
+									<strong class="fa-stack-1x calendar-text">1</strong>
+								</span>
+								<p class="text-white-80" style="margin-top:16px;">Make a backup of your current save files. They should be labeled ".rvdata2" in your game directory.</p>
+							</div>
+							<!--Grid column-->
+
+							<!--Grid column-->
+							<div class="col-md-4 mb-5">
+								<span class="fa-stack fa-3x">
+									<i class="far fa-circle fa-stack-2x"></i>
+									<strong class="fa-stack-1x calendar-text">2</strong>
+								</span>
+								<p class="text-white-80" style="margin-top:16px;"><a href="https://drive.google.com/open?id=1HLVLfpJzZ3M4EMgHSBrRg8hhpKOe_CMI">Download the latest copy of the translation patch here.</a></p>
+							</div>
+							<!--Grid column-->
+	
+							<!--Grid column-->
+							<div class="col-md-4 mb-5">
+								<span class="fa-stack fa-3x">
+									<i class="far fa-circle fa-stack-2x"></i>
+									<strong class="fa-stack-1x calendar-text">3</strong>
+								</span>
+								<p class="text-white-80" style="margin-top:16px;">Extract the file to your game directory, replace, and start playing.</p>
+							</div>
+							<!--Grid column-->
+						</div>
+						<!--Grid row-->
+				</section>
+			</div>
+		</main>
+		<!--Main layout-->
+		
+		<footer>
+		
+		</footer>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/mdb.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+		<!-- Plugin file -->
+		<script src="./js/addons/datatables.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$(window).scroll(function() {
+					if($(this).scrollTop() > 5) {
+						$('.fixed-top').removeClass('opaque');
+						$('.navbar').addClass('shadow');
+					} else {
+						$('.fixed-top').addClass('opaque');
+						$('.navbar').removeClass('shadow');
+					}
+				});
+				$('#dtBasicExample').DataTable();
+				$('.dataTables_length').addClass('bs-select');
+			});
+			
+			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+		</script>
 	</body>
 </html>
